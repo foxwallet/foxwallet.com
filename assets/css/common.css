@@ -1,0 +1,131 @@
+@font-face {
+  font-family: 'Poppins-Regular';
+  font-style: normal;
+  font-weight: normal;
+  font-display: swap;
+  src: url("@/assets/fonts/Poppins-Regular.ttf") format('truetype');
+}
+html, body {
+  font-family: 'Poppins-Regular';
+  background: white;
+}
+.delay0 {
+  -webkit-animation-delay: 0s;
+  -moz-animation-delay: 0s;
+  -o-animation-delay: 0s;
+  animation-delay: 0s;
+}
+.delay1 {
+  -webkit-animation-delay: 0.03s;
+  -moz-animation-delay: 0.03s;
+  -o-animation-delay: 0.03s;
+  animation-delay: 0.03s;
+}
+.delay2 {
+  -webkit-animation-delay: 0.06s;
+  -moz-animation-delay: 0.06s;
+  -o-animation-delay: 0.06s;
+  animation-delay: 0.06s;
+}
+.delay3 {
+  -webkit-animation-delay: 0.09s;
+  -moz-animation-delay: 0.09s;
+  -o-animation-delay: 0.09s;
+  animation-delay: 0.09s;
+}
+.delay4 {
+  -webkit-animation-delay: 0.12s;
+  -moz-animation-delay: 0.12s;
+  -o-animation-delay: 0.12s;
+  animation-delay: 0.12s;
+}
+.delay5 {
+  -webkit-animation-delay: 0.15s;
+  -moz-animation-delay: 0.15s;
+  -o-animation-delay: 0.15s;
+  animation-delay: 0.15s;
+}
+.delay6 {
+  -webkit-animation-delay: 0.18s;
+  -moz-animation-delay: 0.18s;
+  -o-animation-delay: 0.18s;
+  animation-delay: 0.18s;
+}
+.delay7 {
+  -webkit-animation-delay: 0.21s;
+  -moz-animation-delay: 0.21s;
+  -o-animation-delay: 0.21s;
+  animation-delay: 0.21s;
+}
+.delay8 {
+  -webkit-animation-delay: 0.24s;
+  -moz-animation-delay: 0.24s;
+  -o-animation-delay: 0.24s;
+  animation-delay: 0.24s;
+}
+.delay9 {
+  -webkit-animation-delay: 0.27s;
+  -moz-animation-delay: 0.27s;
+  -o-animation-delay: 0.27s;
+  animation-delay: 0.27s;
+}
+.delay10 {
+  -webkit-animation-delay: 0.3s;
+  -moz-animation-delay: 0.3s;
+  -o-animation-delay: 0.3s;
+  animation-delay: 0.3s;
+}
+.delay11 {
+  -webkit-animation-delay: 0.33s;
+  -moz-animation-delay: 0.33s;
+  -o-animation-delay: 0.33s;
+  animation-delay: 0.33s;
+}
+.delay12 {
+  -webkit-animation-delay: 0.36s;
+  -moz-animation-delay: 0.36s;
+  -o-animation-delay: 0.36s;
+  animation-delay: 0.36s;
+}
+.delay13 {
+  -webkit-animation-delay: 0.39s;
+  -moz-animation-delay: 0.39s;
+  -o-animation-delay: 0.39s;
+  animation-delay: 0.39s;
+}
+.delay14 {
+  -webkit-animation-delay: 0.42s;
+  -moz-animation-delay: 0.42s;
+  -o-animation-delay: 0.42s;
+  animation-delay: 0.42s;
+}
+.delay15 {
+  -webkit-animation-delay: 0.45s;
+  -moz-animation-delay: 0.45s;
+  -o-animation-delay: 0.45s;
+  animation-delay: 0.45s;
+}
+.delay16 {
+  -webkit-animation-delay: 0.48s;
+  -moz-animation-delay: 0.48s;
+  -o-animation-delay: 0.48s;
+  animation-delay: 0.48s;
+}
+.delay17 {
+  -webkit-animation-delay: 0.51s;
+  -moz-animation-delay: 0.51s;
+  -o-animation-delay: 0.51s;
+  animation-delay: 0.51s;
+}
+.delay18 {
+  -webkit-animation-delay: 0.54s;
+  -moz-animation-delay: 0.54s;
+  -o-animation-delay: 0.54s;
+  animation-delay: 0.54s;
+}
+.delay19 {
+  -webkit-animation-delay: 0.57s;
+  -moz-animation-delay: 0.57s;
+  -o-animation-delay: 0.57s;
+  animation-delay: 0.57s;
+}
