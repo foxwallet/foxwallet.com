@@ -28,7 +28,7 @@ export default {
     '@/plugins/i18n.js',
     '@/plugins/axios',
     '@/plugins/youtube.js',
-    { src: '~plugins/ga.js', ssr: false },
+    { src: 'https://www.googletagmanager.com/gtag/js?id=G-ST120Y7Q6Y', ssr: false, async: 'async' },
     { src: "~/plugins/swiper.js", ssr: false },
     { src: '~/plugins/aos.js', mode: 'client', ssr: false }
   ],
