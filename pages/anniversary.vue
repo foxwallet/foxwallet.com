@@ -15,23 +15,23 @@
           <img class="w-full" src="@/assets/img/activity/head-banner.png">
         </a>
         <div class="md:hidden flex flex-col">
-          <p class="font-extrabold dynamic-font text-2xl lg:text-3xl xl:text-4xl 2xl:text-5xl">
+          <p class="font-extrabold dynamic-font text-xl lg:text-3xl xl:text-4xl 2xl:text-5xl">
             Comment to Earn<br>
             Rate FoxWallet 5 Star<br>
-            $2000
+            <span class="text-global-900">$2000</span>
           </p>
-          <p class="text-base lg:text-lg font-semibold mt-5 mb-8 lg:mb-14">
+          <p class="text-sm lg:text-lg font-semibold mt-2 mb-4 lg:mb-14">
             Time: Nov 21st - Nov 25th UTC
           </p>
           <a
             href="https://medium.com/@FoxWallet/comment-to-earn-rate-foxwallet-5-star-sharing-up-to-2000-e337138f2a27"
             target="_blank"
-            class="download-btn self-center"
+            class="download-btn self-center px-2 py-1 font-medium"
           >
             Details >>
           </a>
-          <a href="/download" target="_blank" class="download-btn self-center mt-4">
-            Download APP
+          <a href="/download" target="_blank" class="download-btn self-center mt-4 px-4 py-1 font-semibold">
+            <span class="font-semibold">Join Now</span>
           </a>
         </div>
       </div>
@@ -469,7 +469,7 @@ export default {
 }
 
 .download-btn {
-  @apply transition border-2 border-transparent bg-white font-semibold rounded-md px-4 py-2.5;
+  @apply transition border-2 border-transparent bg-white rounded-md text-xs;
   color: #FC701D;
 }
 
@@ -554,7 +554,7 @@ export default {
 
   .banner {
     min-height: 500px;
-    background: url('@/assets/img/activity/banner.png') no-repeat center 120% / 100%, linear-gradient(45deg, #FA6E1B, #FFA647);
+    background: url('@/assets/img/activity/p-banner.png') no-repeat center 95% / 84%, linear-gradient(45deg, #FA6E1B, #FFA647);
   }
 }
 </style>
