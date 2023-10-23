@@ -7,13 +7,26 @@
       class="relative banner"
     >
       <div class="absolute inset-0 text-area text-center lg:text-left">
-        <a
-          class="hidden md:block absolute inset-0"
-          target="_blank"
-          href="https://medium.com/@FoxWallet/comment-to-earn-rate-foxwallet-5-star-sharing-up-to-2000-e337138f2a27"
-        >
-          <img class="w-full" src="@/assets/img/activity/head-banner.png">
-        </a>
+        <div class="hidden md:flex pcTop items-center">
+          <div class="ml-10 flex justify-start flex-col items-start">
+            <p class="font-semibold leading-normal  text-2xl md:text-3xl lg:text-4xl xl:text-4xl 2xl:text-5xl text-left">
+              Comment to Earn<br>
+              Rate FoxWallet 5 Star <span class="text-global-900">$2000</span>
+            </p>
+            <p class=" text-xl font-normal mt-4">
+              Time: Nov 21st - Nov 25th UTC
+            </p>
+            <div class="flex mt-4">
+              <a
+                href="https://medium.com/@FoxWallet/comment-to-earn-rate-foxwallet-5-star-sharing-up-to-2000-e337138f2a27"
+                target="_blank"
+                class="download-btn-pc"
+              >
+                Details >>
+              </a>
+            </div>
+          </div>
+        </div>
         <div class="md:hidden flex flex-col">
           <p class="font-extrabold dynamic-font text-xl lg:text-3xl xl:text-4xl 2xl:text-5xl">
             Comment to Earn<br>
@@ -473,6 +486,22 @@ export default {
   color: #FC701D;
 }
 
+.download-btn-pc {
+  color: #FC701D;
+  font-size: 0.875rem;
+  font-style: normal;
+  font-weight: 500;
+  display: flex;
+  height: 2.5rem;
+  padding: 0.5rem 0.625rem;
+  justify-content: center;
+  align-items: center;
+  gap: 0.75rem;
+  width: auto;
+  border-radius: 0.25rem;
+  background: #FFF;
+}
+
 .download-to-earn-btn {
   @apply transition border-2 border-transparent font-semibold rounded-md px-4 py-2;
   background: #FEC829;
@@ -498,6 +527,11 @@ export default {
 
 .download-btn:hover {
   border-color: white;
+  background: #FC701D;
+  color: white;
+}
+
+.download-btn-pc:hover {
   background: #FC701D;
   color: white;
 }
@@ -556,5 +590,14 @@ export default {
     min-height: 500px;
     background: url('@/assets/img/activity/p-banner.png') no-repeat center 95% / 84%, linear-gradient(45deg, #FA6E1B, #FFA647);
   }
+}
+.pcTop{
+  width: 100%;
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background: url('@/assets/img/activity/p-banner.png') no-repeat 95% center / 47%, linear-gradient(0deg, #F77332 0.04%, #FA9B49 99.96%);
 }
 </style>
