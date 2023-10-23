@@ -43,7 +43,7 @@
           >
             Details >>
           </a>
-          <a href="/download" target="_blank" class="download-btn self-center mt-4 px-4 py-1 font-semibold">
+          <a href="https://link.foxwallet.com/credit" target="_blank" class="download-btn self-center mt-4 px-4 py-1 font-semibold">
             <span class="font-semibold">Join Now</span>
           </a>
         </div>
@@ -579,7 +579,7 @@ export default {
   }
 
   .text-area {
-    padding-top: 10%;
+    padding-top: 7%;
   }
 
   .dynamic-font {
