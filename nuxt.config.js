@@ -15,9 +15,16 @@ export default {
       ],
       link: [
         { rel: 'icon', type: 'image/x-icon', href: '/favicon.ico' }
+      ],
+      script: [
+        {
+          src: 'https://www.googletagmanager.com/gtag/js?id=G-ST120Y7Q6Y',
+          async: true
+        }
       ]
     }
   },
+  
   css: [
     '@/assets/css/animate.css',
     'element-ui/lib/theme-chalk/index.css',
@@ -28,7 +35,7 @@ export default {
     '@/plugins/i18n.js',
     '@/plugins/axios',
     '@/plugins/youtube.js',
-    { src: '~plugins/ga.js', ssr: false },
+    '@/plugins/ga.js',
     { src: "~/plugins/swiper.js", ssr: false },
     { src: '~/plugins/aos.js', mode: 'client', ssr: false }
   ],
