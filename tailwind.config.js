@@ -39,7 +39,9 @@ module.exports = {
         },
         global: {
           900: '#FFFFFF'
-        }
+        },
+        while10: '#ffffff1a',
+        yellow250: '#FFDE00'
       },
       boxShadow: {
         default: '0 0 20px 10px rgba(255, 255, 255, .2)',
