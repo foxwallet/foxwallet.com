@@ -1,19 +1,49 @@
 <template>
-  <div class="mx-auto flex flex-col justify-center items-center">
-    <div class="c-banner"></div>
-    <div class="container max-w-3xl">
-      <img v-if="code.length !== 10" src="@/assets/img/home/arrow-down.svg" class="w-3 mx-auto btc-move mt-10">
+  <div class="mx-auto max-w-3xl">
+    <div class="container">
+      <Logo class="mt-4" class-name="h-9" />
+      <div class="mt-4" style="background:linear-gradient(to left, transparent, #b6b6b6, transparent); height: 1px"></div>
+      <div class="flex items-center justify-center font-extrabold mt-4">
+        <div v-for="item, index in mobileWords1" :key="index" class="text-2xl">
+          {{ item }}
+          <div v-if="item === ' '" class="w-3"></div>
+        </div>
+      </div>
+
+      <div class="flex items-center justify-center font-bold">
+        <div v-for="item, index in mobileWords2" :key="index" class="text-2xl">
+          {{ item }}
+          <div v-if="item === ' '" class="w-3"></div>
+        </div>
+      </div>
+
+      <div class="pt-8 relative">
+        <img class="mobile-person" src="@/assets/img/home/person.png" draggable="false">
+        <img class="w-10 btc-icon-mobile btc-move" src="@/assets/img/home/btc.png" draggable="false">
+        <img class="w-8 eth-icon-mobile etc-move" src="@/assets/img/home/eth.png" draggable="false">
+        <img class="w-6 usdt-icon-mobile usdt-move" src="@/assets/img/home/usdt.png" draggable="false">
+        <img src="@/assets/img/home/line-box-mobile.png" class="w-full absolute -bottom-8">
+      </div>
+
+      <div class="py-2 text-sm mb-4 mt-6 leading-6">
+        <h3 class="text-gray-600 text-center">
+          {{ $t('download.banner.feature1') }}
+        </h3>
+        <h3 class="text-gray-600 text-center">
+          {{ $t('download.banner.feature2') }}
+        </h3>
+        <h3 class="text-gray-600 text-center">
+          {{ $t('download.banner.feature3') }}
+        </h3>
+      </div>
+      <img src="@/assets/img/home/arrow-down.svg" class="w-3 mx-auto btc-move">
       <div v-if="code.length !== 10" class="mt-8">
         <img src="@/assets/img/home/logo-icon.svg" class="w-36 p-3 border-2 border-gray-200 mx-auto rounded-2xl shadow-slate-200 shadow-lg" :draggable="false">
         <img src="@/assets/img/home/logo-word.svg" class="h-3 mx-auto my-4" :draggable="false">
         <div class="h-24"></div>
       </div>
       <div v-else class="mb-32">
-        <div class=" mt-5 flex justify-center flex-col items-center">
-          <p class="des1">Happy Anniversary</p>
-          <p class="des2">Invite to get $1000 bonus</p>
-        </div>
-        <div class="flex items-center justify-between bg-gray-100 mt-5 p-4 rounded-md">
+        <div class="flex items-center justify-between bg-gray-100 mt-4 p-4 rounded-md">
           <div class="flex items-center">
             <span class="text-gray-400 font-thin text-sm">{{ $t('download.invite') }}</span>
             <span class="text-primary-900 text-xl font-mono ml-2">{{ code }}</span>
@@ -27,7 +57,7 @@
             </template>
           </span>
         </div>
-        <h1 class="text-center text-sm font-semibold mb-5 mt-5">
+        <h1 class="text-center text-xl mb-4 mt-8">
           {{ $t('download.guide') }}
         </h1>
         <div class="bg-gray-100 rounded-md flex justify-between pb-4">
@@ -48,13 +78,6 @@
               <img src="@/assets/img/home/insert.svg" class="w-7">
             </div>
             <span>Input <br> Invitation Code</span>
-          </div>
-        </div>
-        <div class="bg-gray-100 rounded-md flex justify-between items-center mt-5 p-4">
-          <p class="text-gray-400 font-thin text-sm">You can get</p>
-          <div>
-            <span class="text-primary-900 text-xl font-mono">100</span>
-            <span class="text-gray-400 font-thin text-sm"> Fox Credit</span>
           </div>
         </div>
       </div>
@@ -184,33 +207,5 @@ export default {
 }
 .usdt-move{
   animation: move 4s infinite;
-}
-.c-banner{
-  height: 20rem;
-  width: 100%;
-  background: url('@/assets/img/activity/p-banner.png') no-repeat center 70% / 89%, linear-gradient(0deg, #F77332 0.04%, #FA9B49 99.96%);
-}
-@media screen and (min-width: 500px) {
-  .c-banner{
-    height: 30vw;
-    background: url('@/assets/img/activity/p-banner.png') no-repeat center center / 39%, linear-gradient(0deg, #F77332 0.04%, #FA9B49 99.96%);
-  }
-}
-.des1{
-  color: #EC7D43;
-  text-align: center;
-  font-family: Poppins;
-  font-size: 1.375rem;
-  font-style: normal;
-  font-weight: 600;
-  line-height: 1.71875rem; /* 125% */
-}
-.des2{
-  color: var(--neutrals-2, #23262F);
-  font-family: Poppins;
-  font-size: 1.25rem;
-  font-style: normal;
-  font-weight: 400;
-  line-height: 1.71875rem;
 }
 </style>
