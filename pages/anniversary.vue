@@ -472,7 +472,7 @@ import imgs from '@/constant/partner-item-img'
 export default {
   head() {
     return {
-      title: 'FoxWallet 2st Anniversary'
+      title: 'FoxWallet 2nd Anniversary'
     }
   },
   data() {
