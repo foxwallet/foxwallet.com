@@ -11,7 +11,7 @@
       <div v-else class="mb-32">
         <div class=" mt-5 flex justify-center flex-col items-center">
           <p class="des1">Happy Anniversary</p>
-          <p class="des2">Invite to get $1000 bonus</p>
+          <p class="des2">Top 10 Inviters Share $100 Daily</p>
         </div>
         <div class="flex items-center justify-between bg-gray-100 mt-5 p-4 rounded-md">
           <div class="flex items-center">
@@ -53,7 +53,7 @@
         <div class="bg-gray-100 rounded-md flex justify-between items-center mt-5 p-4">
           <p class="text-gray-400 font-thin text-sm">You can get</p>
           <div>
-            <span class="text-primary-900 text-xl font-mono">100</span>
+            <span class="text-primary-900 text-xl font-mono">50</span>
             <span class="text-gray-400 font-thin text-sm"> Fox Credit</span>
           </div>
         </div>
