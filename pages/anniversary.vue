@@ -18,7 +18,7 @@
             </p>
             <div class="flex mt-4">
               <a
-                href="https://medium.com/@FoxWallet/comment-to-earn-rate-foxwallet-5-star-sharing-up-to-2000-e337138f2a27"
+                href="https://hc.foxwallet.com/blog/2nd-anniversary"
                 target="_blank"
                 class="download-btn-pc"
               >
@@ -36,7 +36,7 @@
             Time: Nov. 9th - Nov. 30th
           </p>
           <a
-            href="https://medium.com/@FoxWallet/comment-to-earn-rate-foxwallet-5-star-sharing-up-to-2000-e337138f2a27"
+            href="https://hc.foxwallet.com/blog/2nd-anniversary"
             target="_blank"
             class="download-btn self-center px-2 py-2 font-medium"
           >
@@ -50,9 +50,9 @@
     </div>
     <div class="video flex flex-col justify-center items-center">
       <img src="@/assets/img/activity/video.png" class="h-8 lg:h-12 self-center mb-8 lg:mb-10" alt="video title">
-      <youtube ref="youtube" video-id="Plalme9o8Zw" class="lg:w-6/12 rounded-xl lg:rounded-2xl" style="width: 90%" @playing="playing" />
+      <youtube ref="youtube" video-id="Plalme9o8Zw" class="lg:w-7/12 w-11/12 rounded-xl lg:rounded-2xl" @playing="playing" />
     </div>
-    <div class="container mx-auto">
+    <div class="container mx-auto lg:px-16 xl:px-48 2xl:px-48">
       <!-- Join in Fox Credit -->
       <div class="mt-12">
         <p class="text-4xl md:text-5xl text-yellow-100 font-medium">Join in Fox Credit</p>
@@ -65,320 +65,14 @@
           <img src="@/assets/img/activity/foxCreditPc.png" class="w-full h-auto hidden md:flex" alt="Fox Credit">
           <div class="flex font-medium text-sm mt-5">
             <div class="bg-yellow-400 rounded text-gray-800 w-28 h-10 md:h-11 flex items-center justify-center cursor-pointer">Download</div>
-            <div class="text-white rounded border border-white w-28 h-10 md:h-11 flex items-center justify-center ml-5 cursor-pointer">Tutorial >></div>
+            <div class="text-white rounded border border-white w-28 h-10 md:h-11 flex items-center justify-center ml-5 cursor-pointer" @click="jumpWebsite('https://hc.foxwallet.com/blog/2nd-anniversary-tutorial')">Tutorial >></div>
           </div>
         </div>
       </div>
       <!-- Space -->
-      <div class="mt-20">
-        <p class="text-4xl md:text-5xl text-yellow-100 font-medium">Space</p>
-        <!-- iphone -->
-        <div class="block md:hidden">
-          <div class="mt-5 w-full rounded-lg bg-while10 px-5 py-2" @click="jumpWebsite('https://twitter.com/FoxWallet/status/1721450414644797663')">
-            <div class="flex">
-              <img src="@/assets/img/space/logo-Filcoin.png" class="w-10 h-10 mr-7" alt="Space Icon">
-              <img src="@/assets/img/space/logo-FileMarket.png" class="w-10 h-10 mr-7" alt="Space Icon">
-              <img src="@/assets/img/space/logo-Filfox.png" class="w-10 h-10 mr-7" alt="Space Icon">
-              <img src="@/assets/img/space/logo-GLIF.png" class="w-10 h-10 mr-7" alt="Space Icon">
-              <img src="@/assets/img/space/logo-HashKing.png" class="w-10 h-10" alt="Space Icon">
-            </div>
-            <div class="mt-2 border-t border-opacity-10">
-              <p class="text-yellow-400 text-base font-normal mt-2">2023/11/09 12:00 UTC</p>
-              <p class="text-white text-lg font-medium">Filecoin</p>
-              <p class="text-yellow-400 text-base font-normal">Reward: 50USDT</p>
-            </div>
-          </div>
-          <div class="mt-5 w-full rounded-lg bg-while10 px-5 py-2">
-            <div class="flex">
-              <img src="@/assets/img/space/logo-Filcoin.png" class="w-10 h-10 mr-7" alt="Space Icon">
-            </div>
-            <div class="mt-2 border-t border-opacity-10">
-              <p class="text-yellow-400 text-base font-normal mt-2">2023/11/14</p>
-              <p class="text-white text-lg font-medium">Ola</p>
-              <p class="text-yellow-400 text-base font-normal">Reward: 50USDT</p>
-            </div>
-          </div>
-          <div class="mt-5 w-full rounded-lg bg-while10 px-5 py-2">
-            <div class="flex">
-              <img src="@/assets/img/space/logo-Filcoin.png" class="w-10 h-10 mr-7" alt="Space Icon">
-            </div>
-            <div class="mt-2 border-t border-opacity-10">
-              <p class="text-yellow-400 text-base font-normal mt-2">2023/11/21</p>
-              <p class="text-white text-lg font-medium">zkSync</p>
-              <p class="text-yellow-400 text-base font-normal">Reward: 50USDT</p>
-            </div>
-          </div>
-          <div class="mt-5 w-full rounded-lg bg-while10 px-5 py-2">
-            <div class="flex">
-              <img src="@/assets/img/space/logo-Filcoin.png" class="w-10 h-10 mr-7" alt="Space Icon">
-            </div>
-            <div class="mt-2 border-t border-opacity-10">
-              <p class="text-yellow-400 text-base font-normal mt-2">2023/11/23</p>
-              <p class="text-white text-lg font-medium">Taiko</p>
-              <p class="text-yellow-400 text-base font-normal">Reward: 50USDT</p>
-            </div>
-          </div>
-          <div class="mt-5 w-full rounded-lg bg-while10 px-5 py-2">
-            <div class="flex">
-              <img src="@/assets/img/space/logo-Filcoin.png" class="w-10 h-10 mr-7" alt="Space Icon">
-            </div>
-            <div class="mt-2 border-t border-opacity-10">
-              <p class="text-yellow-400 text-base font-normal mt-2">2023/11/28</p>
-              <p class="text-white text-lg font-medium">Linea</p>
-              <p class="text-yellow-400 text-base font-normal">Reward: 50USDT</p>
-            </div>
-          </div>
-          <div class="mt-5 w-full rounded-lg bg-while10 px-5 py-2">
-            <div class="flex">
-              <img src="@/assets/img/space/logo-Filcoin.png" class="w-10 h-10 mr-7" alt="Space Icon">
-            </div>
-            <div class="mt-2 border-t border-opacity-10">
-              <p class="text-yellow-400 text-base font-normal mt-2">2023/11/30</p>
-              <p class="text-white text-lg font-medium">Scroll</p>
-              <p class="text-yellow-400 text-base font-normal">Reward: 50USDT</p>
-            </div>
-          </div>
-        </div>
-        <!-- PC -->
-        <div class="hidden md:block">
-          <div class="mt-5 flex justify-between">
-            <div class="mt-5 rounded-xl bg-while10 px-5 py-7 cursor-pointer" style="width:calc(33.3% - 1.25rem)">
-              <div class="flex">
-                <img src="@/assets/img/space/logo-Filcoin.png" class="w-10 h-10 mr-8" alt="Space Icon">
-                <img src="@/assets/img/space/logo-FileMarket.png" class="w-10 h-10 mr-8" alt="Space Icon">
-                <img src="@/assets/img/space/logo-Filfox.png" class="w-10 h-10 mr-8" alt="Space Icon">
-                <img src="@/assets/img/space/logo-GLIF.png" class="w-10 h-10 mr-8" alt="Space Icon">
-                <img src="@/assets/img/space/logo-HashKing.png" class="w-10 h-10" alt="Space Icon">
-              </div>
-              <div class="mt-2 border-t border-opacity-10">
-                <p class="text-yellow-400 text-base font-normal mt-2">2023/11/09</p>
-                <p class="text-white text-xl font-medium">Filecoin: Filecoin, Glif, Filfox</p>
-                <p class="text-yellow-400 text-base font-normal">Reward: 50USDT</p>
-              </div>
-            </div>
-            <div class="mt-5 rounded-xl bg-while10 px-5 py-7 cursor-pointer" style="width:calc(33.3% - 1.25rem)">
-              <div class="flex">
-                <img src="@/assets/img/space/logo-Filcoin.png" class="w-10 h-10 mr-8" alt="Space Icon">
-              </div>
-              <div class="mt-2 border-t border-opacity-10">
-                <p class="text-yellow-400 text-base font-normal mt-2">2023/11/14</p>
-                <p class="text-white text-xl font-medium">Ola</p>
-                <p class="text-yellow-400 text-base font-normal">Reward: 50USDT</p>
-              </div>
-            </div>
-            <div class="mt-5 rounded-xl bg-while10 px-5 py-7 cursor-pointer" style="width:calc(33.3% - 1.25rem)">
-              <div class="flex">
-                <img src="@/assets/img/space/logo-Filcoin.png" class="w-10 h-10 mr-8" alt="Space Icon">
-              </div>
-              <div class="mt-2 border-t border-opacity-10">
-                <p class="text-yellow-400 text-base font-normal mt-2">2023/11/21</p>
-                <p class="text-white text-xl font-medium">zkSync</p>
-                <p class="text-yellow-400 text-base font-normal">Reward: 50USDT</p>
-              </div>
-            </div>
-          </div>
-          <div class="mt-5 flex justify-between">
-            <div class="mt-5 rounded-xl bg-while10 px-5 py-7 cursor-pointer" style="width:calc(33.3% - 1.25rem)">
-              <div class="flex">
-                <img src="@/assets/img/space/logo-Filcoin.png" class="w-10 h-10 mr-8" alt="Space Icon">
-              </div>
-              <div class="mt-2 border-t border-opacity-10">
-                <p class="text-yellow-400 text-base font-normal mt-2">2023/11/23</p>
-                <p class="text-white text-xl font-medium">Taiko</p>
-                <p class="text-yellow-400 text-base font-normal">Reward: 50USDT</p>
-              </div>
-            </div>
-            <div class="mt-5 rounded-xl bg-while10 px-5 py-7 cursor-pointer" style="width:calc(33.3% - 1.25rem)">
-              <div class="flex">
-                <img src="@/assets/img/space/logo-Filcoin.png" class="w-10 h-10 mr-8" alt="Space Icon">
-              </div>
-              <div class="mt-2 border-t border-opacity-10">
-                <p class="text-yellow-400 text-base font-normal mt-2">2023/11/28</p>
-                <p class="text-white text-xl font-medium">Linea</p>
-                <p class="text-yellow-400 text-base font-normal">Reward: 50USDT</p>
-              </div>
-            </div>
-            <div class="mt-5 rounded-xl bg-while10 px-5 py-7 cursor-pointer" style="width:calc(33.3% - 1.25rem)">
-              <div class="flex">
-                <img src="@/assets/img/space/logo-Filcoin.png" class="w-10 h-10 mr-8" alt="Space Icon">
-              </div>
-              <div class="mt-2 border-t border-opacity-10">
-                <p class="text-yellow-400 text-base font-normal mt-2">2023/11/30</p>
-                <p class="text-white text-xl font-medium">Scroll</p>
-                <p class="text-yellow-400 text-base font-normal">Reward: 50USDT</p>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
+      <AnniversarySpace />
       <!-- Carnival -->
-      <div class="mt-20">
-        <p class="text-4xl md:text-5xl text-yellow-100 font-medium">Carnival</p>
-        <!-- Phone -->
-        <div class="block md:hidden">
-          <div class="mt-5 w-full rounded-lg bg-while10 flex flex-col items-center">
-            <div
-              class="w-full rounded-t-lg flex items-center justify-center h-11 text-xl"
-              :class="activeStatus === 'In Progress'?'bg-green-400 text-white':activeStatus === 'Comming Soon'?'bg-yellow250 text-black':'bg-gray-700 text-white'"
-            >
-              {{ activeStatus }}
-            </div>
-            <div class="flex justify-center mt-7">
-              <img src="@/assets/img/carnival/logo-port3.png" class="w-10 h-10 mr-3" alt="Carnival Icon">
-              <img src="@/assets/img/carnival/logo-REl.png" class="w-10 h-10" alt="Carnival Icon">
-            </div>
-            <p class="text-xl font-medium mt-3 text-white">
-              FoxWallet X Nawarat X P12
-            </p>
-            <p class="text-xl font-medium text-white">
-              X METAEASTE X PORT3
-            </p>
-            <p class="text-base font-normal text-gray-200 mt-7">Reward</p>
-            <p class="text-xl font-medium text-white">
-              100 NFT
-            </p>
-            <div class="border-t border-opacity-10 w-full mt-7 py-5 px-2 flex justify-between">
-              <p class="text-white text-base font-normal">Time: Nov. 17th</p>
-              <p v-if="activeStatus !== 'Ended'" class="text-yellow-400 text-base font-normal cursor-pointer">Details>></p>
-            </div>
-          </div>
-          <div class="mt-5 w-full rounded-lg bg-while10 flex flex-col items-center">
-            <div
-              class="w-full rounded-t-lg flex items-center justify-center h-11 text-xl"
-              :class="activeStatus === 'In Progress'?'bg-green-400 text-white':activeStatus === 'Comming Soon'?'bg-yellow250 text-black':'bg-gray-700 text-white'"
-            >
-              {{ activeStatus }}
-            </div>
-            <div class="flex justify-center mt-7">
-              <img src="@/assets/img/carnival/logo-port3.png" class="w-10 h-10 mr-3" alt="Carnival Icon">
-              <img src="@/assets/img/carnival/logo-REl.png" class="w-10 h-10" alt="Carnival Icon">
-            </div>
-            <p class="text-xl font-medium mt-3 text-white">
-              FoxWallet X Nawarat X P12
-            </p>
-            <p class="text-xl font-medium text-white">
-              X METAEASTE X PORT3
-            </p>
-            <p class="text-base font-normal text-gray-200 mt-7">Reward</p>
-            <p class="text-xl font-medium text-white">
-              100 NFT
-            </p>
-            <div class="border-t border-opacity-10 w-full mt-7 py-5 px-2 flex justify-between">
-              <p class="text-white text-base font-normal">Time: Nov. 17th</p>
-              <p v-if="activeStatus !== 'Ended'" class="text-yellow-400 text-base font-normal cursor-pointer">Details>></p>
-            </div>
-          </div>
-          <div class="mt-5 w-full rounded-lg bg-while10 flex flex-col items-center">
-            <div
-              class="w-full rounded-t-lg flex items-center justify-center h-11 text-xl"
-              :class="activeStatus === 'In Progress'?'bg-green-400 text-white':activeStatus === 'Comming Soon'?'bg-yellow250 text-black':'bg-gray-700 text-white'"
-            >
-              {{ activeStatus }}
-            </div>
-            <div class="flex justify-center mt-7">
-              <img src="@/assets/img/carnival/logo-port3.png" class="w-10 h-10 mr-3" alt="Carnival Icon">
-              <img src="@/assets/img/carnival/logo-REl.png" class="w-10 h-10" alt="Carnival Icon">
-            </div>
-            <p class="text-xl font-medium mt-3 text-white">
-              FoxWallet X Nawarat X P12
-            </p>
-            <p class="text-xl font-medium text-white">
-              X METAEASTE X PORT3
-            </p>
-            <p class="text-base font-normal text-gray-200 mt-7">Reward</p>
-            <p class="text-xl font-medium text-white">
-              100 NFT
-            </p>
-            <div class="border-t border-opacity-10 w-full mt-7 py-5 px-2 flex justify-between">
-              <p class="text-white text-base font-normal">Time: Nov. 17th</p>
-              <p v-if="activeStatus !== 'Ended'" class="text-yellow-400 text-base font-normal cursor-pointer">Details>></p>
-            </div>
-          </div>
-        </div>
-        <!-- PC -->
-        <div class="hidden md:block">
-          <div class="mt-5 flex justify-between">
-            <div class="mt-5 rounded-xl bg-while10 flex flex-col items-center" style="width:calc(33.3% - 1.25rem)">
-              <div
-                class="w-full rounded-t-lg flex items-center justify-center h-11 text-xl"
-                :class="activeStatus === 'In Progress'?'bg-green-400 text-white':activeStatus === 'Comming Soon'?'bg-yellow250 text-black':'bg-gray-700 text-white'"
-              >
-                {{ activeStatus }}
-              </div>
-              <div class="flex justify-center mt-7">
-                <img src="@/assets/img/carnival/logo-port3.png" class="w-10 h-10 mr-3" alt="Carnival Icon">
-                <img src="@/assets/img/carnival/logo-REl.png" class="w-10 h-10" alt="Carnival Icon">
-              </div>
-              <p class="text-xl font-medium mt-3 text-white">
-                FoxWallet X Nawarat X P12
-              </p>
-              <p class="text-xl font-medium text-white">
-                X METAEASTE X PORT3
-              </p>
-              <p class="text-base font-normal text-gray-200 mt-7">Reward</p>
-              <p class="text-xl font-medium text-white">
-                100 NFT
-              </p>
-              <div class="border-t border-opacity-10 w-full mt-7 py-5 px-2 flex justify-between">
-                <p class="text-white text-base font-normal">Time: Nov. 17th</p>
-                <p v-if="activeStatus !== 'Ended'" class="text-yellow-400 text-base font-normal cursor-pointer">Details>></p>
-              </div>
-            </div>
-            <div class="mt-5 rounded-xl bg-while10 flex flex-col items-center" style="width:calc(33.3% - 1.25rem)">
-              <div
-                class="w-full rounded-t-lg flex items-center justify-center h-11 text-xl"
-                :class="activeStatus === 'In Progress'?'bg-green-400 text-white':activeStatus === 'Comming Soon'?'bg-yellow250 text-black':'bg-gray-700 text-white'"
-              >
-                {{ activeStatus }}
-              </div>
-              <div class="flex justify-center mt-7">
-                <img src="@/assets/img/carnival/logo-port3.png" class="w-10 h-10 mr-3" alt="Carnival Icon">
-                <img src="@/assets/img/carnival/logo-REl.png" class="w-10 h-10" alt="Carnival Icon">
-              </div>
-              <p class="text-xl font-medium mt-3 text-white">
-                FoxWallet X Nawarat X P12
-              </p>
-              <p class="text-xl font-medium text-white">
-                X METAEASTE X PORT3
-              </p>
-              <p class="text-base font-normal text-gray-200 mt-7">Reward</p>
-              <p class="text-xl font-medium text-white">
-                100 NFT
-              </p>
-              <div class="border-t border-opacity-10 w-full mt-7 py-5 px-2 flex justify-between">
-                <p class="text-white text-base font-normal">Time: Nov. 17th</p>
-                <p v-if="activeStatus !== 'Ended'" class="text-yellow-400 text-base font-normal cursor-pointer">Details>></p>
-              </div>
-            </div>
-            <div class="mt-5 rounded-xl bg-while10 flex flex-col items-center" style="width:calc(33.3% - 1.25rem)">
-              <div
-                class="w-full rounded-t-lg flex items-center justify-center h-11 text-xl"
-                :class="activeStatus === 'In Progress'?'bg-green-400 text-white':activeStatus === 'Comming Soon'?'bg-yellow250 text-black':'bg-gray-700 text-white'"
-              >
-                {{ activeStatus }}
-              </div>
-              <div class="flex justify-center mt-7">
-                <img src="@/assets/img/carnival/logo-port3.png" class="w-10 h-10 mr-3" alt="Carnival Icon">
-                <img src="@/assets/img/carnival/logo-REl.png" class="w-10 h-10" alt="Carnival Icon">
-              </div>
-              <p class="text-xl font-medium mt-3 text-white">
-                FoxWallet X Nawarat X P12
-              </p>
-              <p class="text-xl font-medium text-white">
-                X METAEASTE X PORT3
-              </p>
-              <p class="text-base font-normal text-gray-200 mt-7">Reward</p>
-              <p class="text-xl font-medium text-white">
-                100 NFT
-              </p>
-              <div class="border-t border-opacity-10 w-full mt-7 py-5 px-2 flex justify-between">
-                <p class="text-white text-base font-normal">Time: Nov. 17th</p>
-                <p v-if="activeStatus !== 'Ended'" class="text-yellow-400 text-base font-normal cursor-pointer">Details>></p>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
+      <AnniversaryCarnival />
       <!-- Partners -->
       <div class="mt-20">
         <p class="text-4xl md:text-5xl text-yellow-100 font-medium">
@@ -472,13 +166,12 @@ import imgs from '@/constant/partner-item-img'
 export default {
   head() {
     return {
-      title: 'FoxWallet 2st Anniversary'
+      title: 'FoxWallet 2nd Anniversary'
     }
   },
   data() {
     return {
       imgs,
-      activeStatus: '',
     }
   },
   methods: {
@@ -498,25 +191,6 @@ export default {
     }
   },
   mounted() {
-    const startUtcTime = '2023-11-09T12:00:00Z' // 活动起始时间 Nov 9th 12:00 UTC
-    const startTimestamp = new Date(startUtcTime).getTime() // 活动起始时间时间戳（UTC格式）
-
-    const endUtcTime = '2023-11-27T12:00:00Z' // 活动结束时间 Nov 27th 12:00 UTC
-    const endTimestamp = new Date(endUtcTime).getTime() // 活动起始时间时间戳（UTC格式）
-
-    const now = new Date()
-    const nowUtcTime = now.toISOString() // 当前时间（UTC格式）
-    const nowTimestamp = new Date(nowUtcTime).getTime()// 当前时间时间戳（UTC格式）
-
-    if (Number(nowTimestamp) < Number(startTimestamp)) {
-      this.activeStatus = 'Comming Soon'
-    }
-    if (Number(startTimestamp) < Number(nowTimestamp) && Number(nowTimestamp) < Number(endTimestamp)) {
-      this.activeStatus = 'In Progress'
-    }
-    if (Number(nowTimestamp) > Number(endTimestamp)) {
-      this.activeStatus = 'Ended'
-    }
   },
 }
 </script>

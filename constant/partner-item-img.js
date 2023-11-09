@@ -5,23 +5,23 @@ import RYk4R6Lr from '@/assets/img/partners/RYk4R6Lr.jpeg'
 import erDLnbwE from '@/assets/img/partners/erDLnbwE.jpeg'
 import uoeUkeKe from '@/assets/img/partners/uoeUkeKe.jpeg'
 import Zbiz from '@/assets/img/partners/Zbiz.jpeg'
-import jgl7d_Zv from '@/assets/img/partners/jgl7d_Zv.jpeg'
+import jgl7dzv from '@/assets/img/partners/jgl7d_Zv.jpeg'
 import Nw28veUg from '@/assets/img/partners/Nw28veUg.jpeg'
 import bLhE1aY1 from '@/assets/img/partners/bLhE1aY1.jpeg'
 import wYIRFfIO from '@/assets/img/partners/wYIRFfIO.jpeg'
-import ZjT_zBAS from '@/assets/img/partners/ZjT_zBAS.png'
+import ZjTzBAS from '@/assets/img/partners/ZjT_zBAS.png'
 import VpGwiH6 from '@/assets/img/partners/VpGwiH6.jpeg'
 import rIZjmMt from '@/assets/img/partners/rIZjmMt.jpeg'
 import kxDDjheA from '@/assets/img/partners/kxDDjheA.jpeg'
-import Khrl4_wJ from '@/assets/img/partners/Khrl4_wJ.jpeg'
+import Khrl4wJ from '@/assets/img/partners/Khrl4_wJ.jpeg'
 import JXGKFcO from '@/assets/img/partners/JXGKFcO.jpeg'
 import cBOOkgkn from '@/assets/img/partners/cBOOkgkn.jpeg'
 import XtSvEW6D from '@/assets/img/partners/XtSvEW6D.jpeg'
 import gY9hSgaR from '@/assets/img/partners/gY9hSgaR.jpeg'
 import e3CWTQrr from '@/assets/img/partners/e3CWTQrr.jpeg'
-import V_km3B6x from '@/assets/img/partners/V_km3B6x.jpeg'
+import Vkm3B6x from '@/assets/img/partners/V_km3B6x.jpeg'
 import EIzI from '@/assets/img/partners/EIzI.jpeg'
-import meta2150s from '@/assets/img/partners/meta2150s.png'
+import meta2 from '@/assets/img/partners/meta2.png'
 import bitgert from '@/assets/img/partners/bitgert.jpeg'
 import asdgvvas from '@/assets/img/partners/asdgvvas.jpeg'
 import FcZmTDg from '@/assets/img/partners/FcZmTDg.jpeg'
@@ -41,7 +41,7 @@ import pIak4NCj from '@/assets/img/partners/pIak4NCj.jpeg'
 import Qg3tWFjR from '@/assets/img/partners/Qg3tWFjR.jpeg'
 import kFjKRTxZ from '@/assets/img/partners/kFjKRTxZ.jpeg'
 import M1UhTrUM from '@/assets/img/partners/M1UhTrUM.jpeg'
-import fam_logo from '@/assets/img/partners/fam_logo.webp'
+import famswap from '@/assets/img/partners/famswap.png'
 import qNCwFLUt from '@/assets/img/partners/qNCwFLUt.jpeg'
 import ozfjWwA4 from '@/assets/img/partners/ozfjWwA4.png'
 import yf2HiM4c from '@/assets/img/partners/yf2HiM4c.png'
@@ -138,7 +138,6 @@ import aFlare from '@/assets/img/partners/aFlare.jpeg'
 import TaskOn from '@/assets/img/partners/TaskOn.png'
 import Furucombo from '@/assets/img/partners/Furucombo.jpeg'
 
-
 export default [
   { name: 'Unstoppable Domains', img: vx1hiBzW, src: 'http://unstoppabledomains.com' },
   { name: 'Symbiosis', img: AU9jdrkG, src: 'http://app.symbiosis.finance' },
@@ -147,25 +146,23 @@ export default [
   { name: 'Linea', img: erDLnbwE, src: 'https://t.co/eaG5rEyXcA' },
   { name: 'Manta Network', img: uoeUkeKe, src: 'https://t.co/ppgD4UkV7Q' },
   { name: 'Gnosis', img: Zbiz, src: 'http://gnosis.io' },
-  { name: 'Optimism', img: jgl7d_Zv, src: 'https://t.co/PwBNHivMdF' },
+  { name: 'Optimism', img: jgl7dzv, src: 'https://t.co/PwBNHivMdF' },
   { name: 'Orbiter Finance', img: Nw28veUg, src: 'https://t.co/CCM6ydLf4Z' },
   { name: 'Mantle', img: bLhE1aY1, src: 'https://t.co/YJ93dzdrTa' },
   { name: 'Filecoin', img: wYIRFfIO, src: 'https://filecoin.io/' },
-  { name: 'arbitrum', img: ZjT_zBAS, src: 'https://t.co/aEalRVdbm4' },
+  { name: 'arbitrum', img: ZjTzBAS, src: 'https://t.co/aEalRVdbm4' },
   { name: 'USDD', img: VpGwiH6, src: 'https://t.co/6vrUeahfGc' },
   { name: 'Shardeum', img: rIZjmMt, src: 'http://shardeum.org' },
   { name: 'Iron Fish', img: kxDDjheA, src: 'https://t.co/hWMxOtVLqg' },
-  { name: 'Lumoz (Previously Opside)', img: Khrl4_wJ, src: 'https://lumoz.org/' },
+  { name: 'Lumoz (Previously Opside)', img: Khrl4wJ, src: 'https://lumoz.org/' },
   { name: 'Polygon', img: JXGKFcO, src: 'https://t.co/exqpCGxw4P' },
   { name: 'OKX', img: cBOOkgkn, src: 'http://okx.com/web3' },
   { name: 'SPACE ID', img: XtSvEW6D, src: 'https://t.co/tXbgYo4tBq' },
   { name: 'Aleo', img: gY9hSgaR, src: 'http://aleo.org' },
-  
-  
   { name: 'Filfox', img: e3CWTQrr, src: 'http://Filfox.info' },
-  { name: 'FNS DAO', img: V_km3B6x, src: 'https://t.co/RIOcFSUG1P' },
+  { name: 'FNS DAO', img: Vkm3B6x, src: 'https://t.co/RIOcFSUG1P' },
   { name: '.bit', img: EIzI, src: 'https://did.id' },
-  { name: 'Meta2150s', img: meta2150s, src: 'https://meta2150s.com/' },
+  { name: 'Meta2150s', img: meta2, src: 'https://meta2150s.com/' },
   { name: 'Bitgert', img: bitgert, src: 'http://bitgert.com' },
   { name: '0xGen', img: asdgvvas, src: 'https://0xgen.io' },
   { name: 'TrantorDAO', img: FcZmTDg, src: 'https://trantor.xyz/' },
@@ -187,7 +184,7 @@ export default [
   { name: 'HorizonDEX', img: Qg3tWFjR, src: 'https://t.co/eyIIItxEgl' },
   { name: 'Qtum', img: kFjKRTxZ, src: 'http://qtum.org' },
   { name: 'OmniKingdoms', img: M1UhTrUM, src: 'https://t.co/38Wwm19Emj' },
-  { name: 'FAMSWAP', img: fam_logo, src: 'https://t.co/x7aQHQ6cCP' },
+  { name: 'FAMSWAP', img: famswap, src: 'https://t.co/x7aQHQ6cCP' },
   { name: 'Nautilus Chain', img: qNCwFLUt, src: 'https://t.co/gv2yqR45fa' },
   { name: 'Goshen', img: ozfjWwA4, src: 'https://t.co/H2SDES7Lab' },
   { name: 'zkDX | L2 Networks', img: yf2HiM4c, src: 'https://t.co/0PgQqORpP2' },
