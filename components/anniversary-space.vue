@@ -23,7 +23,7 @@
         </div>
         <div class="mt-2 border-t border-opacity-10">
           <p class="text-yellow-400 text-base font-normal mt-2">2023/11/14 13:00 UTC</p>
-          <p class="text-white text-lg font-medium">Ola Ecosystem</p>
+          <p class="text-white text-lg font-medium">Ola</p>
           <p class="text-yellow-400 text-base font-normal">Reward: 50USDT</p>
         </div>
       </div>
@@ -111,7 +111,7 @@
           </div>
           <div class="mt-2 border-t border-opacity-10">
             <p class="text-yellow-400 text-base font-normal mt-2">2023/11/14 13:00 UTC</p>
-            <p class="text-white text-xl font-medium">Ola Ecosystem</p>
+            <p class="text-white text-xl font-medium">Ola</p>
             <p class="text-yellow-400 text-base font-normal">Reward: 50USDT</p>
           </div>
         </div>
