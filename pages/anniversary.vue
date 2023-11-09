@@ -64,7 +64,7 @@
           <img src="@/assets/img/activity/foxCredit.png" class="w-full h-auto flex md:hidden" alt="Fox Credit">
           <img src="@/assets/img/activity/foxCreditPc.png" class="w-full h-auto hidden md:flex" alt="Fox Credit">
           <div class="flex font-medium text-sm mt-5">
-            <div class="bg-yellow-400 rounded text-gray-800 w-28 h-10 md:h-11 flex items-center justify-center cursor-pointer">Download</div>
+            <div class="bg-yellow-400 rounded text-gray-800 w-28 h-10 md:h-11 flex items-center justify-center cursor-pointer" @click="jumpWebsite('https://foxwallet.com/download')">Download</div>
             <div class="text-white rounded border border-white w-28 h-10 md:h-11 flex items-center justify-center ml-5 cursor-pointer" @click="jumpWebsite('https://hc.foxwallet.com/blog/2nd-anniversary-tutorial')">Tutorial >></div>
           </div>
         </div>
@@ -150,7 +150,7 @@
           </div>
           <div class="flex flex-col md:flex-row justify-between items-center border-t border-opacity-10 py-10">
             <p class="text-sm mb-4 md:mb-0">
-              @2022 FoxWallet-A consensys formation
+              @2023 FoxWallet Foundation
             </p>
             <CommunityIcon />
           </div>
