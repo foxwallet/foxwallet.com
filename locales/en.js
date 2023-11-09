@@ -19,6 +19,9 @@ export default {
     download: {
       title: 'Download'
     },
+    anniversary: {
+      title: 'Anniversary'
+    },
     about: {
       title: 'About',
       download: 'Download',
