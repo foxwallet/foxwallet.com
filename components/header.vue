@@ -4,7 +4,7 @@
       <div class="sm:flex justify-between items-center h-20" data-aos="fade-right" data-aos-duration="3000">
         <Logo class="flex items-end" />
         <div class="text-sm flex ml-2 md:ml-8 lg:ml-12">
-          <el-tooltip class="item" effect="dark" :content="$t('nav.earn.comming')" placement="bottom">
+          <el-tooltip class="item" effect="dark" :content="$t('nav.earn.coming')" placement="bottom">
             <span class="text-xs lg:text-sm mr-2 lg:mr-6 hover:opacity-60 cursor-pointer">{{ $t("nav.earn.title") }}</span>
           </el-tooltip>
           <a href="https://hc.foxwallet.com/docs" target="_blank" class="text-xs lg:text-sm mr-2 lg:mr-6 hover:opacity-60">

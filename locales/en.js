@@ -5,7 +5,7 @@ export default {
   nav: {
     earn: {
       title: 'Earn',
-      comming: 'Comming Soon'
+      coming: 'Coming Soon'
     },
     campaign: {
       title: 'Campaign'

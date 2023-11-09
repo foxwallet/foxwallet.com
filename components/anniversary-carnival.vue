@@ -6,7 +6,7 @@
       <div class="mt-5 w-full rounded-lg bg-while10 flex flex-col items-center">
         <div
           class="w-full rounded-t-lg flex items-center justify-center h-11 text-xl"
-          :class="activeStatus === 'In Progress'?'bg-green-400 text-white':activeStatus === 'Comming Soon'?'bg-yellow250 text-black':'bg-gray-700 text-white'"
+          :class="activeStatus === 'In Progress'?'bg-green-400 text-white':activeStatus === 'Coming Soon'?'bg-yellow250 text-black':'bg-gray-700 text-white'"
         >
           {{ activeStatus }}
         </div>
@@ -29,7 +29,7 @@
       <div class="mt-5 w-full rounded-lg bg-while10 flex flex-col items-center">
         <div
           class="w-full rounded-t-lg flex items-center justify-center h-11 text-xl"
-          :class="activeStatus === 'In Progress'?'bg-green-400 text-white':activeStatus === 'Comming Soon'?'bg-yellow250 text-black':'bg-gray-700 text-white'"
+          :class="activeStatus === 'In Progress'?'bg-green-400 text-white':activeStatus === 'Coming Soon'?'bg-yellow250 text-black':'bg-gray-700 text-white'"
         >
           {{ activeStatus }}
         </div>
@@ -58,7 +58,7 @@
       <div class="mt-5 w-full rounded-lg bg-while10 flex flex-col items-center">
         <div
           class="w-full rounded-t-lg flex items-center justify-center h-11 text-xl"
-          :class="activeStatus === 'In Progress'?'bg-green-400 text-white':activeStatus === 'Comming Soon'?'bg-yellow250 text-black':'bg-gray-700 text-white'"
+          :class="activeStatus === 'In Progress'?'bg-green-400 text-white':activeStatus === 'Coming Soon'?'bg-yellow250 text-black':'bg-gray-700 text-white'"
         >
           {{ activeStatus }}
         </div>
@@ -81,7 +81,7 @@
       <div class="mt-5 w-full rounded-lg bg-while10 flex flex-col items-center">
         <div
           class="w-full rounded-t-lg flex items-center justify-center h-11 text-xl"
-          :class="activeStatus === 'In Progress'?'bg-green-400 text-white':activeStatus === 'Comming Soon'?'bg-yellow250 text-black':'bg-gray-700 text-white'"
+          :class="activeStatus === 'In Progress'?'bg-green-400 text-white':activeStatus === 'Coming Soon'?'bg-yellow250 text-black':'bg-gray-700 text-white'"
         >
           {{ activeStatus }}
         </div>
@@ -105,7 +105,7 @@
       <div class="mt-5 w-full rounded-lg bg-while10 flex flex-col items-center">
         <div
           class="w-full rounded-t-lg flex items-center justify-center h-11 text-xl"
-          :class="activeStatus === 'In Progress'?'bg-green-400 text-white':activeStatus === 'Comming Soon'?'bg-yellow250 text-black':'bg-gray-700 text-white'"
+          :class="activeStatus === 'In Progress'?'bg-green-400 text-white':activeStatus === 'Coming Soon'?'bg-yellow250 text-black':'bg-gray-700 text-white'"
         >
           {{ activeStatus }}
         </div>
@@ -130,7 +130,7 @@
       <div class="mt-5 w-full rounded-lg bg-while10 flex flex-col items-center">
         <div
           class="w-full rounded-t-lg flex items-center justify-center h-11 text-xl"
-          :class="activeStatus === 'In Progress'?'bg-green-400 text-white':activeStatus === 'Comming Soon'?'bg-yellow250 text-black':'bg-gray-700 text-white'"
+          :class="activeStatus === 'In Progress'?'bg-green-400 text-white':activeStatus === 'Coming Soon'?'bg-yellow250 text-black':'bg-gray-700 text-white'"
         >
           {{ activeStatus }}
         </div>
@@ -153,7 +153,7 @@
       <div class="mt-5 w-full rounded-lg bg-while10 flex flex-col items-center">
         <div
           class="w-full rounded-t-lg flex items-center justify-center h-11 text-xl"
-          :class="activeStatus === 'In Progress'?'bg-green-400 text-white':activeStatus === 'Comming Soon'?'bg-yellow250 text-black':'bg-gray-700 text-white'"
+          :class="activeStatus === 'In Progress'?'bg-green-400 text-white':activeStatus === 'Coming Soon'?'bg-yellow250 text-black':'bg-gray-700 text-white'"
         >
           {{ activeStatus }}
         </div>
@@ -176,7 +176,7 @@
       <div class="mt-5 w-full rounded-lg bg-while10 flex flex-col items-center">
         <div
           class="w-full rounded-t-lg flex items-center justify-center h-11 text-xl"
-          :class="activeStatus === 'In Progress'?'bg-green-400 text-white':activeStatus === 'Comming Soon'?'bg-yellow250 text-black':'bg-gray-700 text-white'"
+          :class="activeStatus === 'In Progress'?'bg-green-400 text-white':activeStatus === 'Coming Soon'?'bg-yellow250 text-black':'bg-gray-700 text-white'"
         >
           {{ activeStatus }}
         </div>
@@ -199,7 +199,7 @@
       <div class="mt-5 w-full rounded-lg bg-while10 flex flex-col items-center">
         <div
           class="w-full rounded-t-lg flex items-center justify-center h-11 text-xl"
-          :class="activeStatus === 'In Progress'?'bg-green-400 text-white':activeStatus === 'Comming Soon'?'bg-yellow250 text-black':'bg-gray-700 text-white'"
+          :class="activeStatus === 'In Progress'?'bg-green-400 text-white':activeStatus === 'Coming Soon'?'bg-yellow250 text-black':'bg-gray-700 text-white'"
         >
           {{ activeStatus }}
         </div>
@@ -222,7 +222,7 @@
       <div class="mt-5 w-full rounded-lg bg-while10 flex flex-col items-center">
         <div
           class="w-full rounded-t-lg flex items-center justify-center h-11 text-xl"
-          :class="activeStatus === 'In Progress'?'bg-green-400 text-white':activeStatus === 'Comming Soon'?'bg-yellow250 text-black':'bg-gray-700 text-white'"
+          :class="activeStatus === 'In Progress'?'bg-green-400 text-white':activeStatus === 'Coming Soon'?'bg-yellow250 text-black':'bg-gray-700 text-white'"
         >
           {{ activeStatus }}
         </div>
@@ -245,7 +245,7 @@
       <div class="mt-5 w-full rounded-lg bg-while10 flex flex-col items-center">
         <div
           class="w-full rounded-t-lg flex items-center justify-center h-11 text-xl"
-          :class="activeStatus === 'In Progress'?'bg-green-400 text-white':activeStatus === 'Comming Soon'?'bg-yellow250 text-black':'bg-gray-700 text-white'"
+          :class="activeStatus === 'In Progress'?'bg-green-400 text-white':activeStatus === 'Coming Soon'?'bg-yellow250 text-black':'bg-gray-700 text-white'"
         >
           {{ activeStatus }}
         </div>
@@ -268,7 +268,7 @@
       <div class="mt-5 w-full rounded-lg bg-while10 flex flex-col items-center">
         <div
           class="w-full rounded-t-lg flex items-center justify-center h-11 text-xl"
-          :class="activeStatus === 'In Progress'?'bg-green-400 text-white':activeStatus === 'Comming Soon'?'bg-yellow250 text-black':'bg-gray-700 text-white'"
+          :class="activeStatus === 'In Progress'?'bg-green-400 text-white':activeStatus === 'Coming Soon'?'bg-yellow250 text-black':'bg-gray-700 text-white'"
         >
           {{ activeStatus }}
         </div>
@@ -292,7 +292,7 @@
       <div class="mt-5 w-full rounded-lg bg-while10 flex flex-col items-center">
         <div
           class="w-full rounded-t-lg flex items-center justify-center h-11 text-xl"
-          :class="activeStatus === 'In Progress'?'bg-green-400 text-white':activeStatus === 'Comming Soon'?'bg-yellow250 text-black':'bg-gray-700 text-white'"
+          :class="activeStatus === 'In Progress'?'bg-green-400 text-white':activeStatus === 'Coming Soon'?'bg-yellow250 text-black':'bg-gray-700 text-white'"
         >
           {{ activeStatus }}
         </div>
@@ -315,7 +315,7 @@
       <div class="mt-5 w-full rounded-lg bg-while10 flex flex-col items-center">
         <div
           class="w-full rounded-t-lg flex items-center justify-center h-11 text-xl"
-          :class="activeStatus === 'In Progress'?'bg-green-400 text-white':activeStatus === 'Comming Soon'?'bg-yellow250 text-black':'bg-gray-700 text-white'"
+          :class="activeStatus === 'In Progress'?'bg-green-400 text-white':activeStatus === 'Coming Soon'?'bg-yellow250 text-black':'bg-gray-700 text-white'"
         >
           {{ activeStatus }}
         </div>
@@ -338,7 +338,7 @@
       <div class="mt-5 w-full rounded-lg bg-while10 flex flex-col items-center">
         <div
           class="w-full rounded-t-lg flex items-center justify-center h-11 text-xl"
-          :class="activeStatus === 'In Progress'?'bg-green-400 text-white':activeStatus === 'Comming Soon'?'bg-yellow250 text-black':'bg-gray-700 text-white'"
+          :class="activeStatus === 'In Progress'?'bg-green-400 text-white':activeStatus === 'Coming Soon'?'bg-yellow250 text-black':'bg-gray-700 text-white'"
         >
           {{ activeStatus }}
         </div>
@@ -363,7 +363,7 @@
       <div class="mt-5 w-full rounded-lg bg-while10 flex flex-col items-center">
         <div
           class="w-full rounded-t-lg flex items-center justify-center h-11 text-xl"
-          :class="activeStatus === 'In Progress'?'bg-green-400 text-white':activeStatus === 'Comming Soon'?'bg-yellow250 text-black':'bg-gray-700 text-white'"
+          :class="activeStatus === 'In Progress'?'bg-green-400 text-white':activeStatus === 'Coming Soon'?'bg-yellow250 text-black':'bg-gray-700 text-white'"
         >
           {{ activeStatus }}
         </div>
@@ -387,7 +387,7 @@
       <div class="mt-5 w-full rounded-lg bg-while10 flex flex-col items-center">
         <div
           class="w-full rounded-t-lg flex items-center justify-center h-11 text-xl"
-          :class="activeStatus === 'In Progress'?'bg-green-400 text-white':activeStatus === 'Comming Soon'?'bg-yellow250 text-black':'bg-gray-700 text-white'"
+          :class="activeStatus === 'In Progress'?'bg-green-400 text-white':activeStatus === 'Coming Soon'?'bg-yellow250 text-black':'bg-gray-700 text-white'"
         >
           {{ activeStatus }}
         </div>
@@ -410,7 +410,7 @@
       <div class="mt-5 w-full rounded-lg bg-while10 flex flex-col items-center">
         <div
           class="w-full rounded-t-lg flex items-center justify-center h-11 text-xl"
-          :class="activeStatus === 'In Progress'?'bg-green-400 text-white':activeStatus === 'Comming Soon'?'bg-yellow250 text-black':'bg-gray-700 text-white'"
+          :class="activeStatus === 'In Progress'?'bg-green-400 text-white':activeStatus === 'Coming Soon'?'bg-yellow250 text-black':'bg-gray-700 text-white'"
         >
           {{ activeStatus }}
         </div>
@@ -435,7 +435,7 @@
       <div class="mt-5 w-full rounded-lg bg-while10 flex flex-col items-center">
         <div
           class="w-full rounded-t-lg flex items-center justify-center h-11 text-xl"
-          :class="activeStatus === 'In Progress'?'bg-green-400 text-white':activeStatus === 'Comming Soon'?'bg-yellow250 text-black':'bg-gray-700 text-white'"
+          :class="activeStatus === 'In Progress'?'bg-green-400 text-white':activeStatus === 'Coming Soon'?'bg-yellow250 text-black':'bg-gray-700 text-white'"
         >
           {{ activeStatus }}
         </div>
@@ -458,7 +458,7 @@
       <div class="mt-5 w-full rounded-lg bg-while10 flex flex-col items-center">
         <div
           class="w-full rounded-t-lg flex items-center justify-center h-11 text-xl"
-          :class="activeStatus === 'In Progress'?'bg-green-400 text-white':activeStatus === 'Comming Soon'?'bg-yellow250 text-black':'bg-gray-700 text-white'"
+          :class="activeStatus === 'In Progress'?'bg-green-400 text-white':activeStatus === 'Coming Soon'?'bg-yellow250 text-black':'bg-gray-700 text-white'"
         >
           {{ activeStatus }}
         </div>
@@ -482,7 +482,7 @@
       <div class="mt-5 w-full rounded-lg bg-while10 flex flex-col items-center">
         <div
           class="w-full rounded-t-lg flex items-center justify-center h-11 text-xl"
-          :class="activeStatus === 'In Progress'?'bg-green-400 text-white':activeStatus === 'Comming Soon'?'bg-yellow250 text-black':'bg-gray-700 text-white'"
+          :class="activeStatus === 'In Progress'?'bg-green-400 text-white':activeStatus === 'Coming Soon'?'bg-yellow250 text-black':'bg-gray-700 text-white'"
         >
           {{ activeStatus }}
         </div>
@@ -505,7 +505,7 @@
       <div class="mt-5 w-full rounded-lg bg-while10 flex flex-col items-center">
         <div
           class="w-full rounded-t-lg flex items-center justify-center h-11 text-xl"
-          :class="activeStatus === 'In Progress'?'bg-green-400 text-white':activeStatus === 'Comming Soon'?'bg-yellow250 text-black':'bg-gray-700 text-white'"
+          :class="activeStatus === 'In Progress'?'bg-green-400 text-white':activeStatus === 'Coming Soon'?'bg-yellow250 text-black':'bg-gray-700 text-white'"
         >
           {{ activeStatus }}
         </div>
@@ -532,7 +532,7 @@
         <div class="mt-5 rounded-xl bg-while10 flex flex-col items-center" style="width:calc(33.3% - 1.25rem)">
           <div
             class="w-full rounded-t-lg flex items-center justify-center h-11 text-xl"
-            :class="activeStatus === 'In Progress'?'bg-green-400 text-white':activeStatus === 'Comming Soon'?'bg-yellow250 text-black':'bg-gray-700 text-white'"
+            :class="activeStatus === 'In Progress'?'bg-green-400 text-white':activeStatus === 'Coming Soon'?'bg-yellow250 text-black':'bg-gray-700 text-white'"
           >
             {{ activeStatus }}
           </div>
@@ -557,7 +557,7 @@
         <div class="mt-5 rounded-xl bg-while10 flex flex-col items-center" style="width:calc(33.3% - 1.25rem)">
           <div
             class="w-full rounded-t-lg flex items-center justify-center h-11 text-xl"
-            :class="activeStatus === 'In Progress'?'bg-green-400 text-white':activeStatus === 'Comming Soon'?'bg-yellow250 text-black':'bg-gray-700 text-white'"
+            :class="activeStatus === 'In Progress'?'bg-green-400 text-white':activeStatus === 'Coming Soon'?'bg-yellow250 text-black':'bg-gray-700 text-white'"
           >
             {{ activeStatus }}
           </div>
@@ -586,7 +586,7 @@
         <div class="mt-5 rounded-xl bg-while10 flex flex-col items-center" style="width:calc(33.3% - 1.25rem)">
           <div
             class="w-full rounded-t-lg flex items-center justify-center h-11 text-xl"
-            :class="activeStatus === 'In Progress'?'bg-green-400 text-white':activeStatus === 'Comming Soon'?'bg-yellow250 text-black':'bg-gray-700 text-white'"
+            :class="activeStatus === 'In Progress'?'bg-green-400 text-white':activeStatus === 'Coming Soon'?'bg-yellow250 text-black':'bg-gray-700 text-white'"
           >
             {{ activeStatus }}
           </div>
@@ -613,7 +613,7 @@
         <div class="mt-5 rounded-xl bg-while10 flex flex-col items-center" style="width:calc(33.3% - 1.25rem)">
           <div
             class="w-full rounded-t-lg flex items-center justify-center h-11 text-xl"
-            :class="activeStatus === 'In Progress'?'bg-green-400 text-white':activeStatus === 'Comming Soon'?'bg-yellow250 text-black':'bg-gray-700 text-white'"
+            :class="activeStatus === 'In Progress'?'bg-green-400 text-white':activeStatus === 'Coming Soon'?'bg-yellow250 text-black':'bg-gray-700 text-white'"
           >
             {{ activeStatus }}
           </div>
@@ -636,7 +636,7 @@
         <div class="mt-5 rounded-xl bg-while10 flex flex-col items-center" style="width:calc(33.3% - 1.25rem)">
           <div
             class="w-full rounded-t-lg flex items-center justify-center h-11 text-xl"
-            :class="activeStatus === 'In Progress'?'bg-green-400 text-white':activeStatus === 'Comming Soon'?'bg-yellow250 text-black':'bg-gray-700 text-white'"
+            :class="activeStatus === 'In Progress'?'bg-green-400 text-white':activeStatus === 'Coming Soon'?'bg-yellow250 text-black':'bg-gray-700 text-white'"
           >
             {{ activeStatus }}
           </div>
@@ -659,7 +659,7 @@
         <div class="mt-5 rounded-xl bg-while10 flex flex-col items-center" style="width:calc(33.3% - 1.25rem)">
           <div
             class="w-full rounded-t-lg flex items-center justify-center h-11 text-xl"
-            :class="activeStatus === 'In Progress'?'bg-green-400 text-white':activeStatus === 'Comming Soon'?'bg-yellow250 text-black':'bg-gray-700 text-white'"
+            :class="activeStatus === 'In Progress'?'bg-green-400 text-white':activeStatus === 'Coming Soon'?'bg-yellow250 text-black':'bg-gray-700 text-white'"
           >
             {{ activeStatus }}
           </div>
@@ -684,7 +684,7 @@
         <div class="mt-5 rounded-xl bg-while10 flex flex-col items-center" style="width:calc(33.3% - 1.25rem)">
           <div
             class="w-full rounded-t-lg flex items-center justify-center h-11 text-xl"
-            :class="activeStatus === 'In Progress'?'bg-green-400 text-white':activeStatus === 'Comming Soon'?'bg-yellow250 text-black':'bg-gray-700 text-white'"
+            :class="activeStatus === 'In Progress'?'bg-green-400 text-white':activeStatus === 'Coming Soon'?'bg-yellow250 text-black':'bg-gray-700 text-white'"
           >
             {{ activeStatus }}
           </div>
@@ -707,7 +707,7 @@
         <div class="mt-5 rounded-xl bg-while10 flex flex-col items-center" style="width:calc(33.3% - 1.25rem)">
           <div
             class="w-full rounded-t-lg flex items-center justify-center h-11 text-xl"
-            :class="activeStatus === 'In Progress'?'bg-green-400 text-white':activeStatus === 'Comming Soon'?'bg-yellow250 text-black':'bg-gray-700 text-white'"
+            :class="activeStatus === 'In Progress'?'bg-green-400 text-white':activeStatus === 'Coming Soon'?'bg-yellow250 text-black':'bg-gray-700 text-white'"
           >
             {{ activeStatus }}
           </div>
@@ -730,7 +730,7 @@
         <div class="mt-5 rounded-xl bg-while10 flex flex-col items-center" style="width:calc(33.3% - 1.25rem)">
           <div
             class="w-full rounded-t-lg flex items-center justify-center h-11 text-xl"
-            :class="activeStatus === 'In Progress'?'bg-green-400 text-white':activeStatus === 'Comming Soon'?'bg-yellow250 text-black':'bg-gray-700 text-white'"
+            :class="activeStatus === 'In Progress'?'bg-green-400 text-white':activeStatus === 'Coming Soon'?'bg-yellow250 text-black':'bg-gray-700 text-white'"
           >
             {{ activeStatus }}
           </div>
@@ -755,7 +755,7 @@
         <div class="mt-5 rounded-xl bg-while10 flex flex-col items-center" style="width:calc(33.3% - 1.25rem)">
           <div
             class="w-full rounded-t-lg flex items-center justify-center h-11 text-xl"
-            :class="activeStatus === 'In Progress'?'bg-green-400 text-white':activeStatus === 'Comming Soon'?'bg-yellow250 text-black':'bg-gray-700 text-white'"
+            :class="activeStatus === 'In Progress'?'bg-green-400 text-white':activeStatus === 'Coming Soon'?'bg-yellow250 text-black':'bg-gray-700 text-white'"
           >
             {{ activeStatus }}
           </div>
@@ -778,7 +778,7 @@
         <div class="mt-5 rounded-xl bg-while10 flex flex-col items-center" style="width:calc(33.3% - 1.25rem)">
           <div
             class="w-full rounded-t-lg flex items-center justify-center h-11 text-xl"
-            :class="activeStatus === 'In Progress'?'bg-green-400 text-white':activeStatus === 'Comming Soon'?'bg-yellow250 text-black':'bg-gray-700 text-white'"
+            :class="activeStatus === 'In Progress'?'bg-green-400 text-white':activeStatus === 'Coming Soon'?'bg-yellow250 text-black':'bg-gray-700 text-white'"
           >
             {{ activeStatus }}
           </div>
@@ -802,7 +802,7 @@
         <div class="mt-5 rounded-xl bg-while10 flex flex-col items-center" style="width:calc(33.3% - 1.25rem)">
           <div
             class="w-full rounded-t-lg flex items-center justify-center h-11 text-xl"
-            :class="activeStatus === 'In Progress'?'bg-green-400 text-white':activeStatus === 'Comming Soon'?'bg-yellow250 text-black':'bg-gray-700 text-white'"
+            :class="activeStatus === 'In Progress'?'bg-green-400 text-white':activeStatus === 'Coming Soon'?'bg-yellow250 text-black':'bg-gray-700 text-white'"
           >
             {{ activeStatus }}
           </div>
@@ -828,7 +828,7 @@
         <div class="mt-5 rounded-xl bg-while10 flex flex-col items-center" style="width:calc(33.3% - 1.25rem)">
           <div
             class="w-full rounded-t-lg flex items-center justify-center h-11 text-xl"
-            :class="activeStatus === 'In Progress'?'bg-green-400 text-white':activeStatus === 'Comming Soon'?'bg-yellow250 text-black':'bg-gray-700 text-white'"
+            :class="activeStatus === 'In Progress'?'bg-green-400 text-white':activeStatus === 'Coming Soon'?'bg-yellow250 text-black':'bg-gray-700 text-white'"
           >
             {{ activeStatus }}
           </div>
@@ -851,7 +851,7 @@
         <div class="mt-5 rounded-xl bg-while10 flex flex-col items-center" style="width:calc(33.3% - 1.25rem)">
           <div
             class="w-full rounded-t-lg flex items-center justify-center h-11 text-xl"
-            :class="activeStatus === 'In Progress'?'bg-green-400 text-white':activeStatus === 'Comming Soon'?'bg-yellow250 text-black':'bg-gray-700 text-white'"
+            :class="activeStatus === 'In Progress'?'bg-green-400 text-white':activeStatus === 'Coming Soon'?'bg-yellow250 text-black':'bg-gray-700 text-white'"
           >
             {{ activeStatus }}
           </div>
@@ -874,7 +874,7 @@
         <div class="mt-5 rounded-xl bg-while10 flex flex-col items-center" style="width:calc(33.3% - 1.25rem)">
           <div
             class="w-full rounded-t-lg flex items-center justify-center h-11 text-xl"
-            :class="activeStatus === 'In Progress'?'bg-green-400 text-white':activeStatus === 'Comming Soon'?'bg-yellow250 text-black':'bg-gray-700 text-white'"
+            :class="activeStatus === 'In Progress'?'bg-green-400 text-white':activeStatus === 'Coming Soon'?'bg-yellow250 text-black':'bg-gray-700 text-white'"
           >
             {{ activeStatus }}
           </div>
@@ -899,7 +899,7 @@
         <div class="mt-5 rounded-xl bg-while10 flex flex-col items-center" style="width:calc(33.3% - 1.25rem)">
           <div
             class="w-full rounded-t-lg flex items-center justify-center h-11 text-xl"
-            :class="activeStatus === 'In Progress'?'bg-green-400 text-white':activeStatus === 'Comming Soon'?'bg-yellow250 text-black':'bg-gray-700 text-white'"
+            :class="activeStatus === 'In Progress'?'bg-green-400 text-white':activeStatus === 'Coming Soon'?'bg-yellow250 text-black':'bg-gray-700 text-white'"
           >
             {{ activeStatus }}
           </div>
@@ -924,7 +924,7 @@
         <div class="mt-5 rounded-xl bg-while10 flex flex-col items-center" style="width:calc(33.3% - 1.25rem)">
           <div
             class="w-full rounded-t-lg flex items-center justify-center h-11 text-xl"
-            :class="activeStatus === 'In Progress'?'bg-green-400 text-white':activeStatus === 'Comming Soon'?'bg-yellow250 text-black':'bg-gray-700 text-white'"
+            :class="activeStatus === 'In Progress'?'bg-green-400 text-white':activeStatus === 'Coming Soon'?'bg-yellow250 text-black':'bg-gray-700 text-white'"
           >
             {{ activeStatus }}
           </div>
@@ -949,7 +949,7 @@
         <div class="mt-5 rounded-xl bg-while10 flex flex-col items-center" style="width:calc(33.3% - 1.25rem)">
           <div
             class="w-full rounded-t-lg flex items-center justify-center h-11 text-xl"
-            :class="activeStatus === 'In Progress'?'bg-green-400 text-white':activeStatus === 'Comming Soon'?'bg-yellow250 text-black':'bg-gray-700 text-white'"
+            :class="activeStatus === 'In Progress'?'bg-green-400 text-white':activeStatus === 'Coming Soon'?'bg-yellow250 text-black':'bg-gray-700 text-white'"
           >
             {{ activeStatus }}
           </div>
@@ -976,7 +976,7 @@
         <div class="mt-5 rounded-xl bg-while10 flex flex-col items-center" style="width:calc(33.3% - 1.25rem)">
           <div
             class="w-full rounded-t-lg flex items-center justify-center h-11 text-xl"
-            :class="activeStatus === 'In Progress'?'bg-green-400 text-white':activeStatus === 'Comming Soon'?'bg-yellow250 text-black':'bg-gray-700 text-white'"
+            :class="activeStatus === 'In Progress'?'bg-green-400 text-white':activeStatus === 'Coming Soon'?'bg-yellow250 text-black':'bg-gray-700 text-white'"
           >
             {{ activeStatus }}
           </div>
@@ -1000,7 +1000,7 @@
         <div class="mt-5 rounded-xl bg-while10 flex flex-col items-center" style="width:calc(33.3% - 1.25rem)">
           <div
             class="w-full rounded-t-lg flex items-center justify-center h-11 text-xl"
-            :class="activeStatus === 'In Progress'?'bg-green-400 text-white':activeStatus === 'Comming Soon'?'bg-yellow250 text-black':'bg-gray-700 text-white'"
+            :class="activeStatus === 'In Progress'?'bg-green-400 text-white':activeStatus === 'Coming Soon'?'bg-yellow250 text-black':'bg-gray-700 text-white'"
           >
             {{ activeStatus }}
           </div>
@@ -1024,7 +1024,7 @@
         <div class="mt-5 rounded-xl bg-while10 flex flex-col items-center" style="width:calc(33.3% - 1.25rem)">
           <div
             class="w-full rounded-t-lg flex items-center justify-center h-11 text-xl"
-            :class="activeStatus === 'In Progress'?'bg-green-400 text-white':activeStatus === 'Comming Soon'?'bg-yellow250 text-black':'bg-gray-700 text-white'"
+            :class="activeStatus === 'In Progress'?'bg-green-400 text-white':activeStatus === 'Coming Soon'?'bg-yellow250 text-black':'bg-gray-700 text-white'"
           >
             {{ activeStatus }}
           </div>
@@ -1050,7 +1050,7 @@
         <div class="mt-5 rounded-xl bg-while10 flex flex-col items-center" style="width:calc(33.3% - 1.25rem)">
           <div
             class="w-full rounded-t-lg flex items-center justify-center h-11 text-xl"
-            :class="activeStatus === 'In Progress'?'bg-green-400 text-white':activeStatus === 'Comming Soon'?'bg-yellow250 text-black':'bg-gray-700 text-white'"
+            :class="activeStatus === 'In Progress'?'bg-green-400 text-white':activeStatus === 'Coming Soon'?'bg-yellow250 text-black':'bg-gray-700 text-white'"
           >
             {{ activeStatus }}
           </div>
@@ -1104,7 +1104,7 @@ export default {
     const nowTimestamp = new Date(nowUtcTime).getTime()// 当前时间时间戳（UTC格式）
 
     if (Number(nowTimestamp) < Number(startTimestamp)) {
-      this.activeStatus = 'Comming Soon'
+      this.activeStatus = 'Coming Soon'
     }
     if (Number(startTimestamp) < Number(nowTimestamp) && Number(nowTimestamp) < Number(endTimestamp)) {
       this.activeStatus = 'In Progress'
