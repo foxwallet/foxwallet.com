@@ -525,6 +525,170 @@
           <p v-if="activeStatus !== 'Ended'" class="text-yellow-400 text-base font-normal cursor-pointer" @click="jumpWebsite('https://rewards.taskon.xyz/campaign/detail/18928')">Details>></p>
         </div>
       </div>
+
+      <div class="mt-5 w-full rounded-lg bg-while10 flex flex-col items-center">
+        <div
+          class="w-full rounded-t-lg flex items-center justify-center h-11 text-xl"
+          :class="activeStatus2 === 'In Progress'?'bg-green-400 text-white':activeStatus2 === 'Coming Soon'?'bg-yellow250 text-black':'bg-gray-700 text-white'"
+        >
+          {{ activeStatus2 }}
+        </div>
+        <div class="flex justify-center mt-7">
+          <img src="@/assets/img/carnival/FoxWallet-logo.png" class="w-10 h-10 mr-3 rounded-full" alt="Carnival Icon">
+          <img src="@/assets/img/carnival/Cattie.jpg" class="w-10 h-10 rounded-full" alt="Carnival Icon">
+        </div>
+        <p class="text-xl font-medium mt-3 text-white text-center">
+          FoxWallet X Cattie Swap Joint Event
+        </p>
+        <p class="text-base font-normal text-gray-300 mt-7">Reward</p>
+        <p class="text-xl font-medium text-white text-center">
+          15 Meowshare LV2 + 120 Fox Credits
+        </p>
+        <div class="border-t border-opacity-10 w-full mt-7 py-5 px-2 flex justify-between">
+          <p class="text-white text-base font-normal">Time: Nov 14th - 27th 12:00 UTC</p>
+          <p v-if="activeStatus2 !== 'Ended'" class="text-yellow-400 text-base font-normal cursor-pointer" @click="jumpWebsite('https://rewards.taskon.xyz/campaign/detail/20243')">Details>></p>
+        </div>
+      </div>
+      <div class="mt-5 w-full rounded-lg bg-while10 flex flex-col items-center">
+        <div
+          class="w-full rounded-t-lg flex items-center justify-center h-11 text-xl"
+          :class="activeStatus2 === 'In Progress'?'bg-green-400 text-white':activeStatus2 === 'Coming Soon'?'bg-yellow250 text-black':'bg-gray-700 text-white'"
+        >
+          {{ activeStatus2 }}
+        </div>
+        <div class="flex justify-center mt-7">
+          <img src="@/assets/img/carnival/FoxWallet-logo.png" class="w-10 h-10 mr-3 rounded-full" alt="Carnival Icon">
+          <img src="@/assets/img/carnival/iZUMi.jpg" class="w-10 h-10 rounded-full" alt="Carnival Icon">
+        </div>
+        <p class="text-xl font-medium mt-3 text-white text-center">
+          FoxWallet X iZUMi Finance Joint Event
+        </p>
+        <p class="text-base font-normal text-gray-300 mt-7">Reward</p>
+        <p class="text-xl font-medium text-white text-center">
+          iPoints + 120 Fox Credits
+        </p>
+        <div class="border-t border-opacity-10 w-full mt-7 py-5 px-2 flex justify-between">
+          <p class="text-white text-base font-normal">Time: Nov 14th - 27th 12:00 UTC</p>
+          <p v-if="activeStatus2 !== 'Ended'" class="text-yellow-400 text-base font-normal cursor-pointer" @click="jumpWebsite('https://rewards.taskon.xyz/campaign/detail/20194')">Details>></p>
+        </div>
+      </div>
+
+      <div class="mt-5 w-full rounded-lg bg-while10 flex flex-col items-center">
+        <div
+          class="w-full rounded-t-lg flex items-center justify-center h-11 text-xl"
+          :class="activeStatus2 === 'In Progress'?'bg-green-400 text-white':activeStatus2 === 'Coming Soon'?'bg-yellow250 text-black':'bg-gray-700 text-white'"
+        >
+          {{ activeStatus2 }}
+        </div>
+        <div class="flex justify-center mt-7">
+          <img src="@/assets/img/carnival/FoxWallet-logo.png" class="w-10 h-10 mr-3 rounded-full" alt="Carnival Icon">
+          <img src="@/assets/img/carnival/Kinza.jpg" class="w-10 h-10 rounded-full" alt="Carnival Icon">
+        </div>
+        <p class="text-xl font-medium mt-3 text-white text-center">
+          FoxWallet X Kinza Finance Joint Event
+        </p>
+        <p class="text-base font-normal text-gray-300 mt-7">Reward</p>
+        <p class="text-xl font-medium text-white text-center">
+          100U + 120 Fox Credits
+        </p>
+        <div class="border-t border-opacity-10 w-full mt-7 py-5 px-2 flex justify-between">
+          <p class="text-white text-base font-normal">Time: Nov 14th - 27th 12:00 UTC</p>
+          <p v-if="activeStatus2 !== 'Ended'" class="text-yellow-400 text-base font-normal cursor-pointer" @click="jumpWebsite('https://rewards.taskon.xyz/campaign/detail/20244')">Details>></p>
+        </div>
+      </div>
+      <div class="mt-5 w-full rounded-lg bg-while10 flex flex-col items-center">
+        <div
+          class="w-full rounded-t-lg flex items-center justify-center h-11 text-xl"
+          :class="activeStatus2 === 'In Progress'?'bg-green-400 text-white':activeStatus2 === 'Coming Soon'?'bg-yellow250 text-black':'bg-gray-700 text-white'"
+        >
+          {{ activeStatus2 }}
+        </div>
+        <div class="flex justify-center mt-7">
+          <img src="@/assets/img/carnival/FoxWallet-logo.png" class="w-10 h-10 mr-3 rounded-full" alt="Carnival Icon">
+          <img src="@/assets/img/carnival/STP.png" class="w-10 h-10 rounded-full" alt="Carnival Icon">
+        </div>
+        <p class="text-xl font-medium mt-3 text-white text-center">
+          FoxWallet X STP Joint Event
+        </p>
+        <p class="text-base font-normal text-gray-300 mt-7">Reward</p>
+        <p class="text-xl font-medium text-white text-center">
+          100U + 120 Fox Credits
+        </p>
+        <div class="border-t border-opacity-10 w-full mt-7 py-5 px-2 flex justify-between">
+          <p class="text-white text-base font-normal">Time: Nov 14th - 27th 12:00 UTC</p>
+          <p v-if="activeStatus2 !== 'Ended'" class="text-yellow-400 text-base font-normal cursor-pointer" @click="jumpWebsite('https://rewards.taskon.xyz/campaign/detail/20246')">Details>></p>
+        </div>
+      </div>
+      <div class="mt-5 w-full rounded-lg bg-while10 flex flex-col items-center">
+        <div
+          class="w-full rounded-t-lg flex items-center justify-center h-11 text-xl"
+          :class="activeStatus2 === 'In Progress'?'bg-green-400 text-white':activeStatus2 === 'Coming Soon'?'bg-yellow250 text-black':'bg-gray-700 text-white'"
+        >
+          {{ activeStatus2 }}
+        </div>
+        <div class="flex justify-center mt-7">
+          <img src="@/assets/img/carnival/FoxWallet-logo.png" class="w-10 h-10 mr-3 rounded-full" alt="Carnival Icon">
+          <img src="@/assets/img/carnival/Adventure.jpg" class="w-10 h-10 rounded-full" alt="Carnival Icon">
+        </div>
+        <p class="text-xl font-medium mt-3 text-white text-center">
+          FoxWallet X Adventure Gold Joint Event
+        </p>
+        <p class="text-base font-normal text-gray-300 mt-7">Reward</p>
+        <p class="text-xl font-medium text-white text-center">
+          100U + 120 Fox Credits
+        </p>
+        <div class="border-t border-opacity-10 w-full mt-7 py-5 px-2 flex justify-between">
+          <p class="text-white text-base font-normal">Time: Nov 14th - 27th 12:00 UTC</p>
+          <p v-if="activeStatus2 !== 'Ended'" class="text-yellow-400 text-base font-normal cursor-pointer" @click="jumpWebsite('https://rewards.taskon.xyz/campaign/detail/20250')">Details>></p>
+        </div>
+      </div>
+
+      <div class="mt-5 w-full rounded-lg bg-while10 flex flex-col items-center">
+        <div
+          class="w-full rounded-t-lg flex items-center justify-center h-11 text-xl"
+          :class="activeStatus2 === 'In Progress'?'bg-green-400 text-white':activeStatus2 === 'Coming Soon'?'bg-yellow250 text-black':'bg-gray-700 text-white'"
+        >
+          {{ activeStatus2 }}
+        </div>
+        <div class="flex justify-center mt-7">
+          <img src="@/assets/img/carnival/FoxWallet-logo.png" class="w-10 h-10 mr-3 rounded-full" alt="Carnival Icon">
+          <img src="@/assets/img/carnival/Aleoswap.jpg" class="w-10 h-10 rounded-full" alt="Carnival Icon">
+        </div>
+        <p class="text-xl font-medium mt-3 text-white text-center">
+          FoxWallet X Aleoswap Joint Event
+        </p>
+        <p class="text-base font-normal text-gray-300 mt-7">Reward</p>
+        <p class="text-xl font-medium text-white text-center">
+          100U + 120 Fox Credits
+        </p>
+        <div class="border-t border-opacity-10 w-full mt-7 py-5 px-2 flex justify-between">
+          <p class="text-white text-base font-normal">Time: Nov 14th - 27th 12:00 UTC</p>
+          <p v-if="activeStatus2 !== 'Ended'" class="text-yellow-400 text-base font-normal cursor-pointer" @click="jumpWebsite('https://rewards.taskon.xyz/campaign/detail/20252')">Details>></p>
+        </div>
+      </div>
+      <div class="mt-5 w-full rounded-lg bg-while10 flex flex-col items-center">
+        <div
+          class="w-full rounded-t-lg flex items-center justify-center h-11 text-xl"
+          :class="activeStatus2 === 'In Progress'?'bg-green-400 text-white':activeStatus2 === 'Coming Soon'?'bg-yellow250 text-black':'bg-gray-700 text-white'"
+        >
+          {{ activeStatus2 }}
+        </div>
+        <div class="flex justify-center mt-7">
+          <img src="@/assets/img/carnival/FoxWallet-logo.png" class="w-10 h-10 mr-3 rounded-full" alt="Carnival Icon">
+          <img src="@/assets/img/carnival/Konnect.jpg" class="w-10 h-10 rounded-full" alt="Carnival Icon">
+        </div>
+        <p class="text-xl font-medium mt-3 text-white text-center">
+          FoxWallet X Konnect Joint Event
+        </p>
+        <p class="text-base font-normal text-gray-300 mt-7">Reward</p>
+        <p class="text-xl font-medium text-white text-center">
+          5000KCT + 120 Fox Credits
+        </p>
+        <div class="border-t border-opacity-10 w-full mt-7 py-5 px-2 flex justify-between">
+          <p class="text-white text-base font-normal">Time: Nov 14th - 27th 12:00 UTC</p>
+          <p v-if="activeStatus2 !== 'Ended'" class="text-yellow-400 text-base font-normal cursor-pointer" @click="jumpWebsite('https://rewards.taskon.xyz/campaign/detail/20253')">Details>></p>
+        </div>
+      </div>
     </div>
     <!-- PC -->
     <div class="hidden md:block">
@@ -1059,7 +1223,9 @@
             <img src="@/assets/img/carnival/Swapter.jpg" class="w-10 h-10 rounded-full" alt="Carnival Icon">
           </div>
           <p class="text-xl font-medium mt-3 text-white text-center">
-            FoxWallet X Swapter Joint Event
+            FoxWallet X Swapter
+            <br/>
+            Joint Event
           </p>
           <p class="text-base font-normal text-gray-300 mt-7">Reward</p>
           <p class="text-xl font-medium text-white text-center">
@@ -1070,7 +1236,176 @@
             <p v-if="activeStatus !== 'Ended'" class="text-yellow-400 text-base font-normal cursor-pointer" @click="jumpWebsite('https://rewards.taskon.xyz/campaign/detail/18928')">Details>></p>
           </div>
         </div>
-        <div style="width:calc(33.3% - 1.25rem)">
+        <div class="mt-5 rounded-xl bg-while10 flex flex-col items-center" style="width:calc(33.3% - 1.25rem)">
+          <div
+            class="w-full rounded-t-lg flex items-center justify-center h-11 text-xl"
+            :class="activeStatus2 === 'In Progress'?'bg-green-400 text-white':activeStatus2 === 'Coming Soon'?'bg-yellow250 text-black':'bg-gray-700 text-white'"
+          >
+            {{ activeStatus2 }}
+          </div>
+          <div class="flex justify-center mt-7">
+            <img src="@/assets/img/carnival/FoxWallet-logo.png" class="w-10 h-10 mr-3 rounded-full" alt="Carnival Icon">
+            <img src="@/assets/img/carnival/Cattie.jpg" class="w-10 h-10 rounded-full" alt="Carnival Icon">
+          </div>
+          <p class="text-xl font-medium mt-3 text-white text-center">
+            FoxWallet X Cattie
+            <br/>
+            Swap Joint Event
+          </p>
+          <p class="text-base font-normal text-gray-300 mt-7">Reward</p>
+          <p class="text-xl font-medium text-white text-center">
+            15 Meowshare LV2 + 120
+            <br/>
+            Fox Credits
+          </p>
+          <div class="border-t border-opacity-10 w-full mt-7 py-5 px-2 flex justify-between">
+            <p class="text-white text-base font-normal">Time: Nov 14th - 27th 12:00 UTC</p>
+            <p v-if="activeStatus2 !== 'Ended'" class="text-yellow-400 text-base font-normal cursor-pointer" @click="jumpWebsite('https://rewards.taskon.xyz/campaign/detail/20243')">Details>></p>
+          </div>
+        </div>
+        <div class="mt-5 rounded-xl bg-while10 flex flex-col items-center" style="width:calc(33.3% - 1.25rem)">
+          <div
+            class="w-full rounded-t-lg flex items-center justify-center h-11 text-xl"
+            :class="activeStatus2 === 'In Progress'?'bg-green-400 text-white':activeStatus2 === 'Coming Soon'?'bg-yellow250 text-black':'bg-gray-700 text-white'"
+          >
+            {{ activeStatus2 }}
+          </div>
+          <div class="flex justify-center mt-7">
+            <img src="@/assets/img/carnival/FoxWallet-logo.png" class="w-10 h-10 mr-3 rounded-full" alt="Carnival Icon">
+            <img src="@/assets/img/carnival/iZUMi.jpg" class="w-10 h-10 rounded-full" alt="Carnival Icon">
+          </div>
+          <p class="text-xl font-medium mt-3 text-white text-center">
+            FoxWallet X iZUMi
+            <br/>
+            Finance Joint Event
+          </p>
+          <p class="text-base font-normal text-gray-300 mt-7">Reward</p>
+          <p class="text-xl font-medium text-white text-center">
+            iPoints + 120 Fox Credits
+          </p>
+          <div class="border-t border-opacity-10 w-full mt-7 py-5 px-2 flex justify-between">
+            <p class="text-white text-base font-normal">Time: Nov 14th - 27th 12:00 UTC</p>
+            <p v-if="activeStatus2 !== 'Ended'" class="text-yellow-400 text-base font-normal cursor-pointer" @click="jumpWebsite('https://rewards.taskon.xyz/campaign/detail/20194')">Details>></p>
+          </div>
+        </div>
+      </div>
+      <div class="mt-5 flex justify-between">
+        <div class="mt-5 rounded-xl bg-while10 flex flex-col items-center" style="width:calc(33.3% - 1.25rem)">
+          <div
+            class="w-full rounded-t-lg flex items-center justify-center h-11 text-xl"
+            :class="activeStatus2 === 'In Progress'?'bg-green-400 text-white':activeStatus2 === 'Coming Soon'?'bg-yellow250 text-black':'bg-gray-700 text-white'"
+          >
+            {{ activeStatus2 }}
+          </div>
+          <div class="flex justify-center mt-7">
+            <img src="@/assets/img/carnival/FoxWallet-logo.png" class="w-10 h-10 mr-3 rounded-full" alt="Carnival Icon">
+            <img src="@/assets/img/carnival/Kinza.jpg" class="w-10 h-10 rounded-full" alt="Carnival Icon">
+          </div>
+          <p class="text-xl font-medium mt-3 text-white text-center">
+            FoxWallet X Kinza Finance Joint Event
+          </p>
+          <p class="text-base font-normal text-gray-300 mt-7">Reward</p>
+          <p class="text-xl font-medium text-white text-center">
+            100U + 120 Fox Credits
+          </p>
+          <div class="border-t border-opacity-10 w-full mt-7 py-5 px-2 flex justify-between">
+            <p class="text-white text-base font-normal">Time: Nov 14th - 27th 12:00 UTC</p>
+            <p v-if="activeStatus2 !== 'Ended'" class="text-yellow-400 text-base font-normal cursor-pointer" @click="jumpWebsite('https://rewards.taskon.xyz/campaign/detail/20244')">Details>></p>
+          </div>
+        </div>
+        <div class="mt-5 rounded-xl bg-while10 flex flex-col items-center" style="width:calc(33.3% - 1.25rem)">
+          <div
+            class="w-full rounded-t-lg flex items-center justify-center h-11 text-xl"
+            :class="activeStatus2 === 'In Progress'?'bg-green-400 text-white':activeStatus2 === 'Coming Soon'?'bg-yellow250 text-black':'bg-gray-700 text-white'"
+          >
+            {{ activeStatus2 }}
+          </div>
+          <div class="flex justify-center mt-7">
+            <img src="@/assets/img/carnival/FoxWallet-logo.png" class="w-10 h-10 mr-3 rounded-full" alt="Carnival Icon">
+            <img src="@/assets/img/carnival/STP.png" class="w-10 h-10 rounded-full" alt="Carnival Icon">
+          </div>
+          <p class="text-xl font-medium mt-3 text-white text-center">
+            FoxWallet X STP Joint Event
+          </p>
+          <p class="text-base font-normal text-gray-300 mt-7">Reward</p>
+          <p class="text-xl font-medium text-white text-center">
+            100U + 120 Fox Credits
+          </p>
+          <div class="border-t border-opacity-10 w-full mt-7 py-5 px-2 flex justify-between">
+            <p class="text-white text-base font-normal">Time: Nov 14th - 27th 12:00 UTC</p>
+            <p v-if="activeStatus2 !== 'Ended'" class="text-yellow-400 text-base font-normal cursor-pointer" @click="jumpWebsite('https://rewards.taskon.xyz/campaign/detail/20246')">Details>></p>
+          </div>
+        </div>
+        <div class="mt-5 rounded-xl bg-while10 flex flex-col items-center" style="width:calc(33.3% - 1.25rem)">
+          <div
+            class="w-full rounded-t-lg flex items-center justify-center h-11 text-xl"
+            :class="activeStatus2 === 'In Progress'?'bg-green-400 text-white':activeStatus2 === 'Coming Soon'?'bg-yellow250 text-black':'bg-gray-700 text-white'"
+          >
+            {{ activeStatus2 }}
+          </div>
+          <div class="flex justify-center mt-7">
+            <img src="@/assets/img/carnival/FoxWallet-logo.png" class="w-10 h-10 mr-3 rounded-full" alt="Carnival Icon">
+            <img src="@/assets/img/carnival/Adventure.jpg" class="w-10 h-10 rounded-full" alt="Carnival Icon">
+          </div>
+          <p class="text-xl font-medium mt-3 text-white text-center">
+            FoxWallet X Adventure Gold Joint Event
+          </p>
+          <p class="text-base font-normal text-gray-300 mt-7">Reward</p>
+          <p class="text-xl font-medium text-white text-center">
+            100U + 120 Fox Credits
+          </p>
+          <div class="border-t border-opacity-10 w-full mt-7 py-5 px-2 flex justify-between">
+            <p class="text-white text-base font-normal">Time: Nov 14th - 27th 12:00 UTC</p>
+            <p v-if="activeStatus2 !== 'Ended'" class="text-yellow-400 text-base font-normal cursor-pointer" @click="jumpWebsite('https://rewards.taskon.xyz/campaign/detail/20250')">Details>></p>
+          </div>
+        </div>
+      </div>
+      <div class="mt-5 flex justify-between">
+        <div class="mt-5 rounded-xl bg-while10 flex flex-col items-center" style="width:calc(33.3% - 1.25rem)">
+          <div
+            class="w-full rounded-t-lg flex items-center justify-center h-11 text-xl"
+            :class="activeStatus2 === 'In Progress'?'bg-green-400 text-white':activeStatus2 === 'Coming Soon'?'bg-yellow250 text-black':'bg-gray-700 text-white'"
+          >
+            {{ activeStatus2 }}
+          </div>
+          <div class="flex justify-center mt-7">
+            <img src="@/assets/img/carnival/FoxWallet-logo.png" class="w-10 h-10 mr-3 rounded-full" alt="Carnival Icon">
+            <img src="@/assets/img/carnival/Aleoswap.jpg" class="w-10 h-10 rounded-full" alt="Carnival Icon">
+          </div>
+          <p class="text-xl font-medium mt-3 text-white text-center">
+            FoxWallet X Aleoswap Joint Event
+          </p>
+          <p class="text-base font-normal text-gray-300 mt-7">Reward</p>
+          <p class="text-xl font-medium text-white text-center">
+            100U + 120 Fox Credits
+          </p>
+          <div class="border-t border-opacity-10 w-full mt-7 py-5 px-2 flex justify-between">
+            <p class="text-white text-base font-normal">Time: Nov 14th - 27th 12:00 UTC</p>
+            <p v-if="activeStatus2 !== 'Ended'" class="text-yellow-400 text-base font-normal cursor-pointer" @click="jumpWebsite('https://rewards.taskon.xyz/campaign/detail/20252')">Details>></p>
+          </div>
+        </div>
+        <div class="mt-5 rounded-xl bg-while10 flex flex-col items-center" style="width:calc(33.3% - 1.25rem)">
+          <div
+            class="w-full rounded-t-lg flex items-center justify-center h-11 text-xl"
+            :class="activeStatus2 === 'In Progress'?'bg-green-400 text-white':activeStatus2 === 'Coming Soon'?'bg-yellow250 text-black':'bg-gray-700 text-white'"
+          >
+            {{ activeStatus2 }}
+          </div>
+          <div class="flex justify-center mt-7">
+            <img src="@/assets/img/carnival/FoxWallet-logo.png" class="w-10 h-10 mr-3 rounded-full" alt="Carnival Icon">
+            <img src="@/assets/img/carnival/Konnect.jpg" class="w-10 h-10 rounded-full" alt="Carnival Icon">
+          </div>
+          <p class="text-xl font-medium mt-3 text-white text-center">
+            FoxWallet X Konnect Joint Event
+          </p>
+          <p class="text-base font-normal text-gray-300 mt-7">Reward</p>
+          <p class="text-xl font-medium text-white text-center">
+            5000KCT + 120 Fox Credits
+          </p>
+          <div class="border-t border-opacity-10 w-full mt-7 py-5 px-2 flex justify-between">
+            <p class="text-white text-base font-normal">Time: Nov 14th - 27th 12:00 UTC</p>
+            <p v-if="activeStatus2 !== 'Ended'" class="text-yellow-400 text-base font-normal cursor-pointer" @click="jumpWebsite('https://rewards.taskon.xyz/campaign/detail/20253')">Details>></p>
+          </div>
         </div>
         <div style="width:calc(33.3% - 1.25rem)">
         </div>
@@ -1084,6 +1419,7 @@ export default {
   data() {
     return {
       activeStatus: '',
+      activeStatus2: '',
     }
   },
   computed: {},
@@ -1093,6 +1429,7 @@ export default {
     },
   },
   mounted() {
+    // activeStatus
     const startUtcTime = '2023-11-09T12:00:00Z' // 活动起始时间 Nov 9th 12:00 UTC
     const startTimestamp = new Date(startUtcTime).getTime() // 活动起始时间时间戳（UTC格式）
 
@@ -1111,6 +1448,27 @@ export default {
     }
     if (Number(nowTimestamp) > Number(endTimestamp)) {
       this.activeStatus = 'Ended'
+    }
+
+    // activeStatus2
+    const startUtcTime2 = '2023-11-14T12:00:00Z' // 活动起始时间 Nov 14th 12:00 UTC
+    const startTimestamp2 = new Date(startUtcTime2).getTime() // 活动起始时间时间戳（UTC格式）
+
+    const endUtcTime2 = '2023-11-27T12:00:00Z' // 活动结束时间 Nov 27th 12:00 UTC
+    const endTimestamp2 = new Date(endUtcTime2).getTime() // 活动起始时间时间戳（UTC格式）
+
+    const now2 = new Date()
+    const nowUtcTime2 = now2.toISOString() // 当前时间（UTC格式）
+    const nowTimestamp2 = new Date(nowUtcTime2).getTime()// 当前时间时间戳（UTC格式）
+
+    if (Number(nowTimestamp2) < Number(startTimestamp2)) {
+      this.activeStatus2 = 'Coming Soon'
+    }
+    if (Number(startTimestamp2) < Number(nowTimestamp2) && Number(nowTimestamp2) < Number(endTimestamp2)) {
+      this.activeStatus2 = 'In Progress'
+    }
+    if (Number(nowTimestamp2) > Number(endTimestamp2)) {
+      this.activeStatus2 = 'Ended'
     }
   },
 }
