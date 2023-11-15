@@ -1,7 +1,7 @@
 export default {
   title: 'FoxWallet Official Website',
-  keywords: 'FoxWallet, Fox Wallet, Filfox, filecoin, ethereum, ipfs, 6Block',
-  description: 'FoxWallet is a decentralized multi-chain wallet, which supports multi seed phase and multi accounts based on BIP44 standard. By integrating the add-on functions of the filfox explorer, the wallet makes it easy for users to manage their assets and collaborate within the filcoin ecosystem.',
+  keywords: 'FoxWallet, Fox Wallet, Filfox, Filfox Wallet, Filecoin Wallet, ethereum, ipfs, 6Block, Bitcoin Wallet, Ordinals Wallet, NFT, Solana Wallet, Aptos Wallet, Sui Wallet, IronFish Wallet, Aleo Wallet',
+  description: 'FoxWallet is a multi-chain web3 wallet where users can access a wide range of dApps, manage digital assets and interact with various blockchain networks. Over the past two years, it has given over 1 million users an easy entrance into Web3.',
   nav: {
     earn: {
       title: 'Earn',
