@@ -57,6 +57,16 @@
           <p class="text-yellow-400 text-base font-normal">Reward: 50USDT</p>
         </div>
       </div>
+      <div class="mt-5 w-full rounded-lg bg-while10 px-5 py-2" @click="jumpWebsite('https://twitter.com/FoxWallet/status/1726896436573585590')">
+        <div class="flex">
+          <img src="@/assets/img/space/btc.jpeg" class="w-10 h-10 mr-7 rounded-full" alt="Space Icon">
+        </div>
+        <div class="mt-2 border-t border-opacity-10">
+          <p class="text-yellow-400 text-base font-normal mt-2">2023/11/22 12:00 UTC</p>
+          <p class="text-white text-lg font-medium">BTC Ecosystem</p>
+          <p class="text-yellow-400 text-base font-normal">Reward: 50USDT</p>
+        </div>
+      </div>
       <div class="mt-5 w-full rounded-lg bg-while10 px-5 py-2">
         <div class="flex">
           <img src="@/assets/img/space/space6.png" class="w-10 h-10 mr-7" alt="Space Icon">
@@ -147,6 +157,18 @@
             <p class="text-yellow-400 text-base font-normal">Reward: 50USDT</p>
           </div>
         </div>
+        <div class="mt-5 rounded-xl bg-while10 px-5 py-7 cursor-pointer" style="width:calc(33.3% - 1.25rem)" @click="jumpWebsite('https://twitter.com/FoxWallet/status/1726896436573585590')">
+          <div class="flex">
+            <img src="@/assets/img/space/btc.jpeg" class="w-10 h-10 mr-7 rounded-full" alt="Space Icon">
+          </div>
+          <div class="mt-2 border-t border-opacity-10">
+            <p class="text-yellow-400 text-base font-normal mt-2">2023/11/22 12:00 UTC</p>
+            <p class="text-white text-xl font-medium">BTC Ecosystem</p>
+            <p class="text-yellow-400 text-base font-normal">Reward: 50USDT</p>
+          </div>
+        </div>
+      </div>
+      <div class="mt-5 flex justify-between">
         <div class="mt-5 rounded-xl bg-while10 px-5 py-7 cursor-pointer" style="width:calc(33.3% - 1.25rem)">
           <div class="flex">
             <img src="@/assets/img/space/space6.png" class="w-10 h-10 mr-8" alt="Space Icon">
@@ -157,8 +179,6 @@
             <p class="text-yellow-400 text-base font-normal">Reward: 50USDT</p>
           </div>
         </div>
-      </div>
-      <div class="mt-5 flex justify-between">
         <div class="mt-5 rounded-xl bg-while10 px-5 py-7 cursor-pointer" style="width:calc(33.3% - 1.25rem)">
           <div class="flex">
             <img src="@/assets/img/space/space7.png" class="w-10 h-10 mr-8" alt="Space Icon">
@@ -178,8 +198,6 @@
             <p class="text-white text-xl font-medium">Scroll Ecosystem</p>
             <p class="text-yellow-400 text-base font-normal">Reward: 50USDT</p>
           </div>
-        </div>
-        <div style="width:calc(33.3% - 1.25rem)">
         </div>
       </div>
     </div>
