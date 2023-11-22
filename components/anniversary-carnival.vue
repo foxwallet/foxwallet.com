@@ -525,7 +525,6 @@
           <p v-if="activeStatus !== 'Ended'" class="text-yellow-400 text-base font-normal cursor-pointer" @click="jumpWebsite('https://rewards.taskon.xyz/campaign/detail/18928')">Details>></p>
         </div>
       </div>
-
       <div class="mt-5 w-full rounded-lg bg-while10 flex flex-col items-center">
         <div
           class="w-full rounded-t-lg flex items-center justify-center h-11 text-xl"
@@ -572,7 +571,6 @@
           <p v-if="activeStatus2 !== 'Ended'" class="text-yellow-400 text-base font-normal cursor-pointer" @click="jumpWebsite('https://rewards.taskon.xyz/campaign/detail/20194')">Details>></p>
         </div>
       </div>
-
       <div class="mt-5 w-full rounded-lg bg-while10 flex flex-col items-center">
         <div
           class="w-full rounded-t-lg flex items-center justify-center h-11 text-xl"
@@ -642,7 +640,6 @@
           <p v-if="activeStatus2 !== 'Ended'" class="text-yellow-400 text-base font-normal cursor-pointer" @click="jumpWebsite('https://rewards.taskon.xyz/campaign/detail/20250')">Details>></p>
         </div>
       </div>
-
       <div class="mt-5 w-full rounded-lg bg-while10 flex flex-col items-center">
         <div
           class="w-full rounded-t-lg flex items-center justify-center h-11 text-xl"
@@ -687,6 +684,76 @@
         <div class="border-t border-opacity-10 w-full mt-7 py-5 px-2 flex justify-between">
           <p class="text-white text-base font-normal">Time: Nov 14th - 27th 12:00 UTC</p>
           <p v-if="activeStatus2 !== 'Ended'" class="text-yellow-400 text-base font-normal cursor-pointer" @click="jumpWebsite('https://rewards.taskon.xyz/campaign/detail/20253')">Details>></p>
+        </div>
+      </div>
+
+      <div class="mt-5 w-full rounded-lg bg-while10 flex flex-col items-center">
+        <div
+          class="w-full rounded-t-lg flex items-center justify-center h-11 text-xl"
+          :class="activeStatus2 === 'In Progress'?'bg-green-400 text-white':activeStatus2 === 'Coming Soon'?'bg-yellow250 text-black':'bg-gray-700 text-white'"
+        >
+          {{ activeStatus2 }}
+        </div>
+        <div class="flex justify-center mt-7">
+          <img src="@/assets/img/carnival/FoxWallet-logo.png" class="w-10 h-10 mr-3 rounded-full" alt="Carnival Icon">
+          <img src="@/assets/img/carnival/zkLink.png" class="w-10 h-10 rounded-full" alt="Carnival Icon">
+        </div>
+        <p class="text-xl font-medium mt-3 text-white text-center">
+          FoxWallet X zkLink Joint Event
+        </p>
+        <p class="text-base font-normal text-gray-300 mt-7">Reward</p>
+        <p class="text-xl font-medium text-white text-center">
+          100U + 120 Fox Credits
+        </p>
+        <div class="border-t border-opacity-10 w-full mt-7 py-5 px-2 flex justify-between">
+          <p class="text-white text-base font-normal">Time: Nov 21st - 27th 12:00 UTC</p>
+          <p v-if="activeStatus2 !== 'Ended'" class="text-yellow-400 text-base font-normal cursor-pointer" @click="jumpWebsite('https://rewards.taskon.xyz/campaign/detail/22207')">Details>></p>
+        </div>
+      </div>
+      <div class="mt-5 w-full rounded-lg bg-while10 flex flex-col items-center">
+        <div
+          class="w-full rounded-t-lg flex items-center justify-center h-11 text-xl"
+          :class="activeStatus2 === 'In Progress'?'bg-green-400 text-white':activeStatus2 === 'Coming Soon'?'bg-yellow250 text-black':'bg-gray-700 text-white'"
+        >
+          {{ activeStatus2 }}
+        </div>
+        <div class="flex justify-center mt-7">
+          <img src="@/assets/img/carnival/FoxWallet-logo.png" class="w-10 h-10 mr-3 rounded-full" alt="Carnival Icon">
+          <img src="@/assets/img/carnival/Aggre.jpg" class="w-10 h-10 rounded-full" alt="Carnival Icon">
+        </div>
+        <p class="text-xl font-medium mt-3 text-white text-center">
+          FoxWallet X Aggre Joint Event
+        </p>
+        <p class="text-base font-normal text-gray-300 mt-7">Reward</p>
+        <p class="text-xl font-medium text-white text-center">
+          50 Tracker Pass NFT + 120 Fox Credits
+        </p>
+        <div class="border-t border-opacity-10 w-full mt-7 py-5 px-2 flex justify-between">
+          <p class="text-white text-base font-normal">Time: Nov 21st - 27th 12:00 UTC</p>
+          <p v-if="activeStatus2 !== 'Ended'" class="text-yellow-400 text-base font-normal cursor-pointer" @click="jumpWebsite('https://rewards.taskon.xyz/campaign/detail/20945')">Details>></p>
+        </div>
+      </div>
+      <div class="mt-5 w-full rounded-lg bg-while10 flex flex-col items-center">
+        <div
+          class="w-full rounded-t-lg flex items-center justify-center h-11 text-xl"
+          :class="activeStatus2 === 'In Progress'?'bg-green-400 text-white':activeStatus2 === 'Coming Soon'?'bg-yellow250 text-black':'bg-gray-700 text-white'"
+        >
+          {{ activeStatus2 }}
+        </div>
+        <div class="flex justify-center mt-7">
+          <img src="@/assets/img/carnival/FoxWallet-logo.png" class="w-10 h-10 mr-3 rounded-full" alt="Carnival Icon">
+          <img src="@/assets/img/carnival/DappGate.jpg" class="w-10 h-10 rounded-full" alt="Carnival Icon">
+        </div>
+        <p class="text-xl font-medium mt-3 text-white text-center">
+          FoxWallet X DappGate Joint Event
+        </p>
+        <p class="text-base font-normal text-gray-300 mt-7">Reward</p>
+        <p class="text-xl font-medium text-white text-center">
+          50 Tracker Pass NFT + 120 Fox Credits
+        </p>
+        <div class="border-t border-opacity-10 w-full mt-7 py-5 px-2 flex justify-between">
+          <p class="text-white text-base font-normal">Time: Nov 21st - 27th 12:00 UTC</p>
+          <p v-if="activeStatus2 !== 'Ended'" class="text-yellow-400 text-base font-normal cursor-pointer" @click="jumpWebsite('https://rewards.taskon.xyz/campaign/detail/21285')">Details>></p>
         </div>
       </div>
     </div>
@@ -1405,6 +1472,77 @@
           <div class="border-t border-opacity-10 w-full mt-7 py-5 px-2 flex justify-between">
             <p class="text-white text-base font-normal">Time: Nov 14th - 27th 12:00 UTC</p>
             <p v-if="activeStatus2 !== 'Ended'" class="text-yellow-400 text-base font-normal cursor-pointer" @click="jumpWebsite('https://rewards.taskon.xyz/campaign/detail/20253')">Details>></p>
+          </div>
+        </div>
+        <div class="mt-5 rounded-xl bg-while10 flex flex-col items-center" style="width:calc(33.3% - 1.25rem)">
+          <div
+            class="w-full rounded-t-lg flex items-center justify-center h-11 text-xl"
+            :class="activeStatus2 === 'In Progress'?'bg-green-400 text-white':activeStatus2 === 'Coming Soon'?'bg-yellow250 text-black':'bg-gray-700 text-white'"
+          >
+            {{ activeStatus2 }}
+          </div>
+          <div class="flex justify-center mt-7">
+            <img src="@/assets/img/carnival/FoxWallet-logo.png" class="w-10 h-10 mr-3 rounded-full" alt="Carnival Icon">
+            <img src="@/assets/img/carnival/zkLink.png" class="w-10 h-10 rounded-full" alt="Carnival Icon">
+          </div>
+          <p class="text-xl font-medium mt-3 text-white text-center">
+            FoxWallet X zkLink Joint Event
+          </p>
+          <p class="text-base font-normal text-gray-300 mt-7">Reward</p>
+          <p class="text-xl font-medium text-white text-center">
+            100U + 120 Fox Credits
+          </p>
+          <div class="border-t border-opacity-10 w-full mt-7 py-5 px-2 flex justify-between">
+            <p class="text-white text-base font-normal">Time: Nov 21st - 27th 12:00 UTC</p>
+            <p v-if="activeStatus2 !== 'Ended'" class="text-yellow-400 text-base font-normal cursor-pointer" @click="jumpWebsite('https://rewards.taskon.xyz/campaign/detail/22207')">Details>></p>
+          </div>
+        </div>
+      </div>
+      <div class="mt-5 flex justify-between">
+        <div class="mt-5 rounded-xl bg-while10 flex flex-col items-center" style="width:calc(33.3% - 1.25rem)">
+          <div
+            class="w-full rounded-t-lg flex items-center justify-center h-11 text-xl"
+            :class="activeStatus2 === 'In Progress'?'bg-green-400 text-white':activeStatus2 === 'Coming Soon'?'bg-yellow250 text-black':'bg-gray-700 text-white'"
+          >
+            {{ activeStatus2 }}
+          </div>
+          <div class="flex justify-center mt-7">
+            <img src="@/assets/img/carnival/FoxWallet-logo.png" class="w-10 h-10 mr-3 rounded-full" alt="Carnival Icon">
+            <img src="@/assets/img/carnival/Aggre.jpg" class="w-10 h-10 rounded-full" alt="Carnival Icon">
+          </div>
+          <p class="text-xl font-medium mt-3 text-white text-center">
+            FoxWallet X Aggre Joint Event
+          </p>
+          <p class="text-base font-normal text-gray-300 mt-7">Reward</p>
+          <p class="text-xl font-medium text-white text-center">
+            50 Tracker Pass NFT + 120 Fox Credits
+          </p>
+          <div class="border-t border-opacity-10 w-full mt-7 py-5 px-2 flex justify-between">
+            <p class="text-white text-base font-normal">Time: Nov 21st - 27th 12:00 UTC</p>
+            <p v-if="activeStatus2 !== 'Ended'" class="text-yellow-400 text-base font-normal cursor-pointer" @click="jumpWebsite('https://rewards.taskon.xyz/campaign/detail/20945')">Details>></p>
+          </div>
+        </div>
+        <div class="mt-5 rounded-xl bg-while10 flex flex-col items-center" style="width:calc(33.3% - 1.25rem)">
+          <div
+            class="w-full rounded-t-lg flex items-center justify-center h-11 text-xl"
+            :class="activeStatus2 === 'In Progress'?'bg-green-400 text-white':activeStatus2 === 'Coming Soon'?'bg-yellow250 text-black':'bg-gray-700 text-white'"
+          >
+            {{ activeStatus2 }}
+          </div>
+          <div class="flex justify-center mt-7">
+            <img src="@/assets/img/carnival/FoxWallet-logo.png" class="w-10 h-10 mr-3 rounded-full" alt="Carnival Icon">
+            <img src="@/assets/img/carnival/DappGate.jpg" class="w-10 h-10 rounded-full" alt="Carnival Icon">
+          </div>
+          <p class="text-xl font-medium mt-3 text-white text-center">
+            FoxWallet X DappGate Joint Event
+          </p>
+          <p class="text-base font-normal text-gray-300 mt-7">Reward</p>
+          <p class="text-xl font-medium text-white text-center">
+            50 Tracker Pass NFT + 120 Fox Credits
+          </p>
+          <div class="border-t border-opacity-10 w-full mt-7 py-5 px-2 flex justify-between">
+            <p class="text-white text-base font-normal">Time: Nov 21st - 27th 12:00 UTC</p>
+            <p v-if="activeStatus2 !== 'Ended'" class="text-yellow-400 text-base font-normal cursor-pointer" @click="jumpWebsite('https://rewards.taskon.xyz/campaign/detail/21285')">Details>></p>
           </div>
         </div>
         <div style="width:calc(33.3% - 1.25rem)">
