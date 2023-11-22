@@ -3,7 +3,8 @@
     <p class="text-4xl md:text-5xl text-yellow-100 font-medium">Space</p>
     <!-- iphone -->
     <div class="block md:hidden">
-      <div class="mt-5 w-full rounded-lg bg-while10 px-5 py-2" @click="jumpWebsite('https://twitter.com/FoxWallet/status/1721450414644797663')">
+      <div class="mt-5 w-full rounded-lg bg-while10 px-5 py-2 relative" @click="jumpWebsite('https://twitter.com/FoxWallet/status/1721450414644797663')">
+        <div class="ended">Ended</div>
         <div class="flex">
           <img src="@/assets/img/space/logo-Filcoin.png" class="w-10 h-10 mr-3" alt="Space Icon">
           <img src="@/assets/img/space/logo-FileMarket.png" class="w-10 h-10 mr-3" alt="Space Icon">
@@ -17,7 +18,8 @@
           <p class="text-yellow-400 text-base font-normal">Reward: 50USDT</p>
         </div>
       </div>
-      <div class="mt-5 w-full rounded-lg bg-while10 px-5 py-2" @click="jumpWebsite('https://twitter.com/FoxWallet/status/1723323458644480033')">
+      <div class="mt-5 w-full rounded-lg bg-while10 px-5 py-2 relative" @click="jumpWebsite('https://twitter.com/FoxWallet/status/1723323458644480033')">
+        <div class="ended">Ended</div>
         <div class="flex">
           <img src="@/assets/img/space/space2.png" class="w-10 h-10 mr-7" alt="Space Icon">
         </div>
@@ -27,7 +29,8 @@
           <p class="text-yellow-400 text-base font-normal">Reward: 50USDT</p>
         </div>
       </div>
-      <div class="mt-5 w-full rounded-lg bg-while10 px-5 py-2" @click="jumpWebsite('https://twitter.com/FoxWallet/status/1723674897086660839')">
+      <div class="mt-5 w-full rounded-lg bg-while10 px-5 py-2 relative" @click="jumpWebsite('https://twitter.com/FoxWallet/status/1723674897086660839')">
+        <div class="ended">Ended</div>
         <div class="flex">
           <img src="@/assets/img/space/space3.png" class="w-10 h-10 mr-7" alt="Space Icon">
         </div>
@@ -37,7 +40,8 @@
           <p class="text-yellow-400 text-base font-normal">Reward: 50USDT</p>
         </div>
       </div>
-      <div class="mt-5 w-full rounded-lg bg-while10 px-5 py-2" @click="jumpWebsite('https://twitter.com/FoxWallet/status/1724001121046520231')">
+      <div class="mt-5 w-full rounded-lg bg-while10 px-5 py-2 relative" @click="jumpWebsite('https://twitter.com/FoxWallet/status/1724001121046520231')">
+        <div class="ended">Ended</div>
         <div class="flex">
           <img src="@/assets/img/space/space4.png" class="w-10 h-10 mr-7" alt="Space Icon">
         </div>
@@ -47,7 +51,8 @@
           <p class="text-yellow-400 text-base font-normal">Reward: 50USDT</p>
         </div>
       </div>
-      <div class="mt-5 w-full rounded-lg bg-while10 px-5 py-2" @click="jumpWebsite('https://twitter.com/FoxWallet/status/1725873327334736379')">
+      <div class="mt-5 w-full rounded-lg bg-while10 px-5 py-2 relative" @click="jumpWebsite('https://twitter.com/FoxWallet/status/1725873327334736379')">
+        <div class="ended">Ended</div>
         <div class="flex">
           <img src="@/assets/img/space/space5.png" class="w-10 h-10 mr-7" alt="Space Icon">
         </div>
@@ -101,7 +106,8 @@
     <!-- PC -->
     <div class="hidden md:block">
       <div class="mt-5 flex justify-between">
-        <div class="mt-5 rounded-xl bg-while10 px-5 py-7 cursor-pointer" style="width:calc(33.3% - 1.25rem)" @click="jumpWebsite('https://twitter.com/FoxWallet/status/1721450414644797663')">
+        <div class="mt-5 rounded-xl bg-while10 px-5 py-7 cursor-pointer relative" style="width:calc(33.3% - 1.25rem)" @click="jumpWebsite('https://twitter.com/FoxWallet/status/1721450414644797663')">
+          <div class="ended">Ended</div>
           <div class="flex">
             <img src="@/assets/img/space/logo-Filcoin.png" class="w-10 h-10 mr-3" alt="Space Icon">
             <img src="@/assets/img/space/logo-FileMarket.png" class="w-10 h-10 mr-3" alt="Space Icon">
@@ -115,7 +121,8 @@
             <p class="text-yellow-400 text-base font-normal">Reward: 50USDT</p>
           </div>
         </div>
-        <div class="mt-5 rounded-xl bg-while10 px-5 py-7 cursor-pointer" style="width:calc(33.3% - 1.25rem)" @click="jumpWebsite('https://twitter.com/FoxWallet/status/1723323458644480033')">
+        <div class="mt-5 rounded-xl bg-while10 px-5 py-7 cursor-pointer relative" style="width:calc(33.3% - 1.25rem)" @click="jumpWebsite('https://twitter.com/FoxWallet/status/1723323458644480033')">
+          <div class="ended">Ended</div>
           <div class="flex">
             <img src="@/assets/img/space/space2.png" class="w-10 h-10 mr-8" alt="Space Icon">
           </div>
@@ -125,7 +132,8 @@
             <p class="text-yellow-400 text-base font-normal">Reward: 50USDT</p>
           </div>
         </div>
-        <div class="mt-5 rounded-xl bg-while10 px-5 py-7 cursor-pointer" style="width:calc(33.3% - 1.25rem)" @click="jumpWebsite('https://twitter.com/FoxWallet/status/1723674897086660839')">
+        <div class="mt-5 rounded-xl bg-while10 px-5 py-7 cursor-pointer relative" style="width:calc(33.3% - 1.25rem)" @click="jumpWebsite('https://twitter.com/FoxWallet/status/1723674897086660839')">
+          <div class="ended">Ended</div>
           <div class="flex">
             <img src="@/assets/img/space/space3.png" class="w-10 h-10 mr-8" alt="Space Icon">
           </div>
@@ -137,7 +145,8 @@
         </div>
       </div>
       <div class="mt-5 flex justify-between">
-        <div class="mt-5 rounded-xl bg-while10 px-5 py-7 cursor-pointer" style="width:calc(33.3% - 1.25rem)" @click="jumpWebsite('https://twitter.com/FoxWallet/status/1724001121046520231')">
+        <div class="mt-5 rounded-xl bg-while10 px-5 py-7 cursor-pointer relative" style="width:calc(33.3% - 1.25rem)" @click="jumpWebsite('https://twitter.com/FoxWallet/status/1724001121046520231')">
+          <div class="ended">Ended</div>
           <div class="flex">
             <img src="@/assets/img/space/space4.png" class="w-10 h-10 mr-8" alt="Space Icon">
           </div>
@@ -147,7 +156,8 @@
             <p class="text-yellow-400 text-base font-normal">Reward: 50USDT</p>
           </div>
         </div>
-        <div class="mt-5 rounded-xl bg-while10 px-5 py-7 cursor-pointer" style="width:calc(33.3% - 1.25rem)" @click="jumpWebsite('https://twitter.com/FoxWallet/status/1725873327334736379')">
+        <div class="mt-5 rounded-xl bg-while10 px-5 py-7 cursor-pointer relative" style="width:calc(33.3% - 1.25rem)" @click="jumpWebsite('https://twitter.com/FoxWallet/status/1725873327334736379')">
+          <div class="ended">Ended</div>
           <div class="flex">
             <img src="@/assets/img/space/space5.png" class="w-10 h-10 mr-8" alt="Space Icon">
           </div>
@@ -216,3 +226,16 @@ export default {
   },
 }
 </script>
+<style>
+.ended{
+  position: absolute;
+  right: 0;
+  top: 0;
+  border-radius: 0.625rem;
+  background: #454545;
+  padding: 0.25rem 0.625rem;
+  color: #FFF;
+  font-size: 1.125rem;
+  font-weight: 500;
+}
+</style>
