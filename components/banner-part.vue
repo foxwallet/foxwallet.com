@@ -26,8 +26,26 @@
       </div>
       <div class="animate__animated animate__fadeInDown animate__delay-4s">
         <div class="flex">
-          <CustomButton icon="ios" type="dark" content="App Store" class="w-24 lg:w-32" @click.native="download('ios')" />
-          <CustomButton icon="android" type="dark" content="Android" class="w-24 lg:w-32 ml-4" @click.native="download('android')" />
+          <CustomButton icon="ios" type="dark" content="App Store" class="px-5" @click.native="download('ios')" />
+          <CustomButton icon="android" type="dark" content="Android" class="px-5 ml-4" @click.native="download('android')" />
+          <CustomButton
+            new-tag
+            icon="chrome"
+            type="dark"
+            content="Chrome Extension"
+            class="px-5 ml-4 hidden xl:flex"
+            @click.native="download('chrome')"
+          />
+        </div>
+        <div class="mt-4 items-center flex xl:hidden">
+          <CustomButton
+            new-tag
+            icon="chrome"
+            type="dark"
+            content="Chrome Extension"
+            class="px-5"
+            @click.native="download('chrome')"
+          />
         </div>
         <div class="flex mt-4 items-center">
           <CustomButton icon="googleplay" content="GooglePlay" class="w-24 lg:w-32" @click.native="download('googlePlay')" />
@@ -121,27 +139,6 @@ export default {
         })
       }, 400)
     },
-    download(platform) {
-      if (platform === 'ios') {
-        window.open('https://apps.apple.com/app/foxwallet-crypto-web3/id1590983231')
-        this.viewRecord('IOS')
-      } else if (platform === 'android') {
-        window.location.href = 'https://cdn-pkg.foxnb.net/app_image/package/foxwallet_release.apk'
-        this.viewRecord('ANDROID')
-      } else if (platform === 'googlePlay') {
-        window.open('https://play.google.com/store/apps/details?id=com.foxwallet.play')
-        this.viewRecord('GOOGLEPLAY')
-      } else {
-        window.open(`https://foxwallet.com/download/${this.$route.query.source ? '?source=' + this.$route.query.source : ''}`)
-      }
-    },
-    async viewRecord(action) {
-      await this.$axios.$post('/page/view', {
-        web_uri: location.href,
-        source: this.$route.query.source || '',
-        action: action || 'HOMEPAGE'
-      })
-    }
   }
 }
 </script>
