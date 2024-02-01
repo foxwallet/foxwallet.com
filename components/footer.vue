@@ -20,12 +20,12 @@
             <h3 class="pt-2 pb-4 font-bold text-xl">
               {{ $t('nav.learnMore') }}
             </h3>
-            <el-tooltip class="item" effect="dark" :content="$t('nav.earn.coming')" placement="left">
+            <!-- <el-tooltip class="item" effect="dark" :content="$t('nav.earn.coming')" placement="left">
               <span class="cursor-pointer hover:opacity-75 text-gray-700 mb-2">{{ $t("nav.earn.title") }}</span>
-            </el-tooltip>
-            <!-- <a class="cursor-pointer hover:opacity-75 text-gray-700 mb-2" target="_blank" href="">
-              {{ $t('nav.connect') }}
-            </a> -->
+            </el-tooltip> -->
+            <a class="cursor-pointer hover:opacity-75 text-gray-700 mb-2" target="_blank" href="https://github.com/foxwallet">
+              {{ $t('nav.openSource') }}
+            </a>
             <!-- <a class="cursor-pointer hover:opacity-75 text-gray-700 mb-2" target="_blank" href="">
               {{ $t('nav.staking') }}
             </a> -->
