@@ -24,7 +24,7 @@ export default {
       ]
     }
   },
-  
+
   css: [
     '@/assets/css/animate.css',
     'element-ui/lib/theme-chalk/index.css',
@@ -34,6 +34,7 @@ export default {
     '@/plugins/element-ui',
     '@/plugins/i18n.js',
     '@/plugins/axios',
+    '@/plugins/mixin',
     '@/plugins/youtube.js',
     '@/plugins/ga.js',
     { src: "~/plugins/swiper.js", ssr: false },

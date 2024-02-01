@@ -26,6 +26,16 @@
         <CustomButton icon="android" type="dark" content="Android" class="mr-2 w-28" @click.native="download('android')" />
         <CustomButton icon="googleplay" type="dark" content="Google Play" class="w-28" @click.native="download('googlePlay')" />
       </div>
+      <div class="flex justify-center items-center mt-5">
+        <CustomButton
+          new-tag
+          icon="chrome"
+          type="dark"
+          content="Chrome Extension"
+          class="px-5 ml-4"
+          @click.native="download('chrome')"
+        />
+      </div>
     </div>
   </div>
 </template>

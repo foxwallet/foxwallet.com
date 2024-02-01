@@ -85,31 +85,43 @@
     <div class="fixed bottom-0 left-0 right-0">
       <div class="mx-auto max-w-3xl">
         <div class="mt-4" style="background:linear-gradient(to left, transparent, #b6b6b6, transparent); height: 1px"></div>
-        <div class="container mx-auto flex items-center justify-between py-6 bg-white">
-          <CustomButton
-            v-if="isIos || (!isAndroid && !isIos)"
-            icon="ios"
-            type="dark"
-            content="App Store"
-            class="mr-2 w-28"
-            @click.native="download('ios')"
-          />
-          <CustomButton
-            v-if="isAndroid || (!isAndroid && !isIos)"
-            icon="android"
-            type="dark"
-            content="Android"
-            class="mr-2 w-28"
-            @click.native="download('android')"
-          />
-          <CustomButton
-            v-if="isAndroid || (!isAndroid && !isIos)"
-            icon="googleplay"
-            type="dark"
-            content="Google Play"
-            class="w-28"
-            @click.native="download('googlePlay')"
-          />
+        <div class="container mx-auto py-6 bg-white">
+          <div class="flex item-center justify-between">
+            <CustomButton
+              v-if="isIos || (!isAndroid && !isIos)"
+              icon="ios"
+              type="dark"
+              content="App Store"
+              class="mr-2 w-28"
+              @click.native="download('ios')"
+            />
+            <CustomButton
+              v-if="isAndroid || (!isAndroid && !isIos)"
+              icon="android"
+              type="dark"
+              content="Android"
+              class="mr-2 w-28"
+              @click.native="download('android')"
+            />
+            <CustomButton
+              v-if="isAndroid || (!isAndroid && !isIos)"
+              icon="googleplay"
+              type="dark"
+              content="Google Play"
+              class="px-4"
+              @click.native="download('googlePlay')"
+            />
+          </div>
+          <div class="flex item-center justify-center mt-4">
+            <CustomButton
+              new-tag
+              icon="chrome"
+              type="dark"
+              content="Chrome Extension"
+              class="px-5"
+              @click.native="download('android')"
+            />
+          </div>
         </div>
       </div>
     </div>
@@ -141,25 +153,6 @@ export default {
     }
   },
   methods: {
-    async viewRecord(action) {
-      await this.$axios.$post('/page/view', {
-        web_uri: location.href,
-        source: this.$route.query.source || '',
-        action: action || 'HOMEPAGE'
-      })
-    },
-    download(platform) {
-      if (platform === 'ios') {
-        window.open('https://apps.apple.com/app/foxwallet-crypto-web3/id1590983231')
-        this.viewRecord('IOS')
-      } else if (platform === 'android') {
-        window.location.href = 'https://cdn-pkg.foxnb.net/app_image/package/foxwallet_release.apk'
-        this.viewRecord('ANDROID')
-      } else if (platform === 'googlePlay') {
-        window.open('https://play.google.com/store/apps/details?id=com.foxwallet.play')
-        this.viewRecord('GOOGLEPLAY')
-      }
-    },
     copyCode() {
       copy(this.code)
       this.copied = true
