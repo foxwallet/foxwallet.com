@@ -26,8 +26,7 @@ export const download = function(platform) {
     window.open('https://play.google.com/store/apps/details?id=com.foxwallet.play')
     this.viewRecord('GOOGLEPLAY')
   } else if (platform === 'chrome') {
-    // TODO  add chrome app store link
-    window.open('https://play.google.com/store/apps/details?id=com.foxwallet.play')
+    window.open('https://chromewebstore.google.com/detail/foxwallet/pmmnimefaichbcnbndcfpaagbepnjaig')
     this.viewRecord('CHROME')
   } else {
     window.open(`https://foxwallet.com/download/${this.$route.query.source ? '?source=' + this.$route.query.source : ''}`)
