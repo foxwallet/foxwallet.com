@@ -7,6 +7,7 @@ export default {
       title: 'Earn',
       coming: 'Coming Soon'
     },
+    openSource: 'Open Source',
     campaign: {
       title: 'Campaign'
     },
