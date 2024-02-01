@@ -102,7 +102,7 @@
               type="dark"
               content="Chrome Extension"
               class="px-5"
-              @click.native="download('android')"
+              @click.native="download('chrome')"
             />
           </div>
         </div>
