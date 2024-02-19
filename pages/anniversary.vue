@@ -55,7 +55,9 @@
     <div class="container mx-auto lg:px-16 xl:px-48 2xl:px-48">
       <!-- Join in Fox Credit -->
       <div class="mt-12">
-        <p class="text-4xl md:text-5xl text-yellow-100 font-medium">Join in Fox Credit</p>
+        <p class="text-4xl md:text-5xl text-yellow-100 font-medium">
+          Join in Fox Credit
+        </p>
         <p class="mt-2">
           <span class="text-white text-xl md:text-2xl font-normal">Prize Pool: </span>
           <span class="text-yellow-400 text-2xl md:text-3xl font-semibold">30,000U</span>
@@ -64,8 +66,12 @@
           <img src="@/assets/img/activity/foxCredit.png" class="w-full h-auto flex md:hidden" alt="Fox Credit">
           <img src="@/assets/img/activity/foxCreditPc.png" class="w-full h-auto hidden md:flex" alt="Fox Credit">
           <div class="flex font-medium text-sm mt-5">
-            <div class="bg-yellow-400 rounded text-gray-800 w-28 h-10 md:h-11 flex items-center justify-center cursor-pointer" @click="jumpWebsite('https://foxwallet.com/download')">Download</div>
-            <div class="text-white rounded border border-white w-28 h-10 md:h-11 flex items-center justify-center ml-5 cursor-pointer" @click="jumpWebsite('https://hc.foxwallet.com/blog/2nd-anniversary-tutorial')">Tutorial >></div>
+            <div class="bg-yellow-400 rounded text-gray-800 w-28 h-10 md:h-11 flex items-center justify-center cursor-pointer" @click="jumpWebsite('https://foxwallet.com/download')">
+              Download
+            </div>
+            <div class="text-white rounded border border-white w-28 h-10 md:h-11 flex items-center justify-center ml-5 cursor-pointer" @click="jumpWebsite('https://hc.foxwallet.com/blog/2nd-anniversary-tutorial')">
+              Tutorial >>
+            </div>
           </div>
         </div>
       </div>
