@@ -37,6 +37,7 @@ export default {
   .new-custom-button {
     position: relative;
     transition: 0.3s;
+    height: 44px;
   }
   .new-custom-button:hover {
     transform: scale(1.125);

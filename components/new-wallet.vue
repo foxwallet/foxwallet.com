@@ -1,14 +1,6 @@
 <template>
-  <div class="pb-36">
-    <!-- <div class="pagination-wrapper flex flex-row-reverse">
-      <div class="btn-arrow w-10 h-10 rounded-full flex items-center justify-center bg-brand text-black cursor-pointer ml-3 hover:opacity-60">
-        <i class="el-icon-arrow-right"></i>
-      </div>
-      <div class="btn-arrow w-10 h-10 rounded-full border border-white text-white flex items-center justify-center cursor-pointer hover:opacity-60">
-        <i class="el-icon-arrow-left"></i>
-      </div>
-    </div> -->
-    <div class="content-wrapper mx-auto flex">
+  <div>
+    <div class="content-wrapper mx-auto md:flex hidden pb-36">
       <div class="wallet-page mr-4">
         <img src="@/assets/new-img/wallet/Home.svg" alt="wallet home page" height="674" width="312" class="light">
         <img src="@/assets/new-img/wallet/Home-d.svg" alt="wallet home page" height="674" width="312" class="dark">
@@ -30,6 +22,28 @@
         <img src="@/assets/new-img/wallet/FoxCredit-d.svg" alt="wallet home page" height="674" width="312" class="dark">
       </div>
     </div>
+    <div class="ml-5 mt-20 flex md:hidden overflow-auto pb-20">
+      <div class="wallet-page-m mr-4">
+        <img src="@/assets/new-img/wallet/Home.svg" alt="wallet home page" width="230" height="498" class="light">
+        <!-- <img src="@/assets/new-img/wallet/Home-d.svg" alt="wallet home page" height="674" width="312" class="dark"> -->
+      </div>
+      <div class="wallet-page-m mr-4">
+        <img src="@/assets/new-img/wallet/Wallet.svg" alt="wallet home page" width="230" height="498" class="light">
+        <!-- <img src="@/assets/new-img/wallet/Wallet-d.svg" alt="wallet home page" height="674" width="312" class="dark"> -->
+      </div>
+      <div class="wallet-page-m mr-4">
+        <img src="@/assets/new-img/wallet/Discover.svg" alt="wallet home page" width="230" height="498" class="light">
+        <!-- <img src="@/assets/new-img/wallet/Discover-d.svg" alt="wallet home page" height="674" width="312" class="dark"> -->
+      </div>
+      <div class="wallet-page-m mr-4">
+        <img src="@/assets/new-img/wallet/Networks.svg" alt="wallet home page" width="230" height="498" class="light">
+        <!-- <img src="@/assets/new-img/wallet/Networks-d.svg" alt="wallet home page" height="674" width="312" class="dark"> -->
+      </div>
+      <div class="wallet-page-m mr-4">
+        <img src="@/assets/new-img/wallet/FoxCredit.svg" alt="wallet home page" width="230" height="498" class="light">
+        <!-- <img src="@/assets/new-img/wallet/FoxCredit-d.svg" alt="wallet home page" height="674" width="312" class="dark"> -->
+      </div>
+    </div>
   </div>
 </template>
 
@@ -44,6 +58,11 @@
     padding-top: 20px;
     position: relative;
     z-index: 2;
+  }
+  .wallet-page-m {
+    width: 230px;
+    height: 498px;
+    flex: 0 0 230px;
   }
   .wallet-page {
     width: 227px;

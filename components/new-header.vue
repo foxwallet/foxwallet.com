@@ -1,32 +1,45 @@
 
 <template>
-  <div class="flex items-center justify-between px-16 bg-black text-white h-16">
-    <div class="flex items-center">
-      <div class="mr-16 cursor-pointer hover:opacity-80">
-        <img src="@/assets/new-img/logo.svg" alt="logo">
+  <div>
+    <div class="hidden md:flex items-center justify-between px-16 bg-black text-white h-16">
+      <div class="flex items-center">
+        <div class="mr-16 cursor-pointer hover:opacity-80">
+          <img src="@/assets/new-img/logo.svg" alt="logo">
+        </div>
+        <div class="text-bold">
+          <el-tooltip class="item" effect="dark" :content="$t('nav.earn.coming')" placement="bottom">
+            <span class="tab-item text-xs lg:text-sm mr-2 lg:mr-6 hover:opacity-60 cursor-pointer">{{ $t("nav.earn.title") }}</span>
+          </el-tooltip>
+          <a href="https://hc.foxwallet.com/docs" target="_blank" class="tab-item text-xs lg:text-sm mr-2 lg:mr-6">
+            {{ $t("nav.support.title") }}
+          </a>
+          <a href="https://hc.foxwallet.com/blog" target="_blank" class="tab-item text-xs lg:text-sm mr-2 lg:mr-6">
+            {{ $t("nav.blog.title") }}
+          </a>
+          <a href="https://foxwallet.com/download" target="_blank" class="tab-item text-xs lg:text-sm mr-2 lg:mr-6">
+            {{ $t("nav.download.title") }}
+          </a>
+        </div>
       </div>
-      <div class="text-bold">
-        <el-tooltip class="item" effect="dark" :content="$t('nav.earn.coming')" placement="bottom">
-          <span class="tab-item text-xs lg:text-sm mr-2 lg:mr-6 hover:opacity-60 cursor-pointer">{{ $t("nav.earn.title") }}</span>
-        </el-tooltip>
-        <a href="https://hc.foxwallet.com/docs" target="_blank" class="tab-item text-xs lg:text-sm mr-2 lg:mr-6">
-          {{ $t("nav.support.title") }}
-        </a>
-        <a href="https://hc.foxwallet.com/blog" target="_blank" class="tab-item text-xs lg:text-sm mr-2 lg:mr-6">
-          {{ $t("nav.blog.title") }}
-        </a>
-        <a href="https://foxwallet.com/download" target="_blank" class="tab-item text-xs lg:text-sm mr-2 lg:mr-6">
-          {{ $t("nav.download.title") }}
-        </a>
+      <div class="">
+        <NewCommunityIcon />
       </div>
     </div>
-    <div class="">
-      <NewCommunityIcon />
+    <div class="md:hidden flex text-white font-bold text-xl mobile-header items-center px-6 justify-between">
+      <div class="logo">
+        <img src="@/assets/new-img/logo.svg" alt="logo">
+      </div>
+      <div class="more">
+        <img src="@/assets/new-img/menu.svg" alt="menu">
+      </div>
     </div>
   </div>
 </template>
 
 <style scoped>
+  .mobile-header  {
+    height: 74px;
+  }
   .tab-item {
     position: relative;
     padding-top: 6px;
