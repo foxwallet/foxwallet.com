@@ -1,5 +1,5 @@
 <template>
-  <div class="bg-black px-32 pb-36">
+  <div class="pb-36">
     <div class="partner-wrapper mx-auto">
       <div class="text-8xl font-bold text-center text-white mb-20">
         Partner

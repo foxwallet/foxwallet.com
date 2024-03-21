@@ -17,7 +17,7 @@ export default {
     }
   },
   mounted() {
-    this.viewRecord()
+    // this.viewRecord()
   },
   methods: {
     changeHeaderShow(show) {
@@ -26,3 +26,9 @@ export default {
   }
 }
 </script>
+
+<style>
+  html, body {
+    background: #000000;
+  }
+</style>

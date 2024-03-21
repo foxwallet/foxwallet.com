@@ -1,5 +1,5 @@
 <template>
-  <div class="bg-black px-32 pb-36">
+  <div class="pb-36">
     <div class="ad-wrapper mx-auto">
       <div class="text-8xl font-bold text-center text-white mb-20">
         Our <span class="text-brand">Advantages</span>
@@ -9,8 +9,7 @@
           <AdCard icon="01" title="Security as a Priority" content="FoxWallet is well aware of the importance of security, so it adopts a local encryption method to store private keys to ensure the absolute safety of users' assets and data, completely eliminating external access and potential data leakage risks.">
             <img src="@/assets/new-img/advantages/01.svg" alt="01">
           </AdCard>
-
-          <img src="@/assets/new-img/advantages/05.svg" alt="main">
+          <MainBanner />
           <AdCard icon="02" title="Transparent Auditing" content="In order to enhance credibility, FoxWallet's source code is completely open to the outside world and has undergone strict third-party security audits. These measures reflect our commitment to security and transparency.">
             <img src="@/assets/new-img/advantages/02.svg" alt="01">
           </AdCard>

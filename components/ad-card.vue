@@ -1,5 +1,5 @@
 <template>
-  <div class="border cursor-pointer rounded border-opacity-40 border-white w-96 ad-card">
+  <div class="border cursor-pointer rounded border-opacity-40 border-white w-96 ad-card hover:border-opacity-75">
     <div class="pt-4 pl-4">
       <slot></slot>
     </div>
@@ -32,13 +32,16 @@ export default {
 </script>
 
 <style scoped>
+  .ad-card {
+    height: 600px;
+  }
   .ad-card .ad-body{
-    height: 298px
+    height: 359px;
   }
   .ad-card .ad-title,
   .ad-card .ad-body,
   .ad-card .ad-content{
-    transition: 0.3s;
+    transition: 0.6s ease;
   }
   .ad-card:hover .ad-title,
   .ad-card:hover .ad-content {

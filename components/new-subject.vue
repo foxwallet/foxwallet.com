@@ -1,21 +1,25 @@
 <template>
-  <div>
-    <div class="items-center hidden md:flex flex-col bg-black pt-40 pb-36 text-white mx-auto">
-      <div class="text-8xl font-bold flex items-center">
-        <div>Your First </div>
-        <span class="letter">&nbsp;</span>
-        <div
-          class="print-wrapper flex text-brand"
-        >
-          <span v-for="(l,i) in printLetters" :key="i" class="letter" v-html="l"></span>
+  <div class="subject-wrapper">
+    <div class="text-white mx-auto">
+      <div class="shadow shadow-l"></div>
+      <div class="shadow shadow-r"></div>
+      <div class="subject-content flex-col flex items-center justify-center min-h-screen">
+        <div class="flex items-center main-title">
+          <div>Your First </div>
+          <span class="letter">&nbsp;</span>
+          <div
+            class="print-wrapper flex text-brand"
+          >
+            <span v-for="(l,i) in printLetters" :key="i" class="letter" v-html="l"></span>
+          </div>
         </div>
-      </div>
-      <div class="mt-3 text-center text-2xl font-normal animate__animated animate__fadeInDown animate__delay-1s">
-        <p>Best Multi-chain Web3 Wallet / Private & Secure /</p>
-        <p>Decentralized & Flexible</p>
-      </div>
-      <div>
-        <NewDownload />
+        <div class="mt-3 text-center sub-title animate__animated animate__fadeInDown animate__delay-1s">
+          <p>Best Multi-chain Web3 Wallet / Private & Secure /</p>
+          <p>Decentralized & Flexible</p>
+        </div>
+        <div class="text-center mt-20">
+          <NewDownload />
+        </div>
       </div>
     </div>
   </div>
@@ -60,77 +64,53 @@ export default {
 .print-wrapper {
   animation: blink-caret 0.75s step-end infinite;
 }
-/* 光标闪啊闪 */
 @keyframes blink-caret {
   from, to { box-shadow: 1px 0 0 0 transparent; }
   50% { box-shadow: 1px 0 0 0; }
 }
-.box {
-  aspect-ratio: 2.5 / 1;
-  background: url('@/assets/img/home/line-box.png');
-  background-size: 100%;
-  background-position: bottom;
-  background-repeat: no-repeat;
+.subject-wrapper {
   position: relative;
 }
-.mobile-person {
-  width: 80%;
-  margin-left: 10%;
+.subject-content {
+  z-index: 1;
 }
-.person-box {
+.main-title {
+  font-family: 'Poppins-Bold';
+  font-size: 100px;
+  line-height: 150px;
+  font-weight: 700;;
+}
+.sub-title {
+  font-size: 26px;
+  line-height: 39px;
+  font-weight:400;
+}
+.download-wrapper {
+  width: 100%;
+  display: flex;
+  align-items: center;
+}
+
+.shadow {
+  background: rgba(18, 254, 116, 0.9);
+  opacity: .3;
+  filter: blur(150px);
+  height: 637px;
+  width: 637px;
+  border-radius: 100%;
+  z-index: 1;
+}
+
+.shadow-l {
   position: absolute;
-  right: 13%;
-  bottom: 15%;
-  aspect-ratio: 1.1 / 1;
+  left: -220px;
+  top: 0;
 }
-.btc-icon {
+
+.shadow-r {
   position: absolute;
-  left: 13%;
-  bottom: 28%;
+  right: -220px;
+  bottom: -400px;
 }
-.eth-icon {
-  position: absolute;
-  bottom: 38%;
-  left: -2%;
-}
-.usdt-icon {
-  position: absolute;
-  bottom: 20%;
-  left: -5%;
-}
-.btc-icon-mobile {
-  position: absolute;
-  left: 20%;
-  bottom: 28%;
-}
-.eth-icon-mobile {
-  position: absolute;
-  bottom: 32%;
-  left: 10%;
-}
-.usdt-icon-mobile {
-  position: absolute;
-  bottom: 20%;
-  left: 7%;
-}
-@keyframes move {
-    0% {
-        transform: translate(0px, 0px);
-    }
-    50% {
-        transform: translate(0px, -10px);
-    }
-    100% {
-        transform: translate(0px, 0px);
-    }
-}
-.btc-move{
-  animation: move 3s infinite;
-}
-.etc-move{
-  animation: move 2s infinite;
-}
-.usdt-move{
-  animation: move 4s infinite;
-}
+
 </style>
