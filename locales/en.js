@@ -46,7 +46,7 @@ export default {
       feature2: 'Private & Secure',
       feature3: 'Decentralized & Flexible'
     },
-    invite: 'Invitation Code:',
+    invite: 'Invitation Code',
     copy: 'Copy',
     guide: 'Invitation Guide',
     guide1: 'Download \n FoxWallet',
