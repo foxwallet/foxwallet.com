@@ -105,15 +105,18 @@
           Contact@foxwallet.com
         </a>
       </div>
-    </div>
-    <div class="mt-12 h-px bg-brand mx-5"></div>
-    <div class="text-center opacity-60 pt-4 pb-8 text-white">
-      @{{ new Date().getFullYear() }} FoxWallet—A consensys formation
+      <div class="mt-12 h-px bg-brand"></div>
+      <div class="text-center opacity-60 pt-4 pb-8 text-white">
+        @{{ new Date().getFullYear() }} FoxWallet—A consensys formation
+      </div>
     </div>
   </div>
 </template>
 
 <style scoped>
+  .logo-wrapper {
+    margin-bottom: 28px;
+  }
   .footer-item-m {
     margin-bottom: 30px;
   }

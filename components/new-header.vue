@@ -30,11 +30,31 @@
         <img src="@/assets/new-img/logo.svg" alt="logo">
       </div>
       <div class="more">
-        <img src="@/assets/new-img/menu.svg" alt="menu">
+        <img src="@/assets/new-img/menu.svg" alt="menu" :draggable="false" @click="drawer = true">
       </div>
+      <el-drawer
+        :visible.sync="drawer"
+        :show-close="false"
+        :size="300"
+        direction="ttb"
+        custom-class="dark-menu"
+      >
+        <NewMenuMobile />
+      </el-drawer>
     </div>
   </div>
 </template>
+
+<script>
+export default {
+  name: 'NewHeader',
+  data() {
+    return {
+      drawer: false,
+    }
+  }
+}
+</script>
 
 <style scoped>
   .mobile-header  {

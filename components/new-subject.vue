@@ -87,7 +87,7 @@ export default {
 }
 @keyframes blink-caret {
   from, to { box-shadow: 1px 0 0 0 transparent; }
-  50% { box-shadow: 1px 0 0 0; }
+  50% { box-shadow: 1px 0px 0 0; }
 }
 .subject-wrapper {
   position: relative;
