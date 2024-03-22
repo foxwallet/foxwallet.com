@@ -81,6 +81,7 @@ export default {
 <style scoped>
 .print-wrapper-m {
   margin: 0 auto;
+  height: 75px;
 }
 .print-wrapper {
   animation: blink-caret 0.75s step-end infinite;

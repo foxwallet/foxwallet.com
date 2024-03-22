@@ -7,16 +7,16 @@
           <img src="@/assets/new-img/logo.svg" alt="logo">
         </div>
         <div class="text-bold">
-          <el-tooltip class="item" effect="dark" :content="$t('nav.earn.coming')" placement="bottom">
+          <!-- <el-tooltip class="item" effect="dark" :content="$t('nav.earn.coming')" placement="bottom">
             <span class="tab-item text-xs lg:text-sm mr-2 lg:mr-6 hover:opacity-60 cursor-pointer">{{ $t("nav.earn.title") }}</span>
-          </el-tooltip>
+          </el-tooltip> -->
           <a href="https://hc.foxwallet.com/docs" target="_blank" class="tab-item text-xs lg:text-sm mr-2 lg:mr-6">
             {{ $t("nav.support.title") }}
           </a>
           <a href="https://hc.foxwallet.com/blog" target="_blank" class="tab-item text-xs lg:text-sm mr-2 lg:mr-6">
             {{ $t("nav.blog.title") }}
           </a>
-          <a href="/download-v1" target="_blank" class="tab-item text-xs lg:text-sm mr-2 lg:mr-6">
+          <a href="/download" target="_blank" class="tab-item text-xs lg:text-sm mr-2 lg:mr-6">
             {{ $t("nav.download.title") }}
           </a>
         </div>
@@ -35,7 +35,7 @@
       <el-drawer
         :visible.sync="drawer"
         :show-close="false"
-        :size="300"
+        :size="240"
         direction="ttb"
         custom-class="dark-menu"
       >
