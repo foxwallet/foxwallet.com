@@ -12,8 +12,8 @@
         <MainBanner />
       </div>
 
-      <div class="mt-5">
-        <img src="@/assets/new-img/logo.svg" alt="logo">
+      <div class="my-10 flex justify-center">
+        <img src="@/assets/new-img/logo-text.svg" alt="logo">
       </div>
 
       <div class="mt-5 flex flex-wrap justify-between card-list">
