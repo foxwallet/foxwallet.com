@@ -1,14 +1,14 @@
 <template>
-  <div class="mx-auto max-w-3x min-h-screen text-white">
-    <div class="container main-wrapper">
+  <div class="min-h-screen text-white">
+    <div class="mx-auto main-wrapper">
       <div class="flex flex-col main-title-m text-center pt-7">
-        <div>Your First </div>
+        <div>{{ $t('main.title') }} </div>
         <div class="print-wrapper print-wrapper-m flex text-brand">
           <span v-for="(l,i) in printLetters" :key="i" class="letter" v-html="l"></span>
         </div>
       </div>
 
-      <div class="mt-20">
+      <div class="mt-10 flex justify-center">
         <MainBanner />
       </div>
 
@@ -18,37 +18,33 @@
 
       <div class="mt-5 flex flex-wrap justify-between card-list">
         <div class="card-item">
-          <AdCard mode="tiny" title="Security as a Priority">
+          <AdCardDownload mode="tiny" :title="$t('advantages.ad1.title')">
             <img src="@/assets/new-img/advantages/01.svg" alt="01" width="60" height="60">
-          </AdCard>
+          </AdCardDownload>
         </div>
         <div class="card-item">
-          <AdCard mode="tiny" title="Transparent Auditing">
+          <AdCardDownload mode="tiny" :title="$t('advantages.ad2.title')">
             <img src="@/assets/new-img/advantages/02.svg" alt="01" width="60" height="60">
-          </AdCard>
+          </AdCardDownload>
         </div>
+      </div>
+      <div class="mt-5 flex flex-wrap justify-between card-list">
         <div class="card-item">
-          <AdCard mode="tiny" title="Comprehensive chain support">
+          <AdCardDownload mode="tiny" :title="$t('advantages.ad3.title')">
             <img src="@/assets/new-img/advantages/03.svg" alt="01" width="60" height="60">
-          </AdCard>
+          </AdCardDownload>
         </div>
         <div class="card-item">
-          <AdCard mode="tiny" title="Trusted by users" content="FoxWallet is well aware of the importance of security, so it adopts a local encryption method to store private keys to ensure the absolute safety of users' assets and data, completely eliminating external access and potential data leakage risks.">
+          <AdCardDownload mode="tiny" :title="$t('advantages.ad4.title')">
             <img src="@/assets/new-img/advantages/04.svg" alt="01" width="60" height="60">
-          </AdCard>
+          </AdCardDownload>
         </div>
       </div>
-
-      <div v-if="code.length !== 10" class="mt-8">
-        <img src="@/assets/img/home/logo-icon.svg" class="w-36 p-3 border-2 border-gray-200 mx-auto rounded-2xl shadow-slate-200 shadow-lg" :draggable="false">
-        <img src="@/assets/img/home/logo-word.svg" class="h-3 mx-auto my-4" :draggable="false">
-        <div class="h-24"></div>
-      </div>
-      <div v-else class="mb-32">
+      <div v-if="code.length === 10" class="mb-32">
         <div class="flex items-center justify-between bg-white mt-4 p-4 rounded-md">
           <div class="flex items-center">
             <span class="code-title font-thin text-sm">{{ $t('download.invite') }}</span>
-            <span class="text-black text-xl font-mono font-bold ml-2">{{ code }}</span>
+            <span class="text-black text-sm font-semibold ml-2">{{ code }}</span>
           </div>
           <span class="bg-brand cursor-pointer rounded text-black hover:opacity-75 text-xs px-2 py-1" @click="copyCode">
             <template v-if="copied">
@@ -66,19 +62,19 @@
           <div class="flex justify-between">
             <div class="flex flex-col items-center justify-center text-xs text-white text-center w-1/3">
               <div class="flex justify-center items-center h-12">
-                <img src="@/assets/img/home/download.svg" class="w-8">
+                <img src="@/assets/new-img/guide/01.svg" height="30" width="30">
               </div>
               <span>Download <br> FoxWallet</span>
             </div>
             <div class="flex flex-col items-center justify-center text-xs text-white text-center w-1/3">
               <div class="flex justify-center items-center h-12">
-                <img src="@/assets/img/home/create.svg" class="w-6">
+                <img src="@/assets/new-img/guide/02.svg" height="30" width="30">
               </div>
               <span>Create or<br> Import</span>
             </div>
             <div class="flex flex-col items-center justify-center text-xs text-white text-center w-1/3">
               <div class="flex justify-center items-center h-12">
-                <img src="@/assets/img/home/insert.svg" class="w-7">
+                <img src="@/assets/new-img/guide/03.svg" height="30" width="30">
               </div>
               <span>Fill in the <br> invitation Code</span>
             </div>
@@ -86,10 +82,46 @@
         </div>
       </div>
     </div>
-    <div class="fixed bottom-0 left-0 right-0 bottom-download">
-      <div class="mx-auto max-w-3xl">
-        <div class="container mx-auto py-6">
-          <NewDownload />
+    <div class="fixed bottom-0 left-0 right-0 ">
+      <div class="mx-auto bottom-download">
+        <div class="mx-auto py-6">
+          <div class="flex justify-center items-center">
+            <NewCustomButton
+              mode="tiny"
+              icon="ios"
+              type="dark"
+              content="App Store"
+              class="mr-4"
+              @click.native="download('ios')"
+            />
+            <NewCustomButton
+              mode="tiny"
+              icon="android"
+              type="dark"
+              content="Android"
+              class="mr-4"
+              @click.native="download('android')"
+            />
+          </div>
+          <div class="mt-5 flex justify-center items-center">
+            <NewCustomButton
+              mode="tiny"
+              type="dark"
+              class="mr-4"
+              icon="googleplay"
+              content="Google Play"
+              @click.native="download('googlePlay')"
+            />
+            <NewCustomButton
+              new-tag
+              mode="tiny"
+              icon="chrome"
+              type="dark"
+              content="Chrome Extension"
+              class="mr-4"
+              @click.native="download('chrome')"
+            />
+          </div>
         </div>
       </div>
     </div>
@@ -181,14 +213,20 @@ export default {
 </style>
   <style scoped>
   .main-wrapper {
-    padding-bottom: 100px;
+    padding-bottom: 200px;
+    width: 375px;
   }
 
   .print-wrapper-m {
     margin: 0 auto;
+    height: 75px;
   }
   .print-wrapper {
     animation: blink-caret 0.75s step-end infinite;
+  }
+  @keyframes blink-caret {
+    from, to { box-shadow: 1px 0 0 0 transparent; }
+    50% { box-shadow: 1px 0px 0 0; }
   }
   .main-title-m {
     font-family: 'Poppins-Bold';
@@ -204,6 +242,7 @@ export default {
   .bottom-download {
     background-color: #121212;
     z-index: 1;
+    width: 375px;
   }
   .code-title {
     color: #777E90;

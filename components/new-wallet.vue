@@ -63,6 +63,8 @@
     width: 230px;
     height: 498px;
     flex: 0 0 230px;
+    scroll-snap-align: start;
+    scroll-snap-stop: always;
   }
   .wallet-page {
     width: 227px;

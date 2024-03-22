@@ -20,7 +20,7 @@ export default {
         { name: 'earn', link: 'https://foxwallet.com/activity' },
         { name: 'support', link: 'https://hc.foxwallet.com/docs' },
         { name: 'blog', link: 'https://hc.foxwallet.com/blog' },
-        { name: 'download', link: 'https://foxwallet.com/download' }
+        { name: 'download', link: '/download-v1' }
       ]
     }
   }

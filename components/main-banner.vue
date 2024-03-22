@@ -1,15 +1,6 @@
 <template>
   <div class="main-banner-wrapper">
-    <div class="main-banner md:block hidden">
-      <img class="main-icon" src="@/assets/new-img/advantages/main.svg" alt="main">
-      <img class="btc-move btc-icon" src="@/assets/new-img/advantages/btc.svg" alt="btc">
-      <img class="eth-move eth-icon" src="@/assets/new-img/advantages/eth.svg" alt="eth">
-      <img class="l-star-1" src="@/assets/new-img/advantages/l-star-1.svg" alt="star-1">
-      <img class="l-star-2" src="@/assets/new-img/advantages/l-star-2.svg" alt="star-2">
-      <img class="r-star-2" src="@/assets/new-img/advantages/r-star-2.svg" alt="star-2">
-      <img class="r-star-1" src="@/assets/new-img/advantages/r-star-1.svg" alt="star-1">
-    </div>
-    <div class="main-banner-m md:hidden block">
+    <div class="main-banner-m">
       <img class="main-icon-m" src="@/assets/new-img/advantages/main.svg" alt="main">
       <img class="btc-move btc-icon-m" src="@/assets/new-img/advantages/btc.svg" alt="btc">
       <img class="eth-move eth-icon-m" src="@/assets/new-img/advantages/eth.svg" alt="eth">
@@ -23,15 +14,13 @@
 
 <style scoped>
 
-    .main-banner {
-        position: relative;
-        width: 386px;
-        height: 600px;
+    .main-banner-wrapper {
+        width: 355px;
+        height: 260px;
+        padding-top: 56px;
     }
     .main-banner-m {
        position: relative;
-       width: 355px;
-       height: 260px;
        margin: 0 auto;
     }
 

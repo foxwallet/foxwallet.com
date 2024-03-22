@@ -16,7 +16,7 @@
           <a href="https://hc.foxwallet.com/blog" target="_blank" class="tab-item text-xs lg:text-sm mr-2 lg:mr-6">
             {{ $t("nav.blog.title") }}
           </a>
-          <a href="https://foxwallet.com/download" target="_blank" class="tab-item text-xs lg:text-sm mr-2 lg:mr-6">
+          <a href="/download-v1" target="_blank" class="tab-item text-xs lg:text-sm mr-2 lg:mr-6">
             {{ $t("nav.download.title") }}
           </a>
         </div>

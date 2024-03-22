@@ -5,7 +5,7 @@
       <div class="shadow shadow-r"></div>
       <div class="subject-content flex-col flex items-center justify-center min-h-screen">
         <div class="flex items-center main-title">
-          <div>Your First </div>
+          <div>{{ $t('main.title') }} </div>
           <span class="letter">&nbsp;</span>
           <div
             class="print-wrapper flex text-brand"
@@ -26,7 +26,7 @@
       <div class="shadow-m shadow-m-l"></div>
       <div class="shadow-m shadow-m-r"></div>
       <div class="flex flex-col main-title-m">
-        <div>Your First </div>
+        <div>{{ $t('main.title') }} </div>
         <div class="print-wrapper print-wrapper-m flex text-brand">
           <span v-for="(l,i) in printLetters" :key="i" class="letter" v-html="l"></span>
         </div>

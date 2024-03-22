@@ -1,7 +1,11 @@
 <template>
   <div
-    class="new-custom-button py-3 px-5 text-xs lg:text-sm flex justify-center items-center cursor-pointer text-center rounded-sm"
-    :class="type === 'light' ? 'button-light bg-black text-white border border-white' : 'button-dark bg-brand text-black'"
+    class="new-custom-button py-3 px-5 flex justify-center items-center cursor-pointer text-center rounded-sm"
+    :class="{
+      'button-light bg-black text-white border border-white': type === 'light',
+      'button-dark bg-brand text-black': type !== 'light',
+      'text-xs': mode === 'tiny'
+    }"
   >
     <div v-if="newTag" class="tag tag-new">
       <img src="@/assets/new-img/tag-new.svg" class="h-5.5" :draggable="false">
@@ -13,6 +17,10 @@
 <script>
 export default {
   props: {
+    mode: {
+      type: String,
+      default: 'normal'
+    },
     icon: {
       type: String,
       default: '',

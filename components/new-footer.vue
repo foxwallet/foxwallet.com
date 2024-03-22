@@ -1,12 +1,12 @@
 <template>
   <div>
-    <div class="text-white px-32 py-5 md:block hidden">
+    <div class="text-white py-5 md:block hidden">
       <div class="content-wrapper mx-auto">
         <div class="flex justify-between">
           <div class="pt-9">
             <img src="@/assets/new-img/logo.svg" alt="logo">
             <div class="text-xl mt-3">
-              Leading you to the world of Web3
+              {{ $t('footer.title') }}
             </div>
           </div>
           <div>
@@ -61,7 +61,7 @@
       <div class="logo-wrapper">
         <img src="@/assets/new-img/logo.svg" alt="logo">
         <div class="text-xl mt-3">
-          Leading you to the world of Web3
+          {{ $t('footer.title') }}
         </div>
       </div>
       <div class="footer-item-m">
