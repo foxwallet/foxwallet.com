@@ -46,7 +46,7 @@ export default {
       feature2: 'Private & Secure',
       feature3: 'Decentralized & Flexible'
     },
-    invite: 'Invitation Code:',
+    invite: 'Invitation Code',
     copy: 'Copy',
     guide: 'Invitation Guide',
     guide1: 'Download \n FoxWallet',
@@ -116,5 +116,33 @@ export default {
     partners: {
       title: 'Partners'
     }
+  },
+  advantages: {
+    ad1: {
+      title: 'Security First',
+      desp: 'FoxWallet places a strong emphasis on security. We ensure the safety of users\' assets and data by encrypting stored private keys locally, preventing unauthorized access and potential data breaches.'
+    },
+    ad2: {
+      title: 'Transparent and Audited',
+      desp: 'FoxWallet is transparent about its operations. We partially share our original code and undergo thorough security audits by third-party experts, demonstrating our commitment to security and transparency. '
+    },
+    ad3: {
+      title: 'Wide-ranging Blockchain Support',
+      desp: 'FoxWallet seamlessly integrates with over 65 popular blockchain networks such as Bitcoin, Ethereum, Solana, and provides comprehensive support for NFTs and the ERC20 standard. This allows us to meet the diverse asset management needs of our users.'
+    },
+    ad4: {
+      title: 'Proven Trust',
+      desp: 'FoxWallet has earned the trust of over a million users, including communities like Filecoin, Iron Fish, and Spacemesh. Project teams within these communities appreciate our reliability and professionalism.'
+    },
+    ad5: {
+      title: 'Enhanced Security Features',
+      desp: 'FoxWallet offers advanced security features such as automatic identification and blocking of phishing websites, verification of high-risk signatures, and monitoring of token authorizations. These features provide robust protection for user assets.'
+    },
+  },
+  main: {
+    title: 'Your Go-To'
+  },
+  footer: {
+    title: 'Your Go-To Web3 Wallet'
   }
 }

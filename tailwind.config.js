@@ -30,6 +30,7 @@ module.exports = {
         '31/100': '31%',
       },
       colors: {
+        brand: '#12FE74',
         primary: {
           500: '#FB741E',
           700: '#409EFF',
