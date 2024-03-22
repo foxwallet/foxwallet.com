@@ -1,7 +1,7 @@
 <template>
   <div style="height:100%">
     <div class="border cursor-pointer rounded border-opacity-40 border-white w-96 ad-card hover:border-opacity-75 hidden md:block">
-      <div class="pt-4 pl-4">
+      <div class="pt-4 pl-4 pb-4">
         <slot></slot>
       </div>
       <div class="ad-body pt-0.5">
@@ -74,7 +74,7 @@ export default {
     height: 600px;
   }
   .ad-card .ad-body{
-    height: 359px;
+    height: 343px;
   }
   .ad-card .ad-title,
   .ad-card .ad-body,
