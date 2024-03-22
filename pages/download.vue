@@ -1,54 +1,52 @@
 <template>
-  <div class="mx-auto max-w-3xl">
-    <div class="container">
-      <Logo class="mt-4" class-name="h-9" />
-      <div class="mt-4" style="background:linear-gradient(to left, transparent, #b6b6b6, transparent); height: 1px"></div>
-      <div class="flex items-center justify-center font-extrabold mt-4">
-        <div v-for="item, index in mobileWords1" :key="index" class="text-2xl">
-          {{ item }}
-          <div v-if="item === ' '" class="w-3"></div>
+  <div class="min-h-screen text-white">
+    <div class="mx-auto main-wrapper">
+      <div class="flex flex-col main-title-m text-center pt-7">
+        <div>{{ $t('main.title') }} </div>
+        <div class="print-wrapper print-wrapper-m flex text-brand">
+          <span v-for="(l,i) in printLetters" :key="i" class="letter" v-html="l"></span>
         </div>
       </div>
 
-      <div class="flex items-center justify-center font-bold">
-        <div v-for="item, index in mobileWords2" :key="index" class="text-2xl">
-          {{ item }}
-          <div v-if="item === ' '" class="w-3"></div>
+      <div class="mt-10 flex justify-center">
+        <MainBanner />
+      </div>
+
+      <div class="mt-5">
+        <img src="@/assets/new-img/logo.svg" alt="logo">
+      </div>
+
+      <div class="mt-5 flex flex-wrap justify-between card-list">
+        <div class="card-item">
+          <AdCardDownload mode="tiny" :title="$t('advantages.ad1.title')">
+            <img src="@/assets/new-img/advantages/01.svg" alt="01" width="60" height="60">
+          </AdCardDownload>
+        </div>
+        <div class="card-item">
+          <AdCardDownload mode="tiny" :title="$t('advantages.ad2.title')">
+            <img src="@/assets/new-img/advantages/02.svg" alt="01" width="60" height="60">
+          </AdCardDownload>
         </div>
       </div>
-
-      <div class="pt-8 relative">
-        <img class="mobile-person" src="@/assets/img/home/person.png" draggable="false">
-        <img class="w-10 btc-icon-mobile btc-move" src="@/assets/img/home/btc.png" draggable="false">
-        <img class="w-8 eth-icon-mobile etc-move" src="@/assets/img/home/eth.png" draggable="false">
-        <img class="w-6 usdt-icon-mobile usdt-move" src="@/assets/img/home/usdt.png" draggable="false">
-        <img src="@/assets/img/home/line-box-mobile.png" class="w-full absolute -bottom-8">
+      <div class="mt-5 flex flex-wrap justify-between card-list">
+        <div class="card-item">
+          <AdCardDownload mode="tiny" :title="$t('advantages.ad3.title')">
+            <img src="@/assets/new-img/advantages/03.svg" alt="01" width="60" height="60">
+          </AdCardDownload>
+        </div>
+        <div class="card-item">
+          <AdCardDownload mode="tiny" :title="$t('advantages.ad4.title')">
+            <img src="@/assets/new-img/advantages/04.svg" alt="01" width="60" height="60">
+          </AdCardDownload>
+        </div>
       </div>
-
-      <div class="py-2 text-sm mb-4 mt-6 leading-6">
-        <h3 class="text-gray-600 text-center">
-          {{ $t('download.banner.feature1') }}
-        </h3>
-        <h3 class="text-gray-600 text-center">
-          {{ $t('download.banner.feature2') }}
-        </h3>
-        <h3 class="text-gray-600 text-center">
-          {{ $t('download.banner.feature3') }}
-        </h3>
-      </div>
-      <img src="@/assets/img/home/arrow-down.svg" class="w-3 mx-auto btc-move">
-      <div v-if="code.length !== 10" class="mt-8">
-        <img src="@/assets/img/home/logo-icon.svg" class="w-36 p-3 border-2 border-gray-200 mx-auto rounded-2xl shadow-slate-200 shadow-lg" :draggable="false">
-        <img src="@/assets/img/home/logo-word.svg" class="h-3 mx-auto my-4" :draggable="false">
-        <div class="h-24"></div>
-      </div>
-      <div v-else class="mb-32">
-        <div class="flex items-center justify-between bg-gray-100 mt-4 p-4 rounded-md">
+      <div v-if="code.length === 10">
+        <div class="flex items-center justify-between bg-white mt-4 p-4 rounded-md">
           <div class="flex items-center">
-            <span class="text-gray-400 font-thin text-sm">{{ $t('download.invite') }}</span>
-            <span class="text-primary-900 text-xl font-mono ml-2">{{ code }}</span>
+            <span class="code-title font-thin text-sm">{{ $t('download.invite') }}</span>
+            <span class="text-black text-sm font-semibold ml-2">{{ code }}</span>
           </div>
-          <span class="bg-primary-900 cursor-pointer rounded text-white hover:opacity-75 text-xs px-2 py-1" @click="copyCode">
+          <span class="bg-brand cursor-pointer rounded text-black hover:opacity-75 text-xs px-2 py-1" @click="copyCode">
             <template v-if="copied">
               <i class="el-icon-check px-2.5 font-bold"></i>
             </template>
@@ -57,68 +55,70 @@
             </template>
           </span>
         </div>
-        <h1 class="text-center text-xl mb-4 mt-8">
-          {{ $t('download.guide') }}
-        </h1>
-        <div class="bg-gray-100 rounded-md flex justify-between pb-4">
-          <div class="flex flex-col items-center justify-center text-xs text-gray-600 text-center w-1/3">
-            <div class="flex justify-center items-center h-12">
-              <img src="@/assets/img/home/download.svg" class="w-8">
-            </div>
-            <span>Download <br> FoxWallet</span>
+        <div class="rounded-md  pb-4 border mt-8 py-5 px-3">
+          <div class="guide-title text-brand mb-5">
+            Completion Guide
           </div>
-          <div class="flex flex-col items-center justify-center text-xs text-gray-600 text-center w-1/3">
-            <div class="flex justify-center items-center h-12">
-              <img src="@/assets/img/home/create.svg" class="w-6">
+          <div class="flex justify-between">
+            <div class="flex flex-col items-center justify-center text-xs text-white text-center w-1/3">
+              <div class="flex justify-center items-center h-12">
+                <img src="@/assets/new-img/guide/01.svg" height="30" width="30">
+              </div>
+              <span>Download <br> FoxWallet</span>
             </div>
-            <span>Create <br> and Import</span>
-          </div>
-          <div class="flex flex-col items-center justify-center text-xs text-gray-600 text-center w-1/3">
-            <div class="flex justify-center items-center h-12">
-              <img src="@/assets/img/home/insert.svg" class="w-7">
+            <div class="flex flex-col items-center justify-center text-xs text-white text-center w-1/3">
+              <div class="flex justify-center items-center h-12">
+                <img src="@/assets/new-img/guide/02.svg" height="30" width="30">
+              </div>
+              <span>Create or<br> Import</span>
             </div>
-            <span>Input <br> Invitation Code</span>
+            <div class="flex flex-col items-center justify-center text-xs text-white text-center w-1/3">
+              <div class="flex justify-center items-center h-12">
+                <img src="@/assets/new-img/guide/03.svg" height="30" width="30">
+              </div>
+              <span>Fill in the <br> invitation Code</span>
+            </div>
           </div>
         </div>
       </div>
     </div>
-    <div class="fixed bottom-0 left-0 right-0">
-      <div class="mx-auto max-w-3xl">
-        <div class="mt-4" style="background:linear-gradient(to left, transparent, #b6b6b6, transparent); height: 1px"></div>
-        <div class="container mx-auto py-6 bg-white">
-          <div class="flex item-center justify-between">
-            <CustomButton
-              v-if="isIos || (!isAndroid && !isIos)"
+    <div class="fixed bottom-0 left-0 right-0 ">
+      <div class="mx-auto bottom-download">
+        <div class="mx-auto py-6">
+          <div class="flex justify-center items-center">
+            <NewCustomButton
+              mode="tiny"
               icon="ios"
               type="dark"
               content="App Store"
-              class="mr-2 w-28"
+              class="mr-4"
               @click.native="download('ios')"
             />
-            <CustomButton
-              v-if="isAndroid || (!isAndroid && !isIos)"
+            <NewCustomButton
+              mode="tiny"
               icon="android"
               type="dark"
               content="Android"
-              class="mr-2 w-28"
+              class="mr-4"
               @click.native="download('android')"
             />
-            <CustomButton
-              v-if="isAndroid || (!isAndroid && !isIos)"
-              icon="googleplay"
+          </div>
+          <div class="mt-5 flex justify-center items-center">
+            <NewCustomButton
+              mode="tiny"
               type="dark"
+              class="mr-4"
+              icon="googleplay"
               content="Google Play"
-              class="px-4"
               @click.native="download('googlePlay')"
             />
-          </div>
-          <div class="flex item-center justify-center mt-4">
-            <CustomButton
+            <NewCustomButton
               new-tag
+              mode="tiny"
               icon="chrome"
               type="dark"
               content="Chrome Extension"
-              class="px-5"
+              class="mr-4"
               @click.native="download('chrome')"
             />
           </div>
@@ -138,6 +138,10 @@ export default {
       isIos = /(iPhone|iPad|iPod|iOS)/i.test(navigator.userAgent)
     }
     return {
+      letters: ['W', 'e', 'b', '3', '&nbsp;', 'W', 'a', 'l', 'l', 'e', 't'],
+      printLetters: [],
+      interval: null,
+      count: 0,
       localeCode: this.$i18n.locale,
       code: '',
       mobileWords1: ['L', 'e', 'a', 'd', 'i', 'n', 'g', ' ', 'y', 'o', 'u'],
@@ -148,11 +152,28 @@ export default {
     }
   },
   mounted() {
+    this.print()
     if (this.$route.query?.code) {
       this.code = this.$route.query?.code.substring(0, 10)
     }
   },
+  beforeUnmount() {
+    clearInterval(this.interval)
+  },
   methods: {
+    print() {
+      this.printLetters = []
+      this.count = 0
+      this.interval = setInterval(() => {
+        if (this.count > this.letters.length - 1) {
+          clearInterval(this.interval)
+          setTimeout(() => {
+            this.print()
+          }, 4000)
+        }
+        this.printLetters.push(this.letters[this.count++])
+      }, 150)
+    },
     async viewRecord(action) {
       await this.$axios.$post('/page/view', {
         web_uri: location.href,
@@ -185,44 +206,54 @@ export default {
   }
 }
 </script>
-<style scoped>
-.mobile-person {
-  width: 80%;
-  margin-left: 10%;
-}
-.btc-icon-mobile {
-  position: absolute;
-  left: 20%;
-  bottom: 28%;
-}
-.eth-icon-mobile {
-  position: absolute;
-  bottom: 32%;
-  left: 10%;
-}
-.usdt-icon-mobile {
-  position: absolute;
-  bottom: 20%;
-  left: 7%;
-}
-@keyframes move {
-    0% {
-        transform: translate(0px, 0px);
+<style>
+    html, body {
+        background-color: black;
     }
-    50% {
-        transform: translate(0px, -10px);
-    }
-    100% {
-        transform: translate(0px, 0px);
-    }
-}
-.btc-move{
-  animation: move 3s infinite;
-}
-.etc-move{
-  animation: move 2s infinite;
-}
-.usdt-move{
-  animation: move 4s infinite;
-}
 </style>
+  <style scoped>
+  .main-wrapper {
+    padding-bottom: 200px;
+    width: 375px;
+  }
+  .print-wrapper-m {
+    margin: 0 auto;
+    height: 75px;
+  }
+  .print-wrapper {
+    animation: blink-caret 0.75s step-end infinite;
+  }
+  @keyframes blink-caret {
+    from, to { box-shadow: 1px 0 0 0 transparent; }
+    50% { box-shadow: 1px 0px 0 0; }
+  }
+  .main-title-m {
+    font-family: 'Poppins-Bold';
+    font-size: 50px;
+    line-height: 75px;
+    font-weight: 700;
+  }
+  .guide-title {
+    font-size: 30px;
+    font-weight: 600;
+    line-height: 45px;
+  }
+  .bottom-download {
+    background-color: #121212;
+    z-index: 1;
+    width: 375px;
+  }
+  .code-title {
+    color: #777E90;
+  }
+  .card-list {
+    margin-right: -10px;
+  }
+  .card-item {
+    flex: 1;
+    min-width: 166px;
+    min-height: 126px;
+    margin-right: 10px;
+    margin-bottom: 10px;
+  }
+  </style>
