@@ -55,8 +55,8 @@
             </template>
           </span>
         </div>
-        <div class="rounded-md  pb-4 border mt-8 py-5 px-3">
-          <div class="guide-title text-brand mb-5">
+        <div class="pb-4 mt-8 py-5 px-3">
+          <div class="guide-title text-brand mb-5 text-center">
             Completion Guide
           </div>
           <div class="flex justify-between">
