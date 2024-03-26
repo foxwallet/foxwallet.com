@@ -1,8 +1,8 @@
 <template>
   <div>
-    <div class="partner-wrapper mx-auto md:block hidden pb-36">
+    <div class="partner-wrapper mx-auto md:block hidden pb-36" data-aos="fade-up" data-aos-duration="2000">
       <div class="text-8xl font-bold text-center text-white mb-20">
-        Partner
+        Partners
       </div>
       <div class="flex flex-wrap justify-center">
         <a
@@ -19,7 +19,7 @@
     </div>
     <div class="px-5 md:hidden block partner-wrapper-m">
       <div class="title-m text-center text-white mb-20">
-        Partner
+        Partners
       </div>
       <div class="flex flex-wrap justify-center">
         <a

@@ -1,6 +1,6 @@
 <template>
   <div>
-    <div class="content-wrapper mx-auto md:flex hidden pb-36">
+    <div class="content-wrapper mx-auto md:flex hidden pb-36" data-aos="fade-up" data-aos-duration="2000">
       <div class="wallet-page mr-4">
         <img src="@/assets/new-img/wallet/Home.svg" alt="wallet home page" height="674" width="312" class="light">
         <img src="@/assets/new-img/wallet/Home-d.svg" alt="wallet home page" height="674" width="312" class="dark">
