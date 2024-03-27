@@ -2,7 +2,7 @@
   <div>
     <NewHeader />
     <NewSubject />
-    <NewWallet />
+    <NewWalletAnimate />
     <NewAdvantages />
     <NewPartner />
     <NewFooter />
