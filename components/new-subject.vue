@@ -14,8 +14,9 @@
           </div>
         </div>
         <div class="mt-3 text-center sub-title animate__animated animate__fadeInDown animate__delay-1s">
-          <p>Best Multi-chain Web3 Wallet Private & Secure </p>
-          <p>Decentralized & Flexible</p>
+          <p>Leading Multi-Chain Wallet Solution</p>
+          <p>Private & Secure </p>
+          <p>Decentralized & Versatile </p>
         </div>
         <div class="text-center mt-20">
           <NewDownload />
@@ -32,9 +33,9 @@
         </div>
       </div>
       <div class="mt-3 text-center sub-title animate__animated animate__fadeInDown animate__delay-1s">
-        <p>Best Multi-chain Web3 Wallet</p>
-        <p> Private & Secure</p>
-        <p>Decentralized & Flexible</p>
+        <p>Leading Multi-Chain Wallet Solution</p>
+        <p>Private & Secure </p>
+        <p>Decentralized & Versatile </p>
       </div>
       <div class="text-center mt-20">
         <NewDownload />
