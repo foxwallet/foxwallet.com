@@ -108,7 +108,7 @@ export default {
       position: absolute;
       top: 120px;
       width: 227px;
-      transition: all 0.4s cubic-bezier(.29, 1.01, 1, -0.68);
+      transition: all 0.4s linear;
     }
     .wallet-page:nth-child(1) {
         left: 475px;
