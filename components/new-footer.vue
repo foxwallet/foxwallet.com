@@ -114,6 +114,9 @@
 </template>
 
 <style scoped>
+  .content-wrapper {
+    width: 1200px;
+  }
   .logo-wrapper {
     margin-bottom: 28px;
   }

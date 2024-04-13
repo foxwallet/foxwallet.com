@@ -84,7 +84,7 @@ export default {
 }
 </script>
 
-  <style>
+  <style scoped>
     .pagination-wrapper {
       width: 1200px;
       margin: 0 auto;
