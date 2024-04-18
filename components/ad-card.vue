@@ -1,27 +1,27 @@
 <template>
   <div style="height:100%">
-    <div class="border cursor-pointer rounded border-opacity-40 border-white w-96 ad-card hover:border-opacity-75 hidden md:block">
+    <div class="border cursor-pointer rounded border-opacity-40 border-white w-96 advantage-card hover:border-opacity-75 hidden md:block">
       <div class="pt-4 pl-4 pb-4">
         <slot></slot>
       </div>
-      <div class="ad-body pt-0.5">
-        <div class="text-3xl text-brand my-5 px-4 ad-title">
+      <div class="advantage-body pt-0.5">
+        <div class="text-3xl text-brand my-5 px-4 advantage-title">
           {{ title }}
         </div>
-        <div class="text-white mt-4 px-4 pb-4 ad-content">
+        <div class="text-white mt-4 px-4 pb-4 advantage-content">
           {{ content }}
         </div>
       </div>
     </div>
-    <div class="md:hidden block border rounded border-opacity-40 border-white ad-card-m">
+    <div class="md:hidden block border rounded border-opacity-40 border-white advantage-card-m">
       <div class="pt-4 pl-4">
         <slot></slot>
       </div>
       <div class="pt-0.5">
-        <div class="text-3xl text-brand my-5 px-4 ad-title-m" :class="mode === 'tiny' ? 'ad-title-tiny' : ''">
+        <div class="text-3xl text-brand my-5 px-4 advantage-title-m" :class="mode === 'tiny' ? 'advantage-title-tiny' : ''">
           {{ title }}
         </div>
-        <div v-if="mode === 'normal'" class="text-white mt-4 px-4 pb-4 ad-content-m">
+        <div v-if="mode === 'normal'" class="text-white mt-4 px-4 pb-4 advantage-content-m">
           {{ content }}
         </div>
       </div>
@@ -32,7 +32,7 @@
 <script>
 
 export default {
-  name: 'AdCard',
+  name: 'AdvantageCard',
   props: {
     mode: {
       type: String,
@@ -51,41 +51,41 @@ export default {
 </script>
 
 <style scoped>
-.ad-card-m {
+.advantage-card-m {
   height: 100%;
 }
-.ad-title-m {
+.advantage-title-m {
   font-size:32px;
   line-height: 48px;
   font-weight: 500;
 }
-.ad-title-tiny {
+.advantage-title-tiny {
   font-size: 16px;
   line-height: 24px;
   font-weight: 500;
   margin-top: 10px;
 }
-.ad-content-m {
+.advantage-content-m {
   font-size:18px;
   line-height: 27px;
   font-weight: 300;
 }
-  .ad-card {
+  .advantage-card {
     height: 600px;
   }
-  .ad-card .ad-body{
+  .advantage-card .advantage-body{
     height: 343px;
   }
-  .ad-card .ad-title,
-  .ad-card .ad-body,
-  .ad-card .ad-content{
+  .advantage-card .advantage-title,
+  .advantage-card .advantage-body,
+  .advantage-card .advantage-content{
     transition: 0.6s ease;
   }
-  .ad-card:hover .ad-title,
-  .ad-card:hover .ad-content {
+  .advantage-card:hover .advantage-title,
+  .advantage-card:hover .advantage-content {
     color: black;
   }
-  .ad-card:hover .ad-body {
+  .advantage-card:hover .advantage-body {
     background-color: #12FE74;
   }
 </style>

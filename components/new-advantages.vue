@@ -1,6 +1,6 @@
 <template>
   <div>
-    <div class="ad-wrapper mx-auto hidden md:block pb-36" data-aos="fade-up" data-aos-duration="2000">
+    <div class="advantage-wrapper mx-auto hidden md:block pb-36">
       <div class="text-8xl font-bold text-center text-white mb-20">
         Our <span class="text-brand">Strengths</span>
       </div>
@@ -9,7 +9,7 @@
           <AdCard :title="$t('advantages.ad1.title') " :content="$t('advantages.ad1.desp')">
             <img src="@/assets/new-img/advantages/01.svg" alt="01">
           </AdCard>
-          <div class="ad-card-banner">
+          <div class="advantage-card-banner">
             <MainBanner />
           </div>
           <AdCard :title="$t('advantages.ad2.title') " :content="$t('advantages.ad2.desp')">
@@ -70,7 +70,7 @@
 </template>
 
 <style scoped>
-  .ad-wrapper {
+  .advantage-wrapper {
     width: 1200px;
   }
 
@@ -80,7 +80,7 @@
     font-weight: 600;
     font-family: 'Poppins-Bold';
   }
-  .ad-card-banner {
+  .advantage-card-banner {
     margin-top: 170px;
   }
 </style>
