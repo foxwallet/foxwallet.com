@@ -112,7 +112,7 @@
               content="Google Play"
               @click.native="download('googlePlay')"
             />
-            <NewCustomButton
+            <!-- <NewCustomButton
               new-tag
               mode="tiny"
               icon="chrome"
@@ -120,7 +120,7 @@
               content="Chrome Extension"
               class="mr-4"
               @click.native="download('chrome')"
-            />
+            /> -->
           </div>
         </div>
       </div>
