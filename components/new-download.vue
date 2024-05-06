@@ -3,14 +3,14 @@
     <div class="hidden md:flex items-center text-white">
       <NewCustomButton icon="ios" type="dark" content="App Store" class="mr-4" @click.native="download('ios')" />
       <NewCustomButton icon="android" type="dark" content="Android" class="mr-4" @click.native="download('android')" />
-      <!-- <NewCustomButton
+      <NewCustomButton
         new-tag
         icon="chrome"
         type="dark"
         content="Chrome Extension"
         class="mr-4"
         @click.native="download('chrome')"
-      /> -->
+      />
       <NewCustomButton class="mr-4" icon="googleplay" content="Google Play" @click.native="download('googlePlay')" />
       <el-tooltip effect="dark" placement="bottom" type="primary">
         <div class="w-11 h-11 ml-4 p-1 flex justify-center items-center cursor-pointer hover:opacity-80 border border-white rounded-md">
@@ -25,14 +25,14 @@
     <div class="md:hidden block px-5 flex justify-center  flex-wrap">
       <NewCustomButton icon="ios" type="dark" content="App Store" class="mr-4 mb-4" @click.native="download('ios')" />
       <NewCustomButton icon="android" type="dark" content="Android" class="mr-4 mb-4" @click.native="download('android')" />
-      <!-- <NewCustomButton
+      <NewCustomButton
         new-tag
         icon="chrome"
         type="dark"
         content="Chrome Extension"
         class="mr-4 mb-4"
         @click.native="download('chrome')"
-      /> -->
+      />
       <NewCustomButton class="mr-4 mb-4" icon="googleplay" content="Google Play" @click.native="download('googlePlay')" />
     </div>
   </div>
