@@ -8,7 +8,54 @@
         </div>
       </div>
 
-      <div class="mt-10 flex justify-center">
+      <div v-if="code.length === 10">
+        <div class="border border-opacity-40 border-white mt-7 p-3 rounded-md">
+          <div class="text-center">
+            <div class="font-normal text-xs text-white mb-3">
+              {{ $t('download.invite') }}
+            </div>
+            <div class="text-brand text-lg font-semibold ml-2 flex items-center justify-center" @click="copyCode">
+              {{ code }}
+              <img src="@/assets/new-img/copy.svg" alt="copy" class="ml-2">
+            </div>
+          </div>
+          <div class="mt-3 bg-brand cursor-pointer rounded text-black hover:opacity-75 text-xs py-3 text-center" @click="copyCode">
+            <template v-if="copied">
+              {{ $t('download.copied') }}
+            </template>
+            <template v-else>
+              {{ $t('download.copy') }}
+            </template>
+          </div>
+        </div>
+        <div class="pb-4 mt-8 py-5 px-3">
+          <div class="guide-title text-brand mb-5 text-center">
+            Completion Guide
+          </div>
+          <div class="flex justify-between">
+            <div class="flex flex-col items-center justify-center text-xs text-white text-center w-1/3">
+              <div class="flex justify-center items-center h-12">
+                <img src="@/assets/new-img/guide/01.svg" height="30" width="30">
+              </div>
+              <span>Download <br> FoxWallet</span>
+            </div>
+            <div class="flex flex-col items-center justify-center text-xs text-white text-center w-1/3">
+              <div class="flex justify-center items-center h-12">
+                <img src="@/assets/new-img/guide/02.svg" height="30" width="30">
+              </div>
+              <span>Create or<br> Import</span>
+            </div>
+            <div class="flex flex-col items-center justify-center text-xs text-white text-center w-1/3">
+              <div class="flex justify-center items-center h-12">
+                <img src="@/assets/new-img/guide/03.svg" height="30" width="30">
+              </div>
+              <span>Fill in the <br> invitation Code</span>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div v-else class="mt-10 flex justify-center">
         <MainBanner />
       </div>
 
@@ -38,47 +85,6 @@
           <AdCardDownload mode="tiny" :title="$t('advantages.ad4.title')">
             <img src="@/assets/new-img/advantages/04.svg" alt="01" width="60" height="60">
           </AdCardDownload>
-        </div>
-      </div>
-      <div v-if="code.length === 10">
-        <div class="flex items-center justify-between bg-white mt-4 p-4 rounded-md">
-          <div class="flex items-center">
-            <span class="code-title font-thin text-sm">{{ $t('download.invite') }}</span>
-            <span class="text-black text-sm font-semibold ml-2">{{ code }}</span>
-          </div>
-          <span class="bg-brand cursor-pointer rounded text-black hover:opacity-75 text-xs px-2 py-1" @click="copyCode">
-            <template v-if="copied">
-              <i class="el-icon-check px-2.5 font-bold"></i>
-            </template>
-            <template v-else>
-              {{ $t('download.copy') }}
-            </template>
-          </span>
-        </div>
-        <div class="pb-4 mt-8 py-5 px-3">
-          <div class="guide-title text-brand mb-5 text-center">
-            Completion Guide
-          </div>
-          <div class="flex justify-between">
-            <div class="flex flex-col items-center justify-center text-xs text-white text-center w-1/3">
-              <div class="flex justify-center items-center h-12">
-                <img src="@/assets/new-img/guide/01.svg" height="30" width="30">
-              </div>
-              <span>Download <br> FoxWallet</span>
-            </div>
-            <div class="flex flex-col items-center justify-center text-xs text-white text-center w-1/3">
-              <div class="flex justify-center items-center h-12">
-                <img src="@/assets/new-img/guide/02.svg" height="30" width="30">
-              </div>
-              <span>Create or<br> Import</span>
-            </div>
-            <div class="flex flex-col items-center justify-center text-xs text-white text-center w-1/3">
-              <div class="flex justify-center items-center h-12">
-                <img src="@/assets/new-img/guide/03.svg" height="30" width="30">
-              </div>
-              <span>Fill in the <br> invitation Code</span>
-            </div>
-          </div>
         </div>
       </div>
     </div>
@@ -201,7 +207,7 @@ export default {
     copyCode() {
       copy(this.code)
       this.copied = true
-      setTimeout(() => { this.copied = false }, 2500)
+      // setTimeout(() => { this.copied = false }, 2500)
     }
   }
 }
