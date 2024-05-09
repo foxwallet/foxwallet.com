@@ -48,6 +48,7 @@ export default {
     },
     invite: 'Invitation Code',
     copy: 'Copy',
+    copied: 'Copied',
     guide: 'Invitation Guide',
     guide1: 'Download \n FoxWallet',
     guide2: 'Create \n and Import',
