@@ -16,7 +16,7 @@
             </div>
             <div class="text-brand text-lg font-semibold ml-2 flex items-center justify-center" @click="copyCode">
               {{ code }}
-              <img src="@/assets/new-img/copy.svg" alt="copy" class="ml-2">
+              <img src="@/assets/new-img/copy.svg" alt="copy" class="ml-2 cursor-pointer hover:opacity-75">
             </div>
           </div>
           <div class="mt-3 bg-brand cursor-pointer rounded text-black hover:opacity-75 text-xs py-3 text-center" @click="copyCode">
