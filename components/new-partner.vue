@@ -13,7 +13,7 @@
           :title="item.name"
           class="mr-6 mb-6"
         >
-          <img :src="item.img" class="cursor-pointer hover:opacity-75 rounded-full w-10" :draggable="false">
+          <img :src="item.img" class="cursor-pointer border hover:opacity-75 rounded-full w-10 h-10" :draggable="false">
         </a>
       </div>
     </div>
@@ -38,7 +38,7 @@
 </template>
 
 <script>
-import imgs from '@/constant/partner-item-img'
+import imgs from '@/constant/partner-list'
 export default {
   data() {
     return { imgs }
