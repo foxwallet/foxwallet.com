@@ -12,8 +12,11 @@
     <a class="hover:opacity-75 cursor-pointer mr-4" target="_blank" href="https://twitter.com/FoxWallet">
       <img src="@/assets/new-img/x.svg" alt="x">
     </a>
-    <a class="hover:opacity-75 cursor-pointer" target="_blank" href="https://medium.com/@FoxWallet">
+    <a class="hover:opacity-75 cursor-pointer mr-4" target="_blank" href="https://medium.com/@FoxWallet">
       <img src="@/assets/new-img/medium.svg" alt="medium">
+    </a>
+    <a class="hover:opacity-75 cursor-pointer" target="_blank" href="https://sociogram.org/FoxWallet">
+      <img src="@/assets/new-img/Sociogram.svg" alt="Sociogram">
     </a>
   </div>
 </template>

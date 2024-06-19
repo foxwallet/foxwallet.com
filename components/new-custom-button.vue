@@ -10,7 +10,7 @@
     <div v-if="newTag" class="tag tag-new">
       <img src="@/assets/new-img/tag-new.svg" class="h-5.5" :draggable="false">
     </div>
-    <img v-show="icon" :src="require('@/assets/new-img/'+icon+'.svg')" alt="download-qr-code" class="h-4 lg:h-6 mr-1" :draggable="false">
+    <img v-if="icon" :src="require('@/assets/new-img/'+icon+'.svg')" alt="download-qr-code" class="h-4 lg:h-6 mr-1" :draggable="false">
     <span>{{ content }}</span>
   </div>
 </template>

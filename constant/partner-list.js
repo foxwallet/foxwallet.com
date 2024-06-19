@@ -1,1057 +1,1177 @@
+import HashKey from '@/assets/img/new-partners/HashKey.png'
+import Plume from '@/assets/img/new-partners/Plume.jpeg'
+import lifiprotocol from '@/assets/img/new-partners/lifiprotocol.jpeg'
+import teamspacemesh from '@/assets/img/new-partners/teamspacemesh.png'
+import bob from '@/assets/img/new-partners/bob.jpeg'
+import injective from '@/assets/img/new-partners/injective.jpeg'
+import NibiruChain from '@/assets/img/new-partners/NibiruChain.jpeg'
+import AgentLayer from '@/assets/img/new-partners/Agent_Layer.jpeg'
+import Hotcoin from '@/assets/img/new-partners/Hotcoin.jpeg'
+import RYk4R6Lr from '@/assets/img/partners/RYk4R6Lr.jpeg'
+import erDLnbwE from '@/assets/img/partners/erDLnbwE.jpeg'
+import uoeUkeKe from '@/assets/img/partners/uoeUkeKe.jpeg'
+import Zbiz from '@/assets/img/partners/Zbiz.jpeg'
+import vx1hiBzW from '@/assets/img/partners/vx1hiBzW.jpg'
+import AU9jdrkG from '@/assets/img/partners/AU9jdrkG.jpeg'
+import xDiIFaKO from '@/assets/img/partners/xDiIFaKO.jpg'
+import jgl7dzv from '@/assets/img/partners/jgl7d_Zv.jpeg'
+import Nw28veUg from '@/assets/img/partners/Nw28veUg.jpeg'
+import bLhE1aY1 from '@/assets/img/partners/bLhE1aY1.jpeg'
+import wYIRFfIO from '@/assets/img/partners/wYIRFfIO.jpeg'
+import ZjTzBAS from '@/assets/img/partners/ZjT_zBAS.png'
+import VpGwiH6 from '@/assets/img/partners/VpGwiH6.jpeg'
+import rIZjmMt from '@/assets/img/partners/rIZjmMt.jpeg'
+import kxDDjheA from '@/assets/img/partners/kxDDjheA.jpeg'
+import Khrl4wJ from '@/assets/img/partners/Khrl4_wJ.jpeg'
+import JXGKFcO from '@/assets/img/partners/JXGKFcO.jpeg'
+import cBOOkgkn from '@/assets/img/partners/cBOOkgkn.jpeg'
+import XtSvEW6D from '@/assets/img/partners/XtSvEW6D.jpeg'
+import gY9hSgaR from '@/assets/img/partners/gY9hSgaR.jpeg'
+import e3CWTQrr from '@/assets/img/partners/e3CWTQrr.jpeg'
+import EIzI from '@/assets/img/partners/EIzI.jpeg'
+import meta2 from '@/assets/img/partners/meta2.png'
+import bitgert from '@/assets/img/partners/bitgert.jpeg'
+import asdgvvas from '@/assets/img/partners/asdgvvas.jpeg'
+import FcZmTDg from '@/assets/img/partners/FcZmTDg.jpeg'
+import bXJL from '@/assets/img/partners/bXJL.jpeg'
+import ljuE24vI from '@/assets/img/partners/ljuE24vI.jpeg'
+import bEWBFS from '@/assets/img/partners/bEWBFS.png'
+import dgtx from '@/assets/img/partners/dgtx.jpeg'
+import KC22gLOG from '@/assets/img/partners/KC22gLOG.jpeg'
+import Miqtvnk from '@/assets/img/partners/Miqtvnk.jpeg'
+import GINHYFc from '@/assets/img/partners/GINHYFc.png'
+import kjEAO from '@/assets/img/partners/kjEAO.jpeg'
+import iKNOqOLC from '@/assets/img/partners/iKNOqOLC.jpeg'
+import GGSq0mt from '@/assets/img/partners/GGSq0mt.png'
+import pIak4NCj from '@/assets/img/partners/pIak4NCj.jpeg'
+import Qg3tWFjR from '@/assets/img/partners/Qg3tWFjR.jpeg'
+import kFjKRTxZ from '@/assets/img/partners/kFjKRTxZ.jpeg'
+import M1UhTrUM from '@/assets/img/partners/M1UhTrUM.jpeg'
+import famswap from '@/assets/img/partners/famswap.png'
+import qNCwFLUt from '@/assets/img/partners/qNCwFLUt.jpeg'
+import ozfjWwA4 from '@/assets/img/partners/ozfjWwA4.png'
+import yf2HiM4c from '@/assets/img/partners/yf2HiM4c.png'
+import iUzHLDFY from '@/assets/img/partners/iUzHLDFY.jpeg'
+import N36vDNbB from '@/assets/img/partners/N36vDNbB.jpeg'
+import BRdcDIGD from '@/assets/img/partners/BRdcDIGD.jpeg'
+import y6mcNyJ from '@/assets/img/partners/y6mcNyJ.jpeg'
+import Ld7laD from '@/assets/img/partners/Ld7laD.jpeg'
+import foXZmNUZ from '@/assets/img/partners/foXZmNUZ.png'
+import xK6d4NF from '@/assets/img/partners/xK6d4NF.jpeg'
+import SuYVddl6 from '@/assets/img/partners/SuYVddl6.jpeg'
+import fj8ZeUUC from '@/assets/img/partners/fj8ZeUUC.jpeg'
+import vf5y91iX from '@/assets/img/partners/vf5y91iX.jpeg'
+import kpbGl2b from '@/assets/img/partners/kpbGl2b.jpeg'
+import T20rGs2O from '@/assets/img/partners/T20rGs2O.jpeg'
+import bksnd37Q from '@/assets/img/partners/bksnd37Q.png'
+import p17MSWQh from '@/assets/img/partners/p17MSWQh.jpeg'
+import KGGcrT from '@/assets/img/partners/KGGcrT.jpeg'
+import eKEAQ1FJ from '@/assets/img/partners/eKEAQ1FJ.jpeg'
+import pixGKE from '@/assets/img/partners/pixGKE.jpeg'
+import OLAgrey from '@/assets/img/partners/OLAgrey.png'
+import m53awHZl from '@/assets/img/partners/m53awHZl.jpeg'
+import D6JBV1hL from '@/assets/img/partners/D6JBV1hL.jpeg'
+import ra6xAcfO from '@/assets/img/partners/ra6xAcfO.jpeg'
+import NDdxwaKG from '@/assets/img/partners/NDdxwaKG.jpeg'
+import ldN5b4fu from '@/assets/img/partners/ldN5b4fu.png'
+import x29SNHSI from '@/assets/img/partners/x29SNHSI.jpeg'
+import owa5JY2Q from '@/assets/img/partners/owa5JY2Q.jpeg'
+import h9Uy6EBR from '@/assets/img/partners/h9Uy6EBR.jpeg'
+import qPpYWr7L from '@/assets/img/partners/qPpYWr7L.jpeg'
+import pc5jc from '@/assets/img/partners/pc5jc.png'
+import qaCYVHgJ from '@/assets/img/partners/qaCYVHgJ.jpeg'
+import b4m1B84Q from '@/assets/img/partners/b4m1B84Q.jpeg'
+import dPhcGeDA from '@/assets/img/partners/dPhcGeDA.jpeg'
+import kg4pV from '@/assets/img/partners/kg4pV.jpeg'
+import kMEmAOGy from '@/assets/img/partners/kMEmAOGy.jpeg'
+import uhNjXQ5q from '@/assets/img/partners/uhNjXQ5q.jpeg'
+import vLUHoB3G from '@/assets/img/partners/vLUHoB3G.png'
+import gHvFsV4Q from '@/assets/img/partners/gHvFsV4Q.jpeg'
+import kIqkTKdR from '@/assets/img/partners/kIqkTKdR.jpeg'
+import qK6fZn8r from '@/assets/img/partners/qK6fZn8r.jpeg'
+import vtBBdI6t from '@/assets/img/partners/vtBBdI6t.jpeg'
+import sadSvXln from '@/assets/img/partners/sadSvXln.jpeg'
+import wqTA6Dstyv from '@/assets/img/partners/wqTA6Dstyv.jpeg'
+import gWMisRaT from '@/assets/img/partners/gWMisRaT.jpeg'
+import jsCzrJobcu from '@/assets/img/partners/jsCzrJobcu.jpeg'
+import blG9VQw from '@/assets/img/partners/blG9VQw.jpeg'
+import whzxUt from '@/assets/img/partners/whzxUt.jpeg'
+import sPSDDu from '@/assets/img/partners/sPSDDu.png'
+import bbsdfsds from '@/assets/img/partners/bbsdfsds.jpeg'
+import apo78XrK from '@/assets/img/partners/apo78XrK.jpeg'
+import hH7KyDw from '@/assets/img/partners/hH7KyDw.png'
+import aYMPBcHq from '@/assets/img/partners/aYMPBcHq.jpeg'
+import c51asdqq from '@/assets/img/partners/c51asdqq.jpeg'
+import fl3RyAXc from '@/assets/img/partners/fl3RyAXc.jpeg'
+import r2MJADvX from '@/assets/img/partners/r2MJADvX.jpeg'
+import jfUQdjr from '@/assets/img/partners/jfUQdjr.jpeg'
+import ha0OuBt from '@/assets/img/partners/ha0OuBt.jpeg'
+import K2Z7bZCX from '@/assets/img/partners/K2Z7bZCX.jpeg'
+import kjpL6Cnx from '@/assets/img/partners/kjpL6Cnx.jpeg'
+import aWyFDMG6u from '@/assets/img/partners/aWyFDMG6u.png'
+import asdqqqs from '@/assets/img/partners/asdqqqs.jpeg'
+import aJjNMaN6W from '@/assets/img/partners/aJjNMaN6W.jpeg'
+import cGzQIEVX from '@/assets/img/partners/cGzQIEVX.png'
+import InjXBNx from '@/assets/img/partners/InjXBNx.jpeg'
+import yrghgrg from '@/assets/img/partners/yrghgrg.jpeg'
+import o059azs from '@/assets/img/partners/o059azs.jpeg'
+import aOwhiUU from '@/assets/img/partners/aOwhiUU.png'
+import y4j1hK from '@/assets/img/partners/y4j1hK.jpeg'
+import aALMnRaAP from '@/assets/img/partners/aALMnRaAP.jpeg'
+import cRMmnoAz from '@/assets/img/partners/cRMmnoAz.jpeg'
+import aFlare from '@/assets/img/partners/aFlare.jpeg'
+import TaskOn from '@/assets/img/partners/TaskOn.png'
+import Furucombo from '@/assets/img/partners/Furucombo.jpeg'
+
 export default [
   {
     name: 'StarkNet',
-    src: 'https://www.starknet.io',
-    img: 'https://pbs.twimg.com/profile_images/1656626805816565763/WyFDMG6u_400x400.png'
+    link: 'https://www.starknet.io',
+    avatar: aWyFDMG6u
   },
   {
     name: 'Ethereum Foundation',
-    src: 'ethereum.foundation',
-    img: 'https://pbs.twimg.com/profile_images/1627642622645878784/TP1GH9TM_400x400.jpg'
+    link: 'https://ethereum.foundation',
+    avatar: yrghgrg
   },
   {
     name: 'Kava',
-    src: 'https://www.kava.io',
-    img: 'https://pbs.twimg.com/profile_images/1610470977162330119/o059azs5_400x400.jpg'
+    link: 'https://www.kava.io',
+    avatar: o059azs
   },
   {
     name: 'DODO',
-    src: 'dodoex.io',
-    img: 'https://x.com/BreederDodo/photo'
+    link: 'https://dodoex.io/',
+    avatar: cRMmnoAz
   },
   {
     name: 'HashKey Cloud',
-    src: 'hashkey.cloud',
-    img: 'https://x.com/HashKeyCloud/photo'
+    link: 'https://www.hashkey.cloud',
+    avatar: HashKey
   },
   {
     name: 'Plume Network',
-    src: 'plumenetwork.xyz',
-    img: 'https://x.com/plumenetwork/photo'
+    link: 'https://www.plumenetwork.xyz',
+    avatar: Plume
   },
   {
     name: 'LI.FI',
-    src: 'link3.to/LIFI',
-    img: 'https://x.com/lifiprotocol/photo'
+    link: 'https://jumper.exchange',
+    avatar: lifiprotocol
   },
   {
     name: 'spacemesh',
-    src: 'spacemesh.io',
-    img: 'https://x.com/teamspacemesh/photo'
+    link: 'https://spacemesh.io',
+    avatar: teamspacemesh
   },
   {
     name: 'BOB',
-    src: 'gobob.xyz',
-    img: 'https://x.com/build_on_bob/photo'
+    link: 'https://www.gobob.xyz',
+    avatar: bob
   },
   {
     name: 'Injective',
-    src: 'injective.com',
-    img: 'https://x.com/injective/photo'
+    link: 'https://injective.com',
+    avatar: injective
   },
   {
     name: 'Nibiru Chain',
-    src: 'https://nibiru.fi',
-    img: 'https://x.com/NibiruChain/photo'
+    link: 'https://nibiru.fi',
+    avatar: NibiruChain
   },
   {
     name: 'AgentLayer',
-    src: 'agentlayer.xyz',
-    img: 'https://x.com/Agent_Layer/photo'
+    link: 'https://agentlayer.xyz/home',
+    avatar: AgentLayer
   },
   {
     name: 'zkSync',
-    src: 'zksync.io',
-    img: 'https://pbs.twimg.com/profile_images/1647563917349060608/S1P_lNAN_400x400.jpg'
+    link: 'https://zksync.io',
+    avatar: asdqqqs
   },
   {
     name: 'Glif',
-    src: 'glif.io',
-    img: 'https://pbs.twimg.com/profile_images/1642927354140934148/JiNMaN6W_400x400.jpg'
+    link: 'https://www.glif.io/',
+    avatar: aJjNMaN6W
   },
   {
     name: 'Cronos',
-    src: 'cronos.org',
-    img: 'https://pbs.twimg.com/profile_images/1417359604623679488/CGzQIEVX_400x400.png'
+    link: 'https://cronos.org',
+    avatar: cGzQIEVX
   },
   {
     name: 'Celo',
-    src: 'celo.org',
-    img: 'https://pbs.twimg.com/profile_images/1613170131491848195/InjXBNx9_400x400.jpg'
+    link: 'https://celo.org',
+    avatar: InjXBNx
   },
   {
     name: 'Evmos',
-    src: 'store.evmos.org',
-    img: 'https://x.com/EvmosOrg/photo'
+    link: 'https://store.evmos.org',
+    avatar: y4j1hK
   },
   {
     name: 'Atem Network',
-    src: 'atem.io',
-    img: 'https://pbs.twimg.com/profile_images/1603024343247646721/KMEmAOGy_400x400.jpg'
+    link: 'https://www.atem.io',
+    avatar: kMEmAOGy
   },
   {
     name: 'Aptos',
-    src: 'aptoslabs.com',
-    img: 'https://x.com/Aptos/photo'
+    link: 'https://aptoslabs.com',
+    avatar: aYMPBcHq
   },
   {
     name: 'DappRadar',
-    src: 'dappradar.com',
-    img: 'https://pbs.twimg.com/profile_images/1551863971703046146/fl3RyAXc_400x400.jpg'
+    link: 'https://dappradar.com',
+    avatar: fl3RyAXc
   },
   {
     name: 'Hotcoin',
-    src: 'hotcoin.com',
-    img: 'https://x.com/HotcoinGlobal/photo'
+    link: 'https://www.hotcoin.com',
+    avatar: Hotcoin
   },
   {
     name: 'BVMnetwork',
-    src: 'bvm.network',
-    img: 'https://x.com/BVMnetwork/photo'
+    link: 'https://bvm.network',
+    avatar: 'https://x.com/BVMnetwork/photo'
   },
   {
     name: 'Coreum',
-    src: 'linktr.ee/coreumofficial',
-    img: 'https://x.com/CoreumOfficial/photo'
+    link: 'https://www.coreum.com',
+    avatar: 'https://x.com/CoreumOfficial/photo'
   },
   {
     name: 'Taiko',
-    src: 'taiko.xyz',
-    img: 'https://x.com/taikoxyz/photo'
+    link: 'https://taiko.xyz',
+    avatar: 'https://x.com/taikoxyz/photo'
   },
   {
     name: 'Magic Store',
-    src: 'magic.store',
-    img: 'https://x.com/MagicSquareNews/photo'
+    link: 'https://magic.store',
+    avatar: 'https://x.com/MagicSquareNews/photo'
   },
   {
     name: 'Scroll',
-    src: 'scroll.io',
-    img: 'https://x.com/Scroll_ZKP/photo'
+    link: 'https://scroll.io',
+    avatar: 'https://x.com/Scroll_ZKP/photo'
   },
   {
     name: 'DappGate',
-    src: 'dappgate.io/apps/dappgate',
-    img: 'https://x.com/DappGate/photo'
+    link: 'https://www.dappgate.io/apps/dappgate',
+    avatar: 'https://x.com/DappGate/photo'
   },
   {
     name: 'Unstoppable Domains',
-    src: 'unstoppabledomains.com',
-    img: 'https://pbs.twimg.com/profile_images/1693675259860262912/vx1hiBzW_400x400.jpg'
+    link: 'https://unstoppabledomains.com/',
+    avatar: vx1hiBzW
   },
   {
     name: 'Symbiosis',
-    src: 'app.symbiosis.finance',
-    img: 'https://pbs.twimg.com/profile_images/1667143022599892994/AU9jdrkG_400x400.jpg'
+    link: 'https://symbiosis.finance',
+    avatar: AU9jdrkG
   },
   {
     name: 'Syscoin',
-    src: 'syscoin.org',
-    img: 'https://pbs.twimg.com/profile_images/1468760229181415424/xDiIFaKO_400x400.jpg'
+    link: 'https://syscoin.org',
+    avatar: xDiIFaKO
   },
   {
     name: '1inch Network',
-    src: '1inch.io',
-    img: 'https://x.com/1inch/photo'
+    link: 'https://1inch.io',
+    avatar: RYk4R6Lr
   },
   {
     name: 'Linea',
-    src: 'linea.build',
-    img: 'https://pbs.twimg.com/profile_images/1639402103486521344/erDLnbwE_400x400.jpg'
+    link: 'https://linea.build',
+    avatar: erDLnbwE
   },
   {
     name: 'Manta Network',
-    src: 'https://manta.network',
-    img: 'https://pbs.twimg.com/profile_images/1490773577930584069/uoeUkeKe_400x400.jpg'
+    link: 'https://manta.network',
+    avatar: uoeUkeKe
   },
   {
     name: 'Gnosis',
-    src: 'gnosis.io',
-    img: 'https://pbs.twimg.com/profile_images/1162386851736543233/Zbiz-s07_400x400.jpg'
+    link: 'https://www.gnosis.io',
+    avatar: Zbiz
   },
   {
     name: 'Optimism',
-    src: 'optimism.io',
-    img: 'https://pbs.twimg.com/profile_images/1547667477064142848/jgl7d_Zv_400x400.jpg'
+    link: 'https://optimism.io',
+    avatar: jgl7dzv
   },
   {
     name: 'Orbiter Finance',
-    src: 'orbiter.finance',
-    img: 'https://x.com/Orbiter_Finance/photo'
+    link: 'https://www.orbiter.finance',
+    avatar: Nw28veUg
   },
   {
     name: 'Mantle',
-    src: 'mantle.xyz',
-    img: 'https://pbs.twimg.com/profile_images/1597775748580134914/bLhE1aY1_400x400.jpg'
+    link: 'https://www.mantle.xyz',
+    avatar: bLhE1aY1
   },
   {
     name: 'Filecoin',
-    src: 'https://filecoin.io/',
-    img: 'https://x.com/Filecoin/photo'
+    link: 'https://filecoin.io/',
+    avatar: wYIRFfIO
   },
   {
     name: 'arbitrum',
-    src: 'arbitrum.foundation',
-    img: 'https://pbs.twimg.com/profile_images/1653532864309239810/ZjT_zBAS_400x400.png'
+    link: 'https://arbitrum.foundation',
+    avatar: ZjTzBAS
   },
   {
     name: 'USDD',
-    src: 'usdd.io',
-    img: 'https://ccgateway.infura-ipfs.io/ipfs/QmRuHhGcQaCgGnNmxJzEwASE2uokKhtUAiRBob9SM2D2GH'
+    link: 'https://usdd.io/',
+    avatar: VpGwiH6
   },
   {
     name: 'Shardeum',
-    src: 'shardeum.org',
-    img: 'https://pbs.twimg.com/profile_images/1660782439340576768/9rIZjmMt_400x400.jpg'
+    link: 'https://shardeum.org',
+    avatar: rIZjmMt
   },
   {
     name: 'Iron Fish',
-    src: 'ironfish.network',
-    img: 'https://pbs.twimg.com/profile_images/1367581984986296320/kxDDjheA_400x400.jpg'
+    link: 'https://ironfish.network',
+    avatar: kxDDjheA
   },
   {
     name: 'Lumoz (Previously Opside)',
-    src: 'https://lumoz.org/',
-    img: 'https://pbs.twimg.com/profile_images/1608632586137395201/Khrl4_wJ_400x400.jpg'
+    link: 'https://lumoz.org/',
+    avatar: Khrl4wJ
   },
   {
     name: 'Polygon',
-    src: 'polygon.technology',
-    img: 'https://x.com/0xPolygon/photo'
+    link: 'https://polygon.technology',
+    avatar: JXGKFcO
   },
   {
     name: 'OKX',
-    src: 'okx.com/web3',
-    img: 'https://x.com/okxchinese/photo'
+    link: 'https://www.okx.com/',
+    avatar: cBOOkgkn
   },
   {
     name: 'SPACE ID',
-    src: 'space.id',
-    img: 'https://pbs.twimg.com/profile_images/1638127852204986368/XtSvEW6D_400x400.jpg'
+    link: 'https://space.id',
+    avatar: XtSvEW6D
   },
   {
     name: 'Aleo',
-    src: 'aleo.org',
-    img: 'https://pbs.twimg.com/profile_images/1696539323590385664/gY9hSgaR_400x400.jpg'
+    link: 'https://aleo.org',
+    avatar: gY9hSgaR
   },
   {
     name: 'TaskOn',
-    src: 'https://taskon.xyz/',
-    img: 'https://pbs.twimg.com/profile_images/1664161319397003269/TM9aYYis_400x400.png'
+    link: 'https://taskon.xyz/',
+    avatar: TaskOn
   },
   {
     name: 'Bitgert',
-    src: 'bitgert.com',
-    img: 'https://pbs.twimg.com/profile_images/1630867057389580289/CawBspOy_400x400.jpg'
+    link: 'https://bitgert.com',
+    avatar: bitgert
   },
   {
     name: '0xGen',
-    src: '0xgen.io',
-    img: 'https://x.com/0xgen_io/photo'
+    link: 'https://0xgen.io',
+    avatar: asdgvvas
   },
   {
     name: 'Flare',
-    src: 'https://flare.network/',
-    img: 'https://pbs.twimg.com/profile_images/1635937765534707712/JgfEVRQA_400x400.jpg'
+    link: 'https://flare.network/',
+    avatar: aFlare
   },
   {
     name: 'Furucombo',
-    src: 'https://furucombo.app/',
-    img: 'https://x.com/furucombo/photo'
+    link: 'https://furucombo.app/',
+    avatar: Furucombo
   },
   {
     name: 'CelerNetwork',
-    src: 'https://celer.network',
-    img: 'https://x.com/CelerNetwork/photo'
+    link: 'https://celer.network',
+    avatar: 'https://x.com/CelerNetwork/photo'
   },
   {
     name: 'Klaytn',
-    src: 'https://klaytn.foundation/',
-    img: 'https://x.com/klaytn_official/photo'
+    link: 'https://klaytn.foundation/',
+    avatar: iUzHLDFY
   },
   {
     name: 'Magic Square',
-    src: 'https://magic.store',
-    img: 'https://pbs.twimg.com/profile_images/1609890739630080000/GINHYFc5_400x400.png'
+    link: 'https://magic.store',
+    avatar: GINHYFc
   },
   {
     name: 'Qtum',
-    src: 'qtum.org',
-    img: 'https://pbs.twimg.com/profile_images/1459974839486324739/kFjKRTxZ_400x400.jpg'
+    link: 'https://qtum.org',
+    avatar: kFjKRTxZ
   },
   {
     name: 'hashkey exchange',
-    src: 'https://hello.hashkey.com/',
-    img: 'https://x.com/HashKeyExchange/photo'
+    link: 'https://hello.hashkey.com/',
+    avatar: y6mcNyJ
   },
   {
     name: 'CAGA CRYPTO',
-    src: 'cagacrypto.com',
-    img: 'https://x.com/_cagacrypto/photo'
+    link: 'https://www.cagacrypto.com',
+    avatar: 'https://x.com/_cagacrypto/photo'
   },
   {
     name: 'Metis',
-    src: 'https://www.metis.io',
-    img: 'https://x.com/MetisL2/photo'
+    link: 'https://www.metis.io',
+    avatar: r2MJADvX
   },
   {
     name: 'Filfox',
-    src: 'Filfox.info',
-    img: 'https://pbs.twimg.com/profile_images/1630478629141635072/e3CWTQrr_400x400.jpg'
+    link: 'https://filfox.info/',
+    avatar: e3CWTQrr
   },
   {
     name: 'UQUID',
-    src: 'uquid.com',
-    img: 'https://x.com/uquidcard/photo'
+    link: 'https://uquid.com',
+    avatar: Ld7laD
   },
   {
     name: 'FBBank',
-    src: 'https://fbpay.cc/buy',
-    img: 'https://x.com/FBBank_cc/photo'
+    link: 'https://fbpay.cc/buy',
+    avatar: vLUHoB3G
   },
   {
     name: '.bit',
-    src: 'did.id',
-    img: 'https://pbs.twimg.com/profile_images/1587712215008043008/-4E50IzI_400x400.jpg'
+    link: 'https://did.id',
+    avatar: EIzI
   },
   {
     name: 'Meta2150s',
-    src: 'https://meta2150s.com/',
-    img: 'https://x.com/Meta2150s/photo'
+    link: 'https://meta2150s.com/',
+    avatar: meta2
   },
   {
     name: 'Onramp.money',
-    src: 'https://onramp.money',
-    img: 'https://pbs.twimg.com/profile_images/1549361108267384838/GGSq0mt4_400x400.png'
+    link: 'https://onramp.money',
+    avatar: GGSq0mt
   },
   {
     name: 'TrantorDAO',
-    src: 'https://trantor.xyz/',
-    img: 'https://pbs.twimg.com/profile_images/1563096992813039616/2FcZmTDg_400x400.jpg'
-  },
-  {
-    name: 'Zenith',
-    src: 'https://zenithchain.co/',
-    img: 'https://pbs.twimg.com/profile_images/1615247021098541056/BNq-Mg_V_400x400.jpg'
+    link: 'https://trantor.xyz/',
+    avatar: FcZmTDg
   },
   {
     name: 'Anyside Domains',
-    src: 'anyside.com',
-    img: 'https://pbs.twimg.com/profile_images/1572643781480189953/57A3BXJL_400x400.jpg'
+    link: 'https://anyside.com',
+    avatar: bXJL
   },
   {
     name: 'PolkaNameSystem',
-    src: 'pns.link',
-    img: 'https://pbs.twimg.com/profile_images/1446431252119097344/ljuE24vI_400x400.jpg'
+    link: 'https://www.pns.link',
+    avatar: ljuE24vI
   },
   {
     name: 'BendDAO',
-    src: 'https://www.benddao.xyz',
-    img: 'https://pbs.twimg.com/profile_images/1505483478552674304/b5EWBFS1_400x400.png'
+    link: 'https://www.benddao.xyz',
+    avatar: bEWBFS
   },
   {
     name: 'GMX',
-    src: 'linktr.ee/gmxio',
-    img: 'https://x.com/GMX_IO/photo'
+    link: 'https://gmx.io/#/',
+    avatar: dgtx
   },
   {
     name: 'DeBox',
-    src: 'debox.pro',
-    img: 'https://x.com/DeBox_Social/photo'
+    link: 'https://debox.pro',
+    avatar: KC22gLOG
   },
   {
     name: 'Mises',
-    src: 'https://www.mises.site',
-    img: 'https://pbs.twimg.com/profile_images/1503255555141677056/M-iqtvnk_400x400.jpg'
+    link: 'https://www.mises.site',
+    avatar: Miqtvnk
   },
   {
     name: 'LiveArt',
-    src: 'https://liveart.io',
-    img: 'https://pbs.twimg.com/profile_images/1568727767197556736/9c6kjEAO_400x400.jpg'
+    link: 'https://liveart.io',
+    avatar: kjEAO
   },
   {
     name: 'OpenMeta',
-    src: 'nft.openmeta.finance',
-    img: 'https://pbs.twimg.com/profile_images/1486609807612080132/iKNOqOLC_400x400.jpg'
+    link: 'https://nft.openmeta.finance/',
+    avatar: iKNOqOLC
   },
   {
     name: 'Sui Name Service',
-    src: 'https://suins.io/',
-    img: 'https://pbs.twimg.com/profile_images/1643318976037142528/pIak4NCj_400x400.jpg'
+    link: 'https://suins.io/',
+    avatar: pIak4NCj
   },
   {
     name: 'HorizonDEX',
-    src: 'app.horizondex.io',
-    img: 'https://x.com/horizondex_io/photo'
+    link: 'https://app.horizondex.io/swap',
+    avatar: Qg3tWFjR
   },
   {
     name: 'FAMSWAP',
-    src: 'famswap.io',
-    img: 'https://famswap.io/_next/image?url=%2Fimages%2Fheader%2Ffam_logo1.png&w=2048&q=75'
+    link: 'https://famswap.io',
+    avatar: famswap
   },
   {
     name: 'Nautilus Chain',
-    src: 'nautchain.xyz',
-    img: 'https://pbs.twimg.com/profile_images/1626750544642727937/qNCwFLUt_400x400.jpg'
+    link: 'https://nautchain.xyz',
+    avatar: qNCwFLUt
   },
   {
     name: 'Goshen',
-    src: 'goshen.network',
-    img: 'https://pbs.twimg.com/profile_images/1559809660214923272/ozfjWwA4_400x400.png'
+    link: 'https://goshen.network',
+    avatar: ozfjWwA4
   },
   {
     name: 'zkDX | L2 Networks',
-    src: 'zkdx.io',
-    img: 'https://pbs.twimg.com/profile_images/1648237430544420864/yf2HiM4c_400x400.png'
+    link: 'https://zkdx.io',
+    avatar: yf2HiM4c
   },
   {
     name: 'ChainHash',
-    src: 'chainhash.io',
-    img: 'https://pbs.twimg.com/profile_images/1621420168097435650/N36vDNbB_400x400.jpg'
+    link: 'https://www.chainhash.io',
+    avatar: N36vDNbB
   },
   {
     name: 'TrendX',
-    src: 'https://app.trendx.tech/',
-    img: 'https://x.com/TrendX_official/photo'
+    link: 'https://app.trendx.tech/',
+    avatar: 'https://x.com/TrendX_official/photo'
   },
   {
     name: 'Filscan.io',
-    src: 'filscan.io',
-    img: 'https://pbs.twimg.com/profile_images/1666368035710709760/foXZmNUZ_400x400.png'
+    link: 'https://filscan.io',
+    avatar: foXZmNUZ
   },
   {
     name: 'Hope.money',
-    src: 'hope.money',
-    img: 'https://pbs.twimg.com/profile_images/1686266062885847040/xK6d4NF__400x400.jpg'
+    link: 'https://hope.money',
+    avatar: xK6d4NF
   },
   {
     name: 'Blockin.ai',
-    src: 'blockin.ai',
-    img: 'https://pbs.twimg.com/profile_images/1514151332445573121/SuYVddl6_400x400.jpg'
+    link: 'https://www.blockin.ai',
+    avatar: SuYVddl6
   },
   {
     name: 'Triathon',
-    src: 'https://www.triathon.space/#/',
-    img: 'https://x.com/TriathonLab/photo'
+    link: 'https://www.triathon.space/#/',
+    avatar: fj8ZeUUC
   },
   {
     name: 'FilFi',
-    src: 'filfi.io',
-    img: 'https://pbs.twimg.com/profile_images/1664533765388136448/vf5y91iX_400x400.jpg'
+    link: 'https://myfil.pages.dev',
+    avatar: vf5y91iX
   },
   {
     name: 'TsunamiX',
-    src: 'https://hub.xyz/tsunamix',
-    img: 'https://pbs.twimg.com/profile_images/1702343073185890304/-kpbGl2b_400x400.jpg'
+    link: 'https://hub.xyz/tsunamix',
+    avatar: kpbGl2b
   },
   {
     name: 'HashKing',
-    src: 'https://www.hashking.fi/',
-    img: 'https://pbs.twimg.com/profile_images/1665636012176076800/T20rGs2O_400x400.jpg'
+    link: 'https://www.hashking.fi/',
+    avatar: T20rGs2O
   },
   {
     name: 'Owlando | OFCL',
-    src: 'owlando.io',
-    img: 'https://pbs.twimg.com/profile_images/1572588483583287297/bksnd37Q_400x400.png'
+    link: 'https://owlando.io',
+    avatar: bksnd37Q
   },
   {
     name: 'Interest Protocol',
-    src: 'https://www.interestprotocol.com/',
-    img: 'https://x.com/IPXSui/photo'
+    link: 'https://www.interestprotocol.com/',
+    avatar: p17MSWQh
   },
   {
     name: 'Noah Swap',
-    src: 'https://noahark.io/',
-    img: 'https://pbs.twimg.com/profile_images/1703958697704402944/KGGcrT-n_400x400.jpg'
+    link: 'https://noahark.io/',
+    avatar: KGGcrT
   },
   {
     name: 'Router Protocol',
-    src: 'routerprotocol.com',
-    img: 'https://pbs.twimg.com/profile_images/1609882581713162245/EKEAQ1FJ_400x400.jpg'
+    link: 'https://routerprotocol.com',
+    avatar: eKEAQ1FJ
   },
   {
     name: 'MineFi',
-    src: 'https://minefi.io/',
-    img: 'https://pbs.twimg.com/profile_images/1644184416762335232/11pixGKE_400x400.jpg'
+    link: 'https://minefi.io/',
+    avatar: pixGKE
   },
   {
     name: 'Ola',
-    src: 'https://sin7y.org/',
-    img: 'https://x.com/ola_zkzkvm/photo'
+    link: 'https://sin7y.org/',
+    avatar: OLAgrey
   },
   {
     name: 'MovEX',
-    src: 'movex.exchange',
-    img: 'https://pbs.twimg.com/profile_images/1558573586159284224/m53awHZl_400x400.jpg'
+    link: 'https://www.movex.exchange',
+    avatar: m53awHZl
   },
   {
     name: 'Tokenview',
-    src: 'https://services.tokenview.io/',
-    img: 'https://pbs.twimg.com/profile_images/1697449808238166016/D6JBV1hL_400x400.jpg'
+    link: 'https://services.tokenview.io/',
+    avatar: D6JBV1hL
   },
   {
     name: 'BTCDOMAIN',
-    src: 'btcdomains.io',
-    img: 'https://pbs.twimg.com/profile_images/1631626642761326592/ra6xAcfO_400x400.jpg'
+    link: 'https://btcdomains.io',
+    avatar: ra6xAcfO
   },
   {
     name: 'NULS',
-    src: 'nuls.io',
-    img: 'https://x.com/Nuls/photo'
+    link: 'https://nuls.io',
+    avatar: NDdxwaKG
   },
   {
     name: 'NerveNetwork',
-    src: 'nerve.network',
-    img: 'https://x.com/nerve_network/photo'
+    link: 'https://nerve.network',
+    avatar: ldN5b4fu
   },
   {
     name: 'ENULSID.enuls',
-    src: 'enuls.id',
-    img: 'https://pbs.twimg.com/profile_images/1623621073962168321/X29SNHSI_400x400.jpg'
+    link: 'https://enuls.id',
+    avatar: x29SNHSI
   },
   {
     name: 'Nemo Swap',
-    src: 'https://nemo.renec.org',
-    img: 'https://x.com/NemoSwapDEX/photo'
+    link: 'https://nemo.renec.org',
+    avatar: owa5JY2Q
   },
   {
     name: 'Themis Pro',
-    src: 'https://themis.capital',
-    img: 'https://x.com/Themis_Pro/photo'
+    link: 'https://themis.capital',
+    avatar: h9Uy6EBR
   },
   {
     name: 'KuCoin Community Chain (KCC) Official',
-    src: 'kcc.io',
-    img: 'https://pbs.twimg.com/profile_images/1593161284341891072/QPpYWr7L_400x400.jpg'
+    link: 'https://www.kcc.io',
+    avatar: qPpYWr7L
   },
   {
     name: 'Filet',
-    src: 'filet.finance',
-    img: 'https://pbs.twimg.com/profile_images/1392678030351425540/OL-pc5jc_400x400.png'
+    link: 'https://www.filet.finance',
+    avatar: pc5jc
   },
   {
     name: 'EOS Network Foundation',
-    src: 'https://eosnetwork.com/',
-    img: 'https://pbs.twimg.com/profile_images/1487168104711045124/QaCYVHgJ_400x400.jpg'
+    link: 'https://eosnetwork.com/',
+    avatar: qaCYVHgJ
   },
   {
     name: 'DeNet',
-    src: 'denet.me',
-    img: 'https://pbs.twimg.com/profile_images/1520016441550204928/b4m1B84Q_400x400.jpg'
+    link: 'https://denet.pro',
+    avatar: b4m1B84Q
   },
   {
     name: 'Godwoken EVM',
-    src: 'godwoken.com',
-    img: 'https://pbs.twimg.com/profile_images/1574457602322243584/DPhcGeDA_400x400.jpg'
+    link: 'http://godwoken.com',
+    avatar: dPhcGeDA
   },
   {
     name: 'SyncSwap',
-    src: 'syncswap.xyz',
-    img: 'https://pbs.twimg.com/profile_images/1534590986772303873/kg4-p_V7_400x400.jpg'
+    link: 'https://syncswap.xyz',
+    avatar: kg4pV
   },
   {
     name: 'Fenture AI',
-    src: 'https://fenture.io/',
-    img: 'https://pbs.twimg.com/profile_images/1605139922976915458/Ry97yH6R_400x400.jpg'
+    link: 'https://fenture.io/',
+    avatar: 'https://x.com/FentureFinance/photo'
   },
   {
     name: 'Star Protocol',
-    src: 'star.co',
-    img: 'https://x.com/StarProtocol_HQ/photo'
+    link: 'https://star.co',
+    avatar: uhNjXQ5q
   },
   {
     name: 'Spool',
-    src: 'spool.fi',
-    img: 'https://x.com/SpoolFi/photo'
+    link: 'https://www.spool.fi',
+    avatar: gHvFsV4Q
   },
   {
     name: 'Aurora',
-    src: 'aurora.dev',
-    img: 'https://pbs.twimg.com/profile_images/1610936866227818502/kIqkTKdR_400x400.jpg'
+    link: 'https://aurora.dev',
+    avatar: kIqkTKdR
   },
   {
     name: 'USMLab.bab',
-    src: 'USM.World',
-    img: 'https://pbs.twimg.com/profile_images/1542768556395225088/QK6fZn8r_400x400.jpg'
+    link: 'https://usm.world',
+    avatar: qK6fZn8r
   },
   {
     name: 'JAZ DID.bab',
-    src: 'jazdid.com',
-    img: 'https://pbs.twimg.com/profile_images/1564119633283600384/vtBBdI6t_400x400.jpg'
+    link: 'https://www.jazdid.com',
+    avatar: vtBBdI6t
   },
   {
     name: 'Starship Finance',
-    src: 'https://linktr.ee/starshipfinance',
-    img: 'https://pbs.twimg.com/profile_images/1620736516224868355/SvXln-YC_400x400.jpg'
+    link: 'https://linktr.ee/starshipfinance',
+    avatar: sadSvXln
   },
   {
     name: 'XCart Official',
-    src: 'xcart.io',
-    img: 'https://x.com/XCart_Labs/photo'
+    link: 'https://xcart.io',
+    avatar: wqTA6Dstyv
   },
   {
     name: '1Sol protocol',
-    src: 'oland.info/1Sol.v',
-    img: 'https://pbs.twimg.com/profile_images/1584774488876412928/WMisRaTX_400x400.jpg'
+    link: 'https://1sol.io',
+    avatar: gWMisRaT
   },
   {
     name: 'P12',
-    src: 'p12.network',
-    img: 'https://x.com/_p12_/photo'
+    link: 'https://p12.network',
+    avatar: jsCzrJobcu
   },
   {
     name: 'Hermes Omnichain',
-    src: 'https://hermes.maiadao.io/#/swap',
-    img: 'https://pbs.twimg.com/profile_images/1549108724811399168/blG9VQwd_400x400.jpg'
+    link: 'https://hermes.maiadao.io/#/swap',
+    avatar: blG9VQw
   },
   {
     name: 'Cbridge',
-    src: 'celer.network',
-    img: 'https://pbs.twimg.com/profile_images/1097311023697199109/B_whzxUt_400x400.jpg'
+    link: 'https://celer.network',
+    avatar: whzxUt
   },
   {
-    name: 'ReadON',
-    src: 'http://readon.me',
-    img: 'https://x.com/ReadOnMe3/photo'
+    name: 'Revox/ ReadON',
+    link: 'https://www.revox.ai',
+    avatar: 'https://x.com/ReadOnMe3/photo'
   },
   {
     name: 'MES protocol',
-    src: 'https://www.mesprotocol.com/',
-    img: 'https://pbs.twimg.com/profile_images/1503225971268272129/sPSDDu_p_400x400.png'
+    link: 'https://www.mesprotocol.com/',
+    avatar: sPSDDu
   },
   {
     name: 'MetaEstate',
-    src: 'https://www.metaestate.com/',
-    img: 'https://pbs.twimg.com/profile_images/1607581757997740032/MDJHsXBG_400x400.jpg'
+    link: 'https://www.metaestate.com/',
+    avatar: bbsdfsds
   },
   {
     name: 'Port3',
-    src: 'port3.io',
-    img: 'https://x.com/Port3Network/photo'
+    link: 'https://port3.io',
+    avatar: apo78XrK
   },
   {
     name: 'Deri Protocol',
-    src: 'deri.io',
-    img: 'https://pbs.twimg.com/profile_images/1475383186150596608/HH7KyDw6_400x400.png'
+    link: 'https://deri.io/#/index',
+    avatar: hH7KyDw
   },
   {
     name: 'GXChain',
-    src: 'rei.network',
-    img: 'https://pbs.twimg.com/profile_images/1473602564184842243/c51_j0aB_400x400.jpg'
+    link: 'https://www.rei.network',
+    avatar: c51asdqq
   },
   {
     name: 'Banxa',
-    src: 'https://banxa.com',
-    img: 'https://pbs.twimg.com/profile_images/1433381039062147073/jfUQdjrM_400x400.jpg'
+    link: 'https://banxa.com',
+    avatar: jfUQdjr
   },
   {
     name: 'TorchesFinance',
-    src: 'torches.finance/en',
-    img: 'https://pbs.twimg.com/profile_images/1539090801749331968/ha0OuBtX_400x400.jpg'
+    link: 'https://www.torches.finance/en',
+    avatar: ha0OuBt
   },
   {
     name: 'SpookySwap',
-    src: 'spooky.fi',
-    img: 'https://x.com/SpookySwap/photo'
+    link: 'https://spooky.fi/',
+    avatar: K2Z7bZCX
   },
   {
     name: 'ZigZag Exchange',
-    src: 'zigzag.exchange',
-    img: 'https://pbs.twimg.com/profile_images/1468016447012151300/kjpL6Cnx_400x400.jpg'
+    link: 'https://www.zigzag.exchange',
+    avatar: kjpL6Cnx
   },
   {
     name: 'SpaceFi',
-    src: 'https://www.spacefi.io/',
-    img: 'https://pbs.twimg.com/profile_images/1381844772239724546/aOwhiUUo_400x400.png'
+    link: 'https://www.spacefi.io/',
+    avatar: aOwhiUU
   },
   {
     name: 'XY Finance',
-    src: 'https://app.xy.finance/',
-    img: 'https://pbs.twimg.com/profile_images/1470075194286903297/ALMnRaAP_400x400.jpg'
+    link: 'https://app.xy.finance/',
+    avatar: aALMnRaAP
   },
   {
     name: 'STASIS/EURS',
-    src: 'https://linktr.ee/stasiseurs',
-    img: 'https://x.com/stasisnet/photo'
+    link: 'https://linktr.ee/stasiseurs',
+    avatar: 'https://x.com/stasisnet/photo'
   },
   {
     name: 'TonGifts',
-    src: 't.me/GetTonGifts_Bot',
-    img: 'https://x.com/TonGiftsbot/photo'
+    link: 't.me/GetTonGifts_Bot',
+    avatar: 'https://x.com/TonGiftsbot/photo'
   },
   {
     name: 'LooperLands',
-    src: 'looperlands.io',
-    img: 'https://x.com/LooperLands/photo'
+    link: 'https://looperlands.io',
+    avatar: 'https://x.com/LooperLands/photo'
   },
   {
     name: 'Zulu Network',
-    src: 'zulunetwork.io',
-    img: 'https://x.com/zulu_network/photo'
+    link: 'https://zulunetwork.io',
+    avatar: 'https://x.com/zulu_network/photo'
   },
   {
     name: 'LOVELY SWAP',
-    src: 'lovelyswap.com',
-    img: 'https://x.com/lovely_swap/photo'
+    link: 'https://lovelyswap.com',
+    avatar: 'https://x.com/lovely_swap/photo'
   },
   {
     name: 'XSTAR',
-    src: 'linktr.ee/xstar_id',
-    img: 'https://x.com/xstar_id/photo'
+    link: 'linktr.ee/xstar_id',
+    avatar: 'https://x.com/xstar_id/photo'
   },
   {
     name: 'Bahamut',
-    src: 'bahamut.io',
-    img: 'https://x.com/bahamut_chain/photo'
+    link: 'https://www.bahamut.io',
+    avatar: 'https://x.com/bahamut_chain/photo'
   },
   {
     name: 'ORDEX',
-    src: 'ordex.io',
-    img: 'https://x.com/ordex_io/photo'
+    link: 'https://ordex.io',
+    avatar: 'https://x.com/ordex_io/photo'
   },
   {
     name: 'Optopia',
-    src: 'linktr.ee/optopia',
-    img: 'https://x.com/Optopia_AI/photo'
+    link: 'linktr.ee/optopia',
+    avatar: 'https://x.com/Optopia_AI/photo'
   },
   {
     name: 'Mint Blockchain',
-    src: 'mintchain.io',
-    img: 'https://x.com/Mint_Blockchain/photo'
+    link: 'https://www.mintchain.io',
+    avatar: 'https://x.com/Mint_Blockchain/photo'
   },
   {
     name: 'ZKBase',
-    src: 'zkbase.org',
-    img: 'https://x.com/ZKBaseOfficial/photo'
+    link: 'https://zkbase.org',
+    avatar: 'https://x.com/ZKBaseOfficial/photo'
   },
   {
     name: 'WeFi',
-    src: 'link3.to/wefi',
-    img: 'https://ccgateway.infura-ipfs.io/ipfs/QmPDCQVfMD3zFaF6yeohu7wmfSUo8HdF8NRtHP5endW5we'
+    link: 'link3.to/wefi',
+    avatar: 'https://ccgateway.infura-ipfs.io/ipfs/QmPDCQVfMD3zFaF6yeohu7wmfSUo8HdF8NRtHP5endW5we'
   },
   {
     name: 'Sociogram',
-    src: 'sociogram.org',
-    img: 'https://x.com/SociogramSocFi/photo'
+    link: 'https://sociogram.org',
+    avatar: 'https://x.com/SociogramSocFi/photo'
   },
   {
     name: 'exSat Network',
-    src: 'exSat.network',
-    img: 'https://x.com/exSatNetwork/photo'
+    link: 'https://exsat.network',
+    avatar: 'https://x.com/exSatNetwork/photo'
   },
   {
     name: 'Web3 Talents Show',
-    src: 'web3talents.show/?game',
-    img: 'https://x.com/web3talentsshow/photo'
+    link: 'https://web3talents.show/?game',
+    avatar: 'https://x.com/web3talentsshow/photo'
   },
   {
     name: 'TunaChain',
-    src: 'tunachain.io',
-    img: 'https://x.com/TunaChain/photo'
+    link: 'https://tunachain.io',
+    avatar: 'https://x.com/TunaChain/photo'
   },
   {
     name: 'GPT Plus',
-    src: 'GPT-Plus.io',
-    img: 'https://x.com/GPTPlusAI/photo'
+    link: 'https://gpt-plus.io/en/',
+    avatar: 'https://x.com/GPTPlusAI/photo'
   },
   {
     name: 'AdamSwap',
-    src: 'testnet.adamdefi.io/swap',
-    img: 'https://x.com/AdamSwap_Zulu/photo'
+    link: 'https://adamdefi.io/swap',
+    avatar: 'https://x.com/AdamSwap_Zulu/photo'
   },
   {
     name: 'MasterPop',
-    src: 'masterpop.xyz',
-    img: 'https://x.com/masterpopgame/photo'
+    link: 'https://www.masterpop.xyz',
+    avatar: 'https://x.com/masterpopgame/photo'
   },
   {
     name: 'SoonVerse',
-    src: 'link3.to/soonverse',
-    img: 'https://x.com/soon_verse/photo'
+    link: 'https://link3.to/soonverse',
+    avatar: 'https://x.com/soon_verse/photo'
   },
   {
     name: 'ZKCross',
-    src: 'https://linktr.ee/zkcross',
-    img: 'https://x.com/thezkcross/photo'
+    link: 'https://linktr.ee/zkcross',
+    avatar: 'https://x.com/thezkcross/photo'
   },
   {
     name: 'AlienSwap',
-    src: 'alienswap.xyz',
-    img: 'https://x.com/AlienSwap_NFT/photo'
+    link: 'https://alienswap.xyz',
+    avatar: 'https://x.com/AlienSwap_NFT/photo'
   },
   {
     name: 'SecondLive',
-    src: 'secondlive.world',
-    img: 'https://x.com/SecondLiveReal/photo'
+    link: 'https://secondlive.world',
+    avatar: 'https://x.com/SecondLiveReal/photo'
   },
   {
     name: 'Swing',
-    src: 'hub.xyz/swing',
-    img: 'https://x.com/swing_xyz/photo'
+    link: 'https://hub.xyz/swing',
+    avatar: 'https://x.com/swing_xyz/photo'
   },
   {
     name: 'Beta Staking',
-    src: 'betastaking.com',
-    img: 'https://x.com/BetaStaking/photo'
+    link: 'https://betastaking.com',
+    avatar: 'https://x.com/BetaStaking/photo'
   },
   {
     name: 'AlphaSwap',
-    src: 'https://alphaswap.pro/',
-    img: 'https://pbs.twimg.com/profile_images/1689837757131378688/ThBYw_Ju_400x400.png'
+    link: 'https://alphaswap.pro/',
+    avatar: 'https://x.com/AlphaSwap_dex/photo'
   },
   {
     name: 'X World Games',
-    src: 'xwg.games',
-    img: 'https://x.com/xwg_games/photo'
+    link: 'https://xwg.games',
+    avatar: 'https://x.com/xwg_games/photo'
   },
   {
     name: 'RWAX_DAO',
-    src: 'rwax.art',
-    img: 'https://x.com/RWAXDAO/photo'
+    link: 'https://rwax.art',
+    avatar: 'https://x.com/RWAXDAO/photo'
   },
   {
     name: 'TrueUSD',
-    src: 'linktr.ee/tusdio',
-    img: 'https://x.com/tusdio/photo'
+    link: 'https://linktr.ee/tusdio',
+    avatar: 'https://x.com/tusdio/photo'
   },
   {
     name: 'Satoshi Universe',
-    src: 'lnkfi.re/satoshiuniverse',
-    img: 'https://x.com/universesatoshi/photo'
+    link: 'https://lnkfi.re/satoshiuniverse',
+    avatar: 'https://x.com/universesatoshi/photo'
   },
   {
     name: 'ALIENX',
-    src: 'linktr.ee/alienxchain',
-    img: 'https://x.com/ALIENXchain/photo'
+    link: 'https://linktr.ee/alienxchain',
+    avatar: 'https://x.com/ALIENXchain/photo'
   },
   {
     name: 'Inswap',
-    src: 'inswap.io',
-    img: 'https://x.com/inswap_/photo'
+    link: 'https://www.inswap.io',
+    avatar: 'https://x.com/inswap_/photo'
   },
   {
     name: 'RoseonX AI',
-    src: 'linktr.ee/roseonexchange',
-    img: 'https://x.com/RoseonExchange/photo'
+    link: 'linktr.ee/roseonexchange',
+    avatar: 'https://x.com/RoseonExchange/photo'
   },
   {
     name: 'Relation',
-    src: 'relationlabs.ai',
-    img: 'https://x.com/relationlabs/photo'
+    link: 'https://relationlabs.ai/home',
+    avatar: 'https://x.com/relationlabs/photo'
   },
   {
     name: 'Meson Finance',
-    src: 'meson.fi',
-    img: 'https://x.com/mesonfi/photo'
+    link: 'https://meson.fi',
+    avatar: 'https://x.com/mesonfi/photo'
   },
   {
     name: 'XP.NETWORK',
-    src: 'xp.network',
-    img: 'https://x.com/xpnetwork_/photo'
+    link: 'https://xp.network',
+    avatar: 'https://x.com/xpnetwork_/photo'
   },
   {
     name: 'zkLink Nova',
-    src: 'zklink.io',
-    img: 'https://x.com/zkLinkNova/photo'
+    link: 'https://zklink.io',
+    avatar: 'https://x.com/zkLinkNova/photo'
   },
   {
     name: 'Pencils Protocol',
-    src: 'linktr.ee/PencilsProtocol',
-    img: 'https://x.com/pencilsprotocol/photo'
+    link: 'https://linktr.ee/PencilsProtocol',
+    avatar: 'https://x.com/pencilsprotocol/photo'
   },
   {
     name: "People's DA",
-    src: 'peoplesda.net',
-    img: 'https://x.com/BtcPeoples_DA/photo'
+    link: 'http://peoplesda.net',
+    avatar: 'https://x.com/BtcPeoples_DA/photo'
   },
   {
     name: 'Mazze',
-    src: 'linktr.ee/mazzelabs',
-    img: 'https://x.com/MazzeLabs/photo'
+    link: 'https://linktr.ee/mazzelabs',
+    avatar: 'https://x.com/MazzeLabs/photo'
   },
   {
     name: 'Blast Name Service',
-    src: 'sns.so',
-    img: 'https://x.com/blastnsdomains/photo'
+    link: 'https://sns.so',
+    avatar: 'https://x.com/blastnsdomains/photo'
   },
   {
     name: 'UniPortNetwork',
-    src: 'uniport.network',
-    img: 'https://x.com/Uniport_Network/photo'
+    link: 'https://uniport.network',
+    avatar: 'https://x.com/Uniport_Network/photo'
   },
   {
     name: 'Hippo Swap',
-    src: 'link3.to/hipposwap',
-    img: 'https://x.com/Hippo_Swap/photo'
+    link: 'https://link3.to/hipposwap',
+    avatar: 'https://x.com/Hippo_Swap/photo'
   },
   {
     name: 'OneID',
-    src: 'linktr.ee/OneID_Official',
-    img: 'https://x.com/useOneID/photo'
+    link: 'https://linktr.ee/OneID_Official',
+    avatar: 'https://x.com/useOneID/photo'
   },
   {
     name: 'BiHelix',
-    src: 'linktr.ee/bihelix',
-    img: 'https://x.com/BiHelix_/photo'
+    link: 'https://linktr.ee/bihelix',
+    avatar: 'https://x.com/BiHelix_/photo'
   },
   {
     name: 'Transak',
-    src: 'transak.com',
-    img: 'https://x.com/Transak/photo'
+    link: 'https://transak.com',
+    avatar: 'https://x.com/Transak/photo'
   },
   {
     name: 'Script Network',
-    src: 'link3.to/scriptnetwork',
-    img: 'https://x.com/script_network/photo'
+    link: 'https://link3.to/scriptnetwork',
+    avatar: 'https://x.com/script_network/photo'
   },
   {
     name: 'Dechat',
-    src: 'linktr.ee/Dechat_socialfi',
-    img: 'https://x.com/dechat_io/photo'
+    link: 'https://linktr.ee/Dechat_socialfi',
+    avatar: 'https://x.com/dechat_io/photo'
   },
   {
     name: 'BridgeM',
-    src: 'link3.to/bridgem',
-    img: 'https://x.com/BridgeM_io/photo'
+    link: 'https://link3.to/bridgem',
+    avatar: 'https://x.com/BridgeM_io/photo'
   },
   {
     name: 'FILLiquid',
-    src: 'linktr.ee/FILLiquid',
-    img: 'https://x.com/FILLiquid/photo'
+    link: 'https://linktr.ee/FILLiquid',
+    avatar: 'https://x.com/FILLiquid/photo'
   },
   {
     name: 'Defactor',
-    src: 'defactor.com',
-    img: 'https://x.com/defactor_/photo'
+    link: 'https://www.defactor.com',
+    avatar: 'https://x.com/defactor_/photo'
   },
   {
     name: 'Zeepr_labs',
-    src: 'zeepr.io',
-    img: 'https://x.com/Zeepr_labs/photo'
+    link: 'https://zeepr.io',
+    avatar: 'https://x.com/Zeepr_labs/photo'
   },
   {
     name: 'ChintaiNetwork',
-    src: 'chintai.io',
-    img: 'https://x.com/ChintaiNetwork/photo'
+    link: 'https://chintai.io',
+    avatar: 'https://x.com/ChintaiNetwork/photo'
   },
   {
     name: 'C14',
-    src: 'c14.money',
-    img: 'https://x.com/c14_team/photo'
+    link: 'https://www.c14.money',
+    avatar: 'https://x.com/c14_team/photo'
   },
   {
     name: 'Openfabric AI',
-    src: 'openfabric.ai',
-    img: 'https://x.com/openfabricai/photo'
+    link: 'https://openfabric.ai',
+    avatar: 'https://x.com/openfabricai/photo'
   },
   {
     name: 'MultiSat',
-    src: 'multisat.io',
-    img: 'https://x.com/multisat_io/photo'
+    link: 'https://multisat.io/staking',
+    avatar: 'https://x.com/multisat_io/photo'
   },
   {
     name: 'ESCC',
-    src: 'escc.io',
-    img: 'https://x.com/ESCC_io/photo'
+    link: 'https://escc.io',
+    avatar: 'https://x.com/ESCC_io/photo'
   },
   {
     name: 'GT Protocol',
-    src: 'gt-protocol.io',
-    img: 'https://x.com/GT_Protocol/photo'
+    link: 'https://www.gt-protocol.io',
+    avatar: 'https://x.com/GT_Protocol/photo'
   },
   {
     name: 'DotTaiko Domains',
-    src: 'dottaiko.me',
-    img: 'https://x.com/dottaikodomains/photo'
+    link: 'https://dottaiko.me',
+    avatar: 'https://x.com/dottaikodomains/photo'
   },
   {
     name: 'Sideswap',
-    src: 'sideswap.finance',
-    img: 'https://x.com/SideswapZK/photo'
+    link: 'https://sideswap.finance/#/swap',
+    avatar: 'https://x.com/SideswapZK/photo'
   },
   {
     name: 'Opensat',
-    src: 'osat.io',
-    img: 'https://x.com/ins_opensat/photo'
+    link: 'https://linktr.ee/opensat',
+    avatar: 'https://x.com/ins_opensat/photo'
   },
   {
     name: 'ZKFair Community',
-    src: 'linktr.ee/zkfair',
-    img: 'https://x.com/ZKFCommunity/photo'
+    link: 'https://linktr.ee/zkfair',
+    avatar: 'https://x.com/ZKFCommunity/photo'
   },
   {
     name: 'Viction',
-    src: 'viction.xyz',
-    img: 'https://x.com/BuildOnViction/photo'
+    link: 'https://viction.xyz',
+    avatar: 'https://x.com/BuildOnViction/photo'
   },
   {
     name: 'MetaPath',
-    src: 'dapp.path.finance',
-    img: 'https://x.com/MetaPath_me/photo'
+    link: 'https://www.metapath.me',
+    avatar: 'https://x.com/MetaPath_me/photo'
   },
   {
     name: 'Core DAO',
-    src: 'snack.bio/coredao',
-    img: 'https://x.com/Coredao_Org/photo'
+    link: 'https://snack.bio/coredao',
+    avatar: 'https://x.com/Coredao_Org/photo'
   },
   {
     name: 'SWFT Blockchain',
-    src: 'swft.pro',
-    img: 'https://x.com/SwftCoin/photo'
+    link: 'https://swft.pro',
+    avatar: 'https://x.com/SwftCoin/photo'
   },
   {
     name: 'NovaDEX',
-    src: 'novadex.io',
-    img: 'https://x.com/NovaDEX_io/photo'
+    link: 'https://novadex.io',
+    avatar: 'https://x.com/NovaDEX_io/photo'
   },
   {
     name: 'bookmaker.XYZ',
-    src: 'bookmaker.xyz',
-    img: 'https://x.com/bookmakerxyz/photo'
+    link: 'https://bookmaker.xyz',
+    avatar: BRdcDIGD
   },
   {
     name: 'Kinza Finance',
-    src: 'kinza.finance',
-    img: 'https://x.com/kinzafinance/photo'
+    link: 'https://kinza.finance',
+    avatar: 'https://x.com/kinzafinance/photo'
   },
   {
     name: 'Adventure Gold DAO',
-    src: 'adventuregold.org',
-    img: 'https://x.com/GoldAdventure/photo'
+    link: 'https://adventuregold.org',
+    avatar: 'https://x.com/GoldAdventure/photo'
   },
   {
     name: 'iZUMi Finance',
-    src: 'izumi.finance/home',
-    img: 'https://x.com/izumi_Finance/photo'
+    link: 'https://izumi.finance/home',
+    avatar: 'https://x.com/izumi_Finance/photo'
   },
   {
     name: 'STP_Network',
-    src: 'stp.network',
-    img: 'https://x.com/STP_Network/photo'
+    link: 'https://www.stp.network',
+    avatar: 'https://x.com/STP_Network/photo'
   },
   {
     name: 'Konnect',
-    src: 'linktr.ee/konnect.links',
-    img: 'https://x.com/KONNECT_KCT/photo'
+    link: 'https://linktr.ee/konnect.links',
+    avatar: 'https://x.com/KONNECT_KCT/photo'
   },
   {
     name: 'Pheasant Network',
-    src: 'pheasant.network',
-    img: 'https://x.com/PheasantNetwork/photo'
+    link: 'https://pheasant.network',
+    avatar: 'https://x.com/PheasantNetwork/photo'
   },
   {
     name: 'Skydrome',
-    src: 'skydrome.finance',
-    img: 'https://x.com/skydrome/photo'
+    link: 'https://skydrome.finance',
+    avatar: 'https://x.com/skydrome/photo'
   },
   {
     name: 'Power Browser',
-    src: 'powerdao.ai',
-    img: 'https://x.com/PowerBrowser/photo'
+    link: 'https://powerdao.ai',
+    avatar: 'https://x.com/PowerBrowser/photo'
   },
   {
     name: 'OmniKingdoms',
-    src: 'omnikingdoms.io',
-    img: 'https://pbs.twimg.com/profile_images/1680295238924128256/M1UhTrUM_400x400.jpg'
+    link: 'https://www.omnikingdoms.io',
+    avatar: M1UhTrUM
   }
 ]
