@@ -1,20 +1,37 @@
 <template>
   <div>
-    <div class="partner-wrapper mx-auto md:block hidden pb-36" data-aos="fade-up" data-aos-duration="2000">
+    <div class="partner-wrapper mx-auto md:block hidden pb-36">
       <div class="text-8xl font-bold text-center text-white mb-20">
         Partners
       </div>
       <div class="flex flex-wrap justify-center">
         <a
-          v-for="(item, index) in imgs"
+          v-for="(item, index) in imgs.slice(0, 126)"
           :key="index"
-          :href="item.src"
+          :href="item.link"
           target="_blank"
           :title="item.name"
           class="mr-6 mb-6"
         >
-          <img :src="item.img" class="cursor-pointer hover:opacity-75 rounded-full w-10" :draggable="false">
+          <img :src="item.avatar" class="cursor-pointer hover:opacity-75 rounded-full w-10 h-10" :draggable="false">
         </a>
+        <template v-if="moreItemShow">
+          <a
+            v-for="(item, index) in imgs.slice(126)"
+            :key="index"
+            :href="item.link"
+            target="_blank"
+            :title="item.name"
+            class="mr-6 mb-6"
+          >
+            <img :src="item.avatar" class="cursor-pointer hover:opacity-75 rounded-full w-10 h-10" :draggable="false">
+          </a>
+        </template>
+      </div>
+      <div v-if="!moreItemShow" class="flex justify-center">
+        <div class="hover:opacity-75 text-brand border border-brand py-2 px-4 flex justify-center items-center cursor-pointer text-center rounded-sm" @click="moreItemShow=true">
+          More
+        </div>
       </div>
     </div>
     <div class="px-5 md:hidden block partner-wrapper-m">
@@ -23,25 +40,45 @@
       </div>
       <div class="flex flex-wrap justify-center">
         <a
-          v-for="(item, index) in imgs"
+          v-for="(item, index) in imgs.slice(0, 126)"
           :key="index"
-          :href="item.src"
+          :href="item.link"
           target="_blank"
           :title="item.name"
           class="brand-logo"
         >
-          <img :src="item.img" class="cursor-pointer hover:opacity-75 rounded-full w-10" :draggable="false">
+          <img :src="item.avatar" class="cursor-pointer hover:opacity-75 rounded-full w-10" :draggable="false">
         </a>
+        <template v-if="moreItemShow">
+          <a
+            v-for="(item, index) in imgs.slice(126)"
+            :key="index"
+            :href="item.link"
+            target="_blank"
+            :title="item.name"
+            class="brand-logo"
+          >
+            <img :src="item.avatar" class="cursor-pointer hover:opacity-75 rounded-full w-10 h-10" :draggable="false">
+          </a>
+        </template>
+      </div>
+      <div v-if="!moreItemShow" class="flex justify-center">
+        <div class="hover:opacity-75 text-brand border border-brand py-2 px-4 flex justify-center items-center cursor-pointer text-center rounded-sm" @click="moreItemShow=true">
+          More
+        </div>
       </div>
     </div>
   </div>
 </template>
 
 <script>
-import imgs from '@/constant/partner-item-img'
+import imgs from '@/constant/partner-list'
 export default {
   data() {
-    return { imgs }
+    return { imgs, moreItemShow: false }
+  },
+  methods: {
+
   }
 }
 </script>
