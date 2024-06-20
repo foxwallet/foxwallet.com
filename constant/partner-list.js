@@ -45,6 +45,56 @@ import BetaStaking from '@/assets/img/new-partners/BetaStaking.jpeg'
 import AlphaSwap from '@/assets/img/new-partners/AlphaSwap.png'
 import xwgGames from '@/assets/img/new-partners/xwg_games.jpeg'
 
+import tusdio from '@/assets/img/new-partners/tusdio.jpeg'
+import universesatoshi from '@/assets/img/new-partners/universesatoshi.jpeg'
+import ALIENXchain from '@/assets/img/new-partners/ALIENXchain.png'
+import Inswap from '@/assets/img/new-partners/Inswap.jpeg'
+import RoseonExchange from '@/assets/img/new-partners/RoseonExchange.jpeg'
+import relationlabs from '@/assets/img/new-partners/relationlabs.jpeg'
+import mesonfi from '@/assets/img/new-partners/mesonfi.jpeg'
+import xpnetwork from '@/assets/img/new-partners/xpnetwork.jpeg'
+import zkLinkNova from '@/assets/img/new-partners/zkLinkNova.jpeg'
+import pencilsprotocol from '@/assets/img/new-partners/pencilsprotocol.jpeg'
+import BtcPeoples from '@/assets/img/new-partners/BtcPeoples.png'
+import MazzeLabs from '@/assets/img/new-partners/MazzeLabs.png'
+import blastnsdomains from '@/assets/img/new-partners/blastnsdomains.jpeg'
+import UniPortNetwork from '@/assets/img/new-partners/UniPortNetwork.png'
+import Hippo from '@/assets/img/new-partners/Hippo.jpeg'
+import TrendX from '@/assets/img/new-partners/TrendX.jpeg'
+
+import OneID from '@/assets/img/new-partners/OneID.jpeg'
+import BiHelix from '@/assets/img/new-partners/BiHelix.jpeg'
+import Transak from '@/assets/img/new-partners/Transak.jpeg'
+import Script from '@/assets/img/new-partners/Script.jpeg'
+import Dechat from '@/assets/img/new-partners/Dechat.jpeg'
+import BridgeM from '@/assets/img/new-partners/BridgeM.jpeg'
+import FILLiquid from '@/assets/img/new-partners/FILLiquid.jpeg'
+import Defactor from '@/assets/img/new-partners/Defactor.jpeg'
+import Zeepr from '@/assets/img/new-partners/Zeepr.jpeg'
+import ChintaiNetwork from '@/assets/img/new-partners/ChintaiNetwork.jpeg'
+import C14 from '@/assets/img/new-partners/C14.png'
+import openfabricai from '@/assets/img/new-partners/openfabricai.jpeg'
+import MultiSat from '@/assets/img/new-partners/MultiSat.jpeg'
+import ESCC from '@/assets/img/new-partners/ESCC.jpeg'
+import GT from '@/assets/img/new-partners/GT.jpeg'
+import dottaikodomains from '@/assets/img/new-partners/dottaikodomains.jpeg'
+import SideswapZK from '@/assets/img/new-partners/SideswapZK.jpeg'
+import Opensat from '@/assets/img/new-partners/Opensat.jpeg'
+import ZKFair from '@/assets/img/new-partners/ZKFair.jpeg'
+import Viction from '@/assets/img/new-partners/Viction.jpeg'
+import MetaPath from '@/assets/img/new-partners/MetaPath.jpeg'
+import Coredao from '@/assets/img/new-partners/Coredao.png'
+import SwftCoin from '@/assets/img/new-partners/SwftCoin.jpeg'
+import NovaDEX from '@/assets/img/new-partners/NovaDEX.jpeg'
+import kinzafinance from '@/assets/img/new-partners/kinzafinance.jpeg'
+import GoldAdventure from '@/assets/img/new-partners/GoldAdventure.jpeg'
+import iZUMi from '@/assets/img/new-partners/iZUMi.jpeg'
+import STP from '@/assets/img/new-partners/STP.png'
+import Konnect from '@/assets/img/new-partners/Konnect.jpeg'
+import PheasantNetwork from '@/assets/img/new-partners/PheasantNetwork.jpeg'
+import Skydrome from '@/assets/img/new-partners/Skydrome.jpeg'
+import PowerBrowser from '@/assets/img/new-partners/PowerBrowser.png'
+
 import RYk4R6Lr from '@/assets/img/partners/RYk4R6Lr.jpeg'
 import erDLnbwE from '@/assets/img/partners/erDLnbwE.jpeg'
 import uoeUkeKe from '@/assets/img/partners/uoeUkeKe.jpeg'
@@ -570,7 +620,7 @@ export default [
   {
     name: 'TrendX',
     link: 'https://app.trendx.tech/',
-    avatar: 'https://x.com/TrendX_official/photo'
+    avatar: TrendX
   },
   {
     name: 'Filscan.io',
@@ -963,204 +1013,199 @@ export default [
     avatar: xwgGames
   },
   {
-    name: 'RWAX_DAO',
-    link: 'https://rwax.art',
-    avatar: 'https://x.com/RWAXDAO/photo'
-  },
-  {
     name: 'TrueUSD',
     link: 'https://linktr.ee/tusdio',
-    avatar: 'https://x.com/tusdio/photo'
+    avatar: tusdio
   },
   {
     name: 'Satoshi Universe',
     link: 'https://lnkfi.re/satoshiuniverse',
-    avatar: 'https://x.com/universesatoshi/photo'
+    avatar: universesatoshi
   },
   {
     name: 'ALIENX',
     link: 'https://linktr.ee/alienxchain',
-    avatar: 'https://x.com/ALIENXchain/photo'
+    avatar: ALIENXchain
   },
   {
     name: 'Inswap',
     link: 'https://www.inswap.io',
-    avatar: 'https://x.com/inswap_/photo'
+    avatar: Inswap
   },
   {
     name: 'RoseonX AI',
     link: 'linktr.ee/roseonexchange',
-    avatar: 'https://x.com/RoseonExchange/photo'
+    avatar: RoseonExchange
   },
   {
     name: 'Relation',
     link: 'https://relationlabs.ai/home',
-    avatar: 'https://x.com/relationlabs/photo'
+    avatar: relationlabs
   },
   {
     name: 'Meson Finance',
     link: 'https://meson.fi',
-    avatar: 'https://x.com/mesonfi/photo'
+    avatar: mesonfi
   },
   {
     name: 'XP.NETWORK',
     link: 'https://xp.network',
-    avatar: 'https://x.com/xpnetwork_/photo'
+    avatar: xpnetwork
   },
   {
     name: 'zkLink Nova',
     link: 'https://zklink.io',
-    avatar: 'https://x.com/zkLinkNova/photo'
+    avatar: zkLinkNova
   },
   {
     name: 'Pencils Protocol',
     link: 'https://linktr.ee/PencilsProtocol',
-    avatar: 'https://x.com/pencilsprotocol/photo'
+    avatar: pencilsprotocol
   },
   {
     name: "People's DA",
     link: 'http://peoplesda.net',
-    avatar: 'https://x.com/BtcPeoples_DA/photo'
+    avatar: BtcPeoples
   },
   {
     name: 'Mazze',
     link: 'https://linktr.ee/mazzelabs',
-    avatar: 'https://x.com/MazzeLabs/photo'
+    avatar: MazzeLabs
   },
   {
     name: 'Blast Name Service',
     link: 'https://sns.so',
-    avatar: 'https://x.com/blastnsdomains/photo'
+    avatar: blastnsdomains
   },
   {
     name: 'UniPortNetwork',
     link: 'https://uniport.network',
-    avatar: 'https://x.com/Uniport_Network/photo'
+    avatar: UniPortNetwork
   },
   {
     name: 'Hippo Swap',
     link: 'https://link3.to/hipposwap',
-    avatar: 'https://x.com/Hippo_Swap/photo'
+    avatar: Hippo
   },
   {
     name: 'OneID',
     link: 'https://linktr.ee/OneID_Official',
-    avatar: 'https://x.com/useOneID/photo'
+    avatar: OneID
   },
   {
     name: 'BiHelix',
     link: 'https://linktr.ee/bihelix',
-    avatar: 'https://x.com/BiHelix_/photo'
+    avatar: BiHelix
   },
   {
     name: 'Transak',
     link: 'https://transak.com',
-    avatar: 'https://x.com/Transak/photo'
+    avatar: Transak
   },
   {
     name: 'Script Network',
     link: 'https://link3.to/scriptnetwork',
-    avatar: 'https://x.com/script_network/photo'
+    avatar: Script
   },
   {
     name: 'Dechat',
     link: 'https://linktr.ee/Dechat_socialfi',
-    avatar: 'https://x.com/dechat_io/photo'
+    avatar: Dechat
   },
   {
     name: 'BridgeM',
     link: 'https://link3.to/bridgem',
-    avatar: 'https://x.com/BridgeM_io/photo'
+    avatar: BridgeM
   },
   {
     name: 'FILLiquid',
     link: 'https://linktr.ee/FILLiquid',
-    avatar: 'https://x.com/FILLiquid/photo'
+    avatar: FILLiquid
   },
   {
     name: 'Defactor',
     link: 'https://www.defactor.com',
-    avatar: 'https://x.com/defactor_/photo'
+    avatar: Defactor
   },
   {
     name: 'Zeepr_labs',
     link: 'https://zeepr.io',
-    avatar: 'https://x.com/Zeepr_labs/photo'
+    avatar: Zeepr
   },
   {
     name: 'ChintaiNetwork',
     link: 'https://chintai.io',
-    avatar: 'https://x.com/ChintaiNetwork/photo'
+    avatar: ChintaiNetwork
   },
   {
     name: 'C14',
     link: 'https://www.c14.money',
-    avatar: 'https://x.com/c14_team/photo'
+    avatar: C14
   },
   {
     name: 'Openfabric AI',
     link: 'https://openfabric.ai',
-    avatar: 'https://x.com/openfabricai/photo'
+    avatar: openfabricai
   },
   {
     name: 'MultiSat',
     link: 'https://multisat.io/staking',
-    avatar: 'https://x.com/multisat_io/photo'
+    avatar: MultiSat
   },
   {
     name: 'ESCC',
     link: 'https://escc.io',
-    avatar: 'https://x.com/ESCC_io/photo'
+    avatar: ESCC
   },
   {
     name: 'GT Protocol',
     link: 'https://www.gt-protocol.io',
-    avatar: 'https://x.com/GT_Protocol/photo'
+    avatar: GT
   },
   {
     name: 'DotTaiko Domains',
     link: 'https://dottaiko.me',
-    avatar: 'https://x.com/dottaikodomains/photo'
+    avatar: dottaikodomains
   },
   {
     name: 'Sideswap',
     link: 'https://sideswap.finance/#/swap',
-    avatar: 'https://x.com/SideswapZK/photo'
+    avatar: SideswapZK
   },
   {
     name: 'Opensat',
     link: 'https://linktr.ee/opensat',
-    avatar: 'https://x.com/ins_opensat/photo'
+    avatar: Opensat
   },
   {
     name: 'ZKFair Community',
     link: 'https://linktr.ee/zkfair',
-    avatar: 'https://x.com/ZKFCommunity/photo'
+    avatar: ZKFair
   },
   {
     name: 'Viction',
     link: 'https://viction.xyz',
-    avatar: 'https://x.com/BuildOnViction/photo'
+    avatar: Viction
   },
   {
     name: 'MetaPath',
     link: 'https://www.metapath.me',
-    avatar: 'https://x.com/MetaPath_me/photo'
+    avatar: MetaPath
   },
   {
     name: 'Core DAO',
     link: 'https://snack.bio/coredao',
-    avatar: 'https://x.com/Coredao_Org/photo'
+    avatar: Coredao
   },
   {
     name: 'SWFT Blockchain',
     link: 'https://swft.pro',
-    avatar: 'https://x.com/SwftCoin/photo'
+    avatar: SwftCoin
   },
   {
     name: 'NovaDEX',
     link: 'https://novadex.io',
-    avatar: 'https://x.com/NovaDEX_io/photo'
+    avatar: NovaDEX
   },
   {
     name: 'bookmaker.XYZ',
@@ -1170,42 +1215,42 @@ export default [
   {
     name: 'Kinza Finance',
     link: 'https://kinza.finance',
-    avatar: 'https://x.com/kinzafinance/photo'
+    avatar: kinzafinance
   },
   {
     name: 'Adventure Gold DAO',
     link: 'https://adventuregold.org',
-    avatar: 'https://x.com/GoldAdventure/photo'
+    avatar: GoldAdventure
   },
   {
     name: 'iZUMi Finance',
     link: 'https://izumi.finance/home',
-    avatar: 'https://x.com/izumi_Finance/photo'
+    avatar: iZUMi
   },
   {
     name: 'STP_Network',
     link: 'https://www.stp.network',
-    avatar: 'https://x.com/STP_Network/photo'
+    avatar: STP
   },
   {
     name: 'Konnect',
     link: 'https://linktr.ee/konnect.links',
-    avatar: 'https://x.com/KONNECT_KCT/photo'
+    avatar: Konnect
   },
   {
     name: 'Pheasant Network',
     link: 'https://pheasant.network',
-    avatar: 'https://x.com/PheasantNetwork/photo'
+    avatar: PheasantNetwork
   },
   {
     name: 'Skydrome',
     link: 'https://skydrome.finance',
-    avatar: 'https://x.com/skydrome/photo'
+    avatar: Skydrome
   },
   {
     name: 'Power Browser',
     link: 'https://powerdao.ai',
-    avatar: 'https://x.com/PowerBrowser/photo'
+    avatar: PowerBrowser
   },
   {
     name: 'OmniKingdoms',

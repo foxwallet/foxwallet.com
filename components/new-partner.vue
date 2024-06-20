@@ -13,7 +13,7 @@
           :title="item.name"
           class="mr-6 mb-6"
         >
-          <img :src="item.avatar" class="cursor-pointer border hover:opacity-75 rounded-full w-10 h-10" :draggable="false">
+          <img :src="item.avatar" class="cursor-pointer hover:opacity-75 rounded-full w-10 h-10" :draggable="false">
         </a>
         <template v-if="moreItemShow">
           <a
@@ -24,7 +24,7 @@
             :title="item.name"
             class="mr-6 mb-6"
           >
-            <img :src="item.avatar" class="cursor-pointer border hover:opacity-75 rounded-full w-10 h-10" :draggable="false">
+            <img :src="item.avatar" class="cursor-pointer hover:opacity-75 rounded-full w-10 h-10" :draggable="false">
           </a>
         </template>
       </div>
@@ -58,7 +58,7 @@
             :title="item.name"
             class="brand-logo"
           >
-            <img :src="item.avatar" class="cursor-pointer border hover:opacity-75 rounded-full w-10 h-10" :draggable="false">
+            <img :src="item.avatar" class="cursor-pointer hover:opacity-75 rounded-full w-10 h-10" :draggable="false">
           </a>
         </template>
       </div>
