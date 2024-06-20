@@ -7,6 +7,44 @@ import injective from '@/assets/img/new-partners/injective.jpeg'
 import NibiruChain from '@/assets/img/new-partners/NibiruChain.jpeg'
 import AgentLayer from '@/assets/img/new-partners/Agent_Layer.jpeg'
 import Hotcoin from '@/assets/img/new-partners/Hotcoin.jpeg'
+import BVMnetwork from '@/assets/img/new-partners/BVMnetwork.jpeg'
+import CoreumOfficial from '@/assets/img/new-partners/CoreumOfficial.jpeg'
+import taikoxyz from '@/assets/img/new-partners/taikoxyz.jpeg'
+import MagicSquareNews from '@/assets/img/new-partners/MagicSquareNews.png'
+import ScrollZKP from '@/assets/img/new-partners/Scroll_ZKP.jpeg'
+import DappGate from '@/assets/img/new-partners/DappGate.jpeg'
+import CelerNetwork from '@/assets/img/new-partners/CelerNetwork.jpeg'
+import cagacrypto from '@/assets/img/new-partners/cagacrypto.jpeg'
+import ReadOnMe3 from '@/assets/img/new-partners/ReadOnMe3.png'
+import stasisnet from '@/assets/img/new-partners/stasisnet.png'
+import TonGiftsbot from '@/assets/img/new-partners/TonGiftsbot.png'
+import LooperLands from '@/assets/img/new-partners/LooperLands.jpeg'
+import FentureFinance from '@/assets/img/new-partners/FentureFinance.jpeg'
+import zulu from '@/assets/img/new-partners/zulu.png'
+import lovely from '@/assets/img/new-partners/lovely.jpeg'
+import xstar from '@/assets/img/new-partners/xstar.jpeg'
+import bahamut from '@/assets/img/new-partners/bahamut.jpeg'
+import ordex from '@/assets/img/new-partners/ordex.jpeg'
+import Optopia from '@/assets/img/new-partners/Optopia.jpeg'
+import mint from '@/assets/img/new-partners/mint.jpeg'
+import ZKBaseOfficial from '@/assets/img/new-partners/ZKBaseOfficial.jpeg'
+import WeFi from '@/assets/img/new-partners/WeFi.webp'
+import SociogramSocFi from '@/assets/img/new-partners/SociogramSocFi.jpeg'
+import exSatNetwork from '@/assets/img/new-partners/exSatNetwork.jpeg'
+import web3talentsshow from '@/assets/img/new-partners/web3talentsshow.jpeg'
+import TunaChain from '@/assets/img/new-partners/TunaChain.jpeg'
+import GPTPlusAI from '@/assets/img/new-partners/GPTPlusAI.jpeg'
+import AdamSwap from '@/assets/img/new-partners/AdamSwap.jpeg'
+import MasterPop from '@/assets/img/new-partners/MasterPop.jpeg'
+import SoonVerse from '@/assets/img/new-partners/SoonVerse.jpeg'
+import ZKCross from '@/assets/img/new-partners/ZKCross.jpeg'
+import AlienSwap from '@/assets/img/new-partners/AlienSwap.jpeg'
+import SecondLive from '@/assets/img/new-partners/SecondLive.jpeg'
+import Swing from '@/assets/img/new-partners/Swing.jpeg'
+import BetaStaking from '@/assets/img/new-partners/BetaStaking.jpeg'
+import AlphaSwap from '@/assets/img/new-partners/AlphaSwap.png'
+import xwgGames from '@/assets/img/new-partners/xwg_games.jpeg'
+
 import RYk4R6Lr from '@/assets/img/partners/RYk4R6Lr.jpeg'
 import erDLnbwE from '@/assets/img/partners/erDLnbwE.jpeg'
 import uoeUkeKe from '@/assets/img/partners/uoeUkeKe.jpeg'
@@ -232,32 +270,32 @@ export default [
   {
     name: 'BVMnetwork',
     link: 'https://bvm.network',
-    avatar: 'https://x.com/BVMnetwork/photo'
+    avatar: BVMnetwork
   },
   {
     name: 'Coreum',
     link: 'https://www.coreum.com',
-    avatar: 'https://x.com/CoreumOfficial/photo'
+    avatar: CoreumOfficial
   },
   {
     name: 'Taiko',
     link: 'https://taiko.xyz',
-    avatar: 'https://x.com/taikoxyz/photo'
+    avatar: taikoxyz
   },
   {
     name: 'Magic Store',
     link: 'https://magic.store',
-    avatar: 'https://x.com/MagicSquareNews/photo'
+    avatar: MagicSquareNews
   },
   {
     name: 'Scroll',
     link: 'https://scroll.io',
-    avatar: 'https://x.com/Scroll_ZKP/photo'
+    avatar: ScrollZKP
   },
   {
     name: 'DappGate',
     link: 'https://www.dappgate.io/apps/dappgate',
-    avatar: 'https://x.com/DappGate/photo'
+    avatar: DappGate
   },
   {
     name: 'Unstoppable Domains',
@@ -387,7 +425,7 @@ export default [
   {
     name: 'CelerNetwork',
     link: 'https://celer.network',
-    avatar: 'https://x.com/CelerNetwork/photo'
+    avatar: CelerNetwork
   },
   {
     name: 'Klaytn',
@@ -412,7 +450,7 @@ export default [
   {
     name: 'CAGA CRYPTO',
     link: 'https://www.cagacrypto.com',
-    avatar: 'https://x.com/_cagacrypto/photo'
+    avatar: cagacrypto
   },
   {
     name: 'Metis',
@@ -672,7 +710,7 @@ export default [
   {
     name: 'Fenture AI',
     link: 'https://fenture.io/',
-    avatar: 'https://x.com/FentureFinance/photo'
+    avatar: FentureFinance
   },
   {
     name: 'Star Protocol',
@@ -732,7 +770,7 @@ export default [
   {
     name: 'Revox/ ReadON',
     link: 'https://www.revox.ai',
-    avatar: 'https://x.com/ReadOnMe3/photo'
+    avatar: ReadOnMe3
   },
   {
     name: 'MES protocol',
@@ -792,137 +830,137 @@ export default [
   {
     name: 'STASIS/EURS',
     link: 'https://linktr.ee/stasiseurs',
-    avatar: 'https://x.com/stasisnet/photo'
+    avatar: stasisnet
   },
   {
     name: 'TonGifts',
     link: 't.me/GetTonGifts_Bot',
-    avatar: 'https://x.com/TonGiftsbot/photo'
+    avatar: TonGiftsbot
   },
   {
     name: 'LooperLands',
     link: 'https://looperlands.io',
-    avatar: 'https://x.com/LooperLands/photo'
+    avatar: LooperLands
   },
   {
     name: 'Zulu Network',
     link: 'https://zulunetwork.io',
-    avatar: 'https://x.com/zulu_network/photo'
+    avatar: zulu
   },
   {
     name: 'LOVELY SWAP',
     link: 'https://lovelyswap.com',
-    avatar: 'https://x.com/lovely_swap/photo'
+    avatar: lovely
   },
   {
     name: 'XSTAR',
     link: 'linktr.ee/xstar_id',
-    avatar: 'https://x.com/xstar_id/photo'
+    avatar: xstar
   },
   {
     name: 'Bahamut',
     link: 'https://www.bahamut.io',
-    avatar: 'https://x.com/bahamut_chain/photo'
+    avatar: bahamut
   },
   {
     name: 'ORDEX',
     link: 'https://ordex.io',
-    avatar: 'https://x.com/ordex_io/photo'
+    avatar: ordex
   },
   {
     name: 'Optopia',
     link: 'linktr.ee/optopia',
-    avatar: 'https://x.com/Optopia_AI/photo'
+    avatar: Optopia
   },
   {
     name: 'Mint Blockchain',
     link: 'https://www.mintchain.io',
-    avatar: 'https://x.com/Mint_Blockchain/photo'
+    avatar: mint
   },
   {
     name: 'ZKBase',
     link: 'https://zkbase.org',
-    avatar: 'https://x.com/ZKBaseOfficial/photo'
+    avatar: ZKBaseOfficial
   },
   {
     name: 'WeFi',
     link: 'link3.to/wefi',
-    avatar: 'https://ccgateway.infura-ipfs.io/ipfs/QmPDCQVfMD3zFaF6yeohu7wmfSUo8HdF8NRtHP5endW5we'
+    avatar: WeFi
   },
   {
     name: 'Sociogram',
     link: 'https://sociogram.org',
-    avatar: 'https://x.com/SociogramSocFi/photo'
+    avatar: SociogramSocFi
   },
   {
     name: 'exSat Network',
     link: 'https://exsat.network',
-    avatar: 'https://x.com/exSatNetwork/photo'
+    avatar: exSatNetwork
   },
   {
     name: 'Web3 Talents Show',
     link: 'https://web3talents.show/?game',
-    avatar: 'https://x.com/web3talentsshow/photo'
+    avatar: web3talentsshow
   },
   {
     name: 'TunaChain',
     link: 'https://tunachain.io',
-    avatar: 'https://x.com/TunaChain/photo'
+    avatar: TunaChain
   },
   {
     name: 'GPT Plus',
     link: 'https://gpt-plus.io/en/',
-    avatar: 'https://x.com/GPTPlusAI/photo'
+    avatar: GPTPlusAI
   },
   {
     name: 'AdamSwap',
     link: 'https://adamdefi.io/swap',
-    avatar: 'https://x.com/AdamSwap_Zulu/photo'
+    avatar: AdamSwap
   },
   {
     name: 'MasterPop',
     link: 'https://www.masterpop.xyz',
-    avatar: 'https://x.com/masterpopgame/photo'
+    avatar: MasterPop
   },
   {
     name: 'SoonVerse',
     link: 'https://link3.to/soonverse',
-    avatar: 'https://x.com/soon_verse/photo'
+    avatar: SoonVerse
   },
   {
     name: 'ZKCross',
     link: 'https://linktr.ee/zkcross',
-    avatar: 'https://x.com/thezkcross/photo'
+    avatar: ZKCross
   },
   {
     name: 'AlienSwap',
     link: 'https://alienswap.xyz',
-    avatar: 'https://x.com/AlienSwap_NFT/photo'
+    avatar: AlienSwap
   },
   {
     name: 'SecondLive',
     link: 'https://secondlive.world',
-    avatar: 'https://x.com/SecondLiveReal/photo'
+    avatar: SecondLive
   },
   {
     name: 'Swing',
     link: 'https://hub.xyz/swing',
-    avatar: 'https://x.com/swing_xyz/photo'
+    avatar: Swing
   },
   {
     name: 'Beta Staking',
     link: 'https://betastaking.com',
-    avatar: 'https://x.com/BetaStaking/photo'
+    avatar: BetaStaking
   },
   {
     name: 'AlphaSwap',
     link: 'https://alphaswap.pro/',
-    avatar: 'https://x.com/AlphaSwap_dex/photo'
+    avatar: AlphaSwap
   },
   {
     name: 'X World Games',
     link: 'https://xwg.games',
-    avatar: 'https://x.com/xwg_games/photo'
+    avatar: xwgGames
   },
   {
     name: 'RWAX_DAO',
