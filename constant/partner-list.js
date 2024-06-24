@@ -210,6 +210,7 @@ import cRMmnoAz from '@/assets/img/partners/cRMmnoAz.jpeg'
 import aFlare from '@/assets/img/partners/aFlare.jpeg'
 import TaskOn from '@/assets/img/partners/TaskOn.png'
 import Furucombo from '@/assets/img/partners/Furucombo.jpeg'
+import AreonNetwork from '@/assets/img/new-partners/AreonNetwork.jpg'
 
 export default [
   {
@@ -1256,5 +1257,10 @@ export default [
     name: 'OmniKingdoms',
     link: 'https://www.omnikingdoms.io',
     avatar: M1UhTrUM
+  },
+  {
+    name: 'AreonNetwork',
+    link: 'https://areon.network/',
+    avatar: AreonNetwork
   }
 ]
