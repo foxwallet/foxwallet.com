@@ -214,11 +214,6 @@ import AreonNetwork from '@/assets/img/new-partners/AreonNetwork.jpg'
 
 export default [
   {
-    name: 'StarkNet',
-    link: 'https://www.starknet.io',
-    avatar: aWyFDMG6u
-  },
-  {
     name: 'Ethereum Foundation',
     link: 'https://ethereum.foundation',
     avatar: yrghgrg
@@ -245,7 +240,7 @@ export default [
   },
   {
     name: 'LI.FI',
-    link: 'https://jumper.exchange',
+    link: 'https://li.fi/',
     avatar: lifiprotocol
   },
   {
@@ -404,7 +399,7 @@ export default [
     avatar: wYIRFfIO
   },
   {
-    name: 'arbitrum',
+    name: 'Arbitrum',
     link: 'https://arbitrum.foundation',
     avatar: ZjTzBAS
   },
@@ -524,7 +519,7 @@ export default [
     avatar: vLUHoB3G
   },
   {
-    name: '.bit',
+    name: 'd.id',
     link: 'https://did.id',
     avatar: EIzI
   },
@@ -750,7 +745,7 @@ export default [
   },
   {
     name: 'Godwoken EVM',
-    link: 'http://godwoken.com',
+    link: 'https://godwoken.com',
     avatar: dPhcGeDA
   },
   {
@@ -935,7 +930,7 @@ export default [
   },
   {
     name: 'WeFi',
-    link: 'link3.to/wefi',
+    link: 'https://link3.to/wefi',
     avatar: WeFi
   },
   {
@@ -1065,7 +1060,7 @@ export default [
   },
   {
     name: "People's DA",
-    link: 'http://peoplesda.net',
+    link: 'https://peoplesda.net',
     avatar: BtcPeoples
   },
   {
