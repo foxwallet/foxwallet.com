@@ -20,10 +20,10 @@
             {{ $t("nav.download.title") }}
           </a>
           <a href="https://github.com/foxwallet" target="_blank" class="text-xs lg:text-sm mr-2 lg:mr-6 hover:opacity-60">
-            {{ $t("nav.opensource.title") }}
+            {{ $t("nav.openSource") }}
           </a>
           <a href="https://github.com/foxwallet/security-audit-certification" target="_blank" class="text-xs lg:text-sm mr-2 lg:mr-6 hover:opacity-60">
-            {{ $t("nav.audit.title") }}
+            {{ $t("nav.auditReport") }}
           </a>
         </div>
       </div>

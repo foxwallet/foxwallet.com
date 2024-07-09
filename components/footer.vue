@@ -33,7 +33,7 @@
               {{ $t('nav.auditReport') }}
             </a>
             <a class="cursor-pointer hover:opacity-75 text-gray-700 mb-2" target="_blank" href="https://hc.foxwallet.com/docs/resource">
-              {{ $t('nav.material') }}
+              {{ $t('nav.brandResource') }}
             </a>
           </div>
           <div class="flex flex-col">

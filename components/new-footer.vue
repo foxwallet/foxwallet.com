@@ -21,7 +21,7 @@
                 {{ $t('nav.auditReport') }}
               </a>
               <a class="cursor-pointer opacity-60 hover:opacity-75 text-white mb-3" target="_blank" href="https://hc.foxwallet.com/docs/resource">
-                {{ $t('nav.material') }}
+                {{ $t('nav.brandResource') }}
               </a>
             </div>
           </div>
@@ -76,7 +76,7 @@
             {{ $t('nav.auditReport') }}
           </a>
           <a class="cursor-pointer opacity-60 hover:opacity-75 text-white mb-3" target="_blank" href="https://hc.foxwallet.com/docs/resource">
-            {{ $t('nav.material') }}
+            {{ $t('nav.brandResource') }}
           </a>
         </div>
       </div>

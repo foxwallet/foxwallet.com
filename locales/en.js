@@ -20,12 +20,6 @@ export default {
     download: {
       title: 'Download'
     },
-    opensource: {
-      title: 'Open Source'
-    },
-    audit: {
-      title: 'Audit Report'
-    },
     anniversary: {
       title: 'Anniversary'
     },
@@ -44,7 +38,7 @@ export default {
     connect: 'Connect',
     staking: 'Staking',
     auditReport: 'Audit Report',
-    material: 'Material'
+    brandResource: 'Brand Resource'
   },
   download: {
     banner: {
