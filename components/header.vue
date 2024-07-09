@@ -16,6 +16,12 @@
           <a href="https://foxwallet.com/download" target="_blank" class="text-xs lg:text-sm mr-2 lg:mr-6 hover:opacity-60">
             {{ $t("nav.download.title") }}
           </a>
+          <a href="https://github.com/foxwallet" target="_blank" class="text-xs lg:text-sm mr-2 lg:mr-6 hover:opacity-60">
+            {{ $t("nav.opensource.title") }}
+          </a>
+          <a href="https://github.com/foxwallet/security-audit-certification" target="_blank" class="text-xs lg:text-sm mr-2 lg:mr-6 hover:opacity-60">
+            {{ $t("nav.audit.title") }}
+          </a>
         </div>
       </div>
       <div class="flex items-center" data-aos="fade-left" data-aos-duration="3000">

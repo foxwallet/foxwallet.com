@@ -20,6 +20,12 @@ export default {
     download: {
       title: 'Download'
     },
+    opensource: {
+      title: 'Open Source'
+    },
+    audit: {
+      title: 'Audit Report'
+    },
     anniversary: {
       title: 'Anniversary'
     },
