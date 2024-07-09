@@ -53,7 +53,7 @@
         </div>
         <div class="mt-12 h-px bg-brand"></div>
         <div class="text-center opacity-60 pt-4 pb-8 text-white">
-          @{{ new Date().getFullYear() }} FoxWallet—A consensys formation
+          ©2021 - {{ new Date().getFullYear() }} FOXWALLET FOUNDATION LTD. All Rights Reserved
         </div>
       </div>
     </div>
@@ -107,7 +107,7 @@
       </div>
       <div class="mt-12 h-px bg-brand"></div>
       <div class="text-center opacity-60 pt-4 pb-8 text-white">
-        @{{ new Date().getFullYear() }} FoxWallet—A consensys formation
+        ©2021 - {{ new Date().getFullYear() }} FOXWALLET FOUNDATION LTD. All Rights Reserved
       </div>
     </div>
   </div>
