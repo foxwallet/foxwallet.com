@@ -11,6 +11,7 @@ export default {
     campaign: {
       title: 'Campaign'
     },
+    document: "Document",
     support: {
       title: 'Support'
     },
@@ -28,7 +29,6 @@ export default {
       download: 'Download',
       cloudComputing: 'Cloud Computing',
       faq: 'FAQ',
-      tutorial: 'Tutorial',
       helpCenter: 'Help Center'
     },
     slogan: 'Leading you to the Web3 world',

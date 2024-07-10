@@ -30,14 +30,14 @@
               {{ $t('nav.about.title') }}
             </div>
             <div class="flex flex-col">
-              <a class="cursor-pointer opacity-60 hover:opacity-75 text-white mb-3" target="_blank" href="https://foxwallet.com/download">
-                {{ $t('nav.about.download') }}
-              </a>
               <a class="cursor-pointer opacity-60 hover:opacity-75 text-white mb-3" target="_blank" href="https://hc.foxwallet.com/docs/faq">
                 {{ $t('nav.about.faq') }}
               </a>
               <a class="cursor-pointer opacity-60 hover:opacity-75 text-white mb-3" target="_blank" href="https://hc.foxwallet.com">
-                {{ $t('nav.about.tutorial') }}
+                {{ $t('nav.document') }}
+              </a>
+              <a class="cursor-pointer opacity-60 hover:opacity-75 text-white mb-3" target="_blank" href="https://foxwallet.com/download">
+                {{ $t('nav.about.download') }}
               </a>
             </div>
           </div>
@@ -85,14 +85,14 @@
           {{ $t('nav.about.title') }}
         </div>
         <div class="flex flex-col">
-          <a class="cursor-pointer opacity-60 hover:opacity-75 text-white mb-3" target="_blank" href="https://foxwallet.com/download">
-            {{ $t('nav.about.download') }}
-          </a>
           <a class="cursor-pointer opacity-60 hover:opacity-75 text-white mb-3" target="_blank" href="https://hc.foxwallet.com/docs/faq">
             {{ $t('nav.about.faq') }}
           </a>
           <a class="cursor-pointer opacity-60 hover:opacity-75 text-white mb-3" target="_blank" href="https://hc.foxwallet.com">
-            {{ $t('nav.about.tutorial') }}
+            {{ $t('nav.document') }}
+          </a>
+          <a class="cursor-pointer opacity-60 hover:opacity-75 text-white mb-3" target="_blank" href="https://foxwallet.com/download">
+            {{ $t('nav.about.download') }}
           </a>
         </div>
       </div>

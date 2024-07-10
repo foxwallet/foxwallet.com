@@ -11,19 +11,19 @@
             <span class="tab-item text-xs lg:text-sm mr-2 lg:mr-6 hover:opacity-60 cursor-pointer">{{ $t("nav.earn.title") }}</span>
           </el-tooltip> -->
           <a href="https://hc.foxwallet.com/docs" target="_blank" class="tab-item text-xs lg:text-sm mr-2 lg:mr-6">
-            {{ $t("nav.support.title") }}
+            {{ $t("nav.document") }}
           </a>
           <a href="https://hc.foxwallet.com/blog" target="_blank" class="tab-item text-xs lg:text-sm mr-2 lg:mr-6">
             {{ $t("nav.blog.title") }}
           </a>
-          <a href="/download" target="_blank" class="tab-item text-xs lg:text-sm mr-2 lg:mr-6">
-            {{ $t("nav.download.title") }}
-          </a>
-          <a href="https://github.com/foxwallet" target="_blank" class="text-xs lg:text-sm mr-2 lg:mr-6 hover:opacity-60">
+          <a href="https://github.com/foxwallet" target="_blank" class="tab-item text-xs lg:text-sm mr-2 lg:mr-6">
             {{ $t("nav.openSource") }}
           </a>
-          <a href="https://github.com/foxwallet/security-audit-certification" target="_blank" class="text-xs lg:text-sm mr-2 lg:mr-6 hover:opacity-60">
+          <a href="https://github.com/foxwallet/security-audit-certification" target="_blank" class="tab-item text-xs lg:text-sm mr-2 lg:mr-6">
             {{ $t("nav.auditReport") }}
+          </a>
+          <a href="/download" target="_blank" class="tab-item text-xs lg:text-sm mr-2 lg:mr-6">
+            {{ $t("nav.download.title") }}
           </a>
         </div>
       </div>
