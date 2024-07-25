@@ -144,7 +144,7 @@
               </li>
               <li>
                 <a class="cursor-pointer hover:opacity-75" target="_blank" href="https://hc.foxwallet.com">
-                  {{ $t('nav.document') }}
+                  {{ $t('nav.docs') }}
                 </a>
               </li>
               <li>

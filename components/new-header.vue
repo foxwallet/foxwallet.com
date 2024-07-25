@@ -7,14 +7,11 @@
           <img src="@/assets/new-img/logo.svg" alt="logo">
         </div>
         <div class="text-bold">
-          <!-- <el-tooltip class="item" effect="dark" :content="$t('nav.earn.coming')" placement="bottom">
-            <span class="tab-item text-xs lg:text-sm mr-2 lg:mr-6 hover:opacity-60 cursor-pointer">{{ $t("nav.earn.title") }}</span>
-          </el-tooltip> -->
-          <a href="https://hc.foxwallet.com/docs" target="_blank" class="tab-item text-xs lg:text-sm mr-2 lg:mr-6">
-            {{ $t("nav.document") }}
-          </a>
           <a href="https://hc.foxwallet.com/blog" target="_blank" class="tab-item text-xs lg:text-sm mr-2 lg:mr-6">
             {{ $t("nav.blog.title") }}
+          </a>
+          <a href="https://hc.foxwallet.com/docs" target="_blank" class="tab-item text-xs lg:text-sm mr-2 lg:mr-6">
+            {{ $t("nav.docs") }}
           </a>
           <a href="https://github.com/foxwallet" target="_blank" class="tab-item text-xs lg:text-sm mr-2 lg:mr-6">
             {{ $t("nav.openSource") }}

@@ -40,17 +40,14 @@
             <h3 class="pt-2 pb-4 font-bold text-xl">
               {{ $t('nav.about.title') }}
             </h3>
-            <!-- <a class="cursor-pointer hover:opacity-75 text-gray-700 mb-2" target="_blank" href="">
-              {{ $t('nav.about.cloudComputing') }}
-            </a> -->
+            <a class="cursor-pointer hover:opacity-75 text-gray-700 mb-2" target="_blank" href="https://hc.foxwallet.com">
+              {{ $t('nav.docs') }}
+            </a>
             <a class="cursor-pointer hover:opacity-75 text-gray-700 mb-2" target="_blank" href="https://hc.foxwallet.com/docs/faq">
               {{ $t('nav.about.faq') }}
             </a>
-            <a class="cursor-pointer hover:opacity-75 text-gray-700 mb-2" target="_blank" href="https://hc.foxwallet.com">
-              {{ $t('nav.document') }}
-            </a>
-            <a class="cursor-pointer hover:opacity-75 text-gray-700 mb-2" target="_blank" href="https://foxwallet.com/download">
-              {{ $t('nav.about.download') }}
+            <a class="cursor-pointer hover:opacity-75 text-gray-700 mb-2" target="_blank" href="https://hc.foxwallet.com/docs/developer/">
+              {{ $t('nav.developer') }}
             </a>
           </div>
         </div>

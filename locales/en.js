@@ -11,7 +11,7 @@ export default {
     campaign: {
       title: 'Campaign'
     },
-    document: "Document",
+    docs: "Docs",
     support: {
       title: 'Support'
     },
@@ -38,7 +38,8 @@ export default {
     connect: 'Connect',
     staking: 'Staking',
     auditReport: 'Audit Report',
-    brandResource: 'Brand Resource'
+    brandResource: 'Brand Resource',
+    developer: 'Developer'
   },
   download: {
     banner: {
