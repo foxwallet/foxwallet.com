@@ -4,6 +4,10 @@
     <NewSubject />
     <NewWalletAnimate />
     <NewAdvantages />
+    <client-only>
+      <NewTrusted />
+    </client-only>
+
     <NewPartner />
     <NewFooter />
   </div>
@@ -28,7 +32,8 @@ export default {
 </script>
 
 <style>
-  html, body {
-    background: #000000;
-  }
+html,
+body {
+  background: #000000;
+}
 </style>
