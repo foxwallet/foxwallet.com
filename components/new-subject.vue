@@ -12,7 +12,9 @@
           </div>
         </div>
         <div class="mt-3 text-center sub-title animate__animated animate__fadeInDown animate__delay-1s">
-          <p>Leading Multi-Chain Wallet Solution</p>
+          <p class="main-desc mb-6">
+            Leading Multi-Chain Wallet Solution
+          </p>
           <div class="flex items-center justify-center">
             <div class="feat-item flex items-center">
               <img class="h-[30px] w-[30px] rounded-full mr-1" src="@/assets/new-img/private.svg" alt="">
@@ -53,7 +55,9 @@
         </div>
       </div>
       <div class="mt-3 text-center sub-title animate__animated animate__fadeInDown animate__delay-1s">
-        <p>Leading Multi-Chain Wallet Solution</p>
+        <p class="main-desc-m mb-2">
+          Leading Multi-Chain Wallet Solution
+        </p>
         <div class="flex items-center justify-center">
           <div class="feat-mobile-item flex items-center">
             <img class="h-[24px] w-[24px] rounded-full mr-1" src="@/assets/new-img/private.svg" alt="">
@@ -173,6 +177,12 @@ export default {
   font-weight: 400;
 }
 
+.main-desc {
+  font-size: 40px;
+}
+.main-desc-m {
+  font-size: 24px;
+}
 .download-wrapper {
   width: 100%;
   display: flex;
