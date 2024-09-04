@@ -3,17 +3,14 @@
     <h3 class="font-bold py-4">
       {{ $t("nav.about.title") }}
     </h3>
-    <a href="https://foxwallet.com/download" target="_blank" class="block w-full hover:opacity-80 py-1 text-gray-500">
-      {{ $t("nav.about.download") }}
+    <a href="https://hc.foxwallet.com" target="_blank" class="block w-full hover:opacity-80 py-1 text-gray-500">
+      {{ $t("nav.docs") }}
     </a>
-    <!-- <a href="https://www.certik.org/projects/fox-wallet" target="_blank" class="block w-full hover:opacity-80 py-1 text-gray-500">
-      {{ $t("nav.about.cloudComputing") }}
-    </a> -->
     <a href="https://hc.foxwallet.com/docs/faq" target="_blank" class="block w-full hover:opacity-80 py-1 text-gray-500">
       {{ $t("nav.about.faq") }}
     </a>
-    <a href="https://hc.foxwallet.com" target="_blank" class="block w-full hover:opacity-80 py-1 text-gray-500">
-      {{ $t("nav.about.tutorial") }}
+    <a href="https://hc.foxwallet.com/docs/developer/" target="_blank" class="block w-full hover:opacity-80 py-1 text-gray-500">
+      {{ $t("nav.developer") }}
     </a>
     <CommunityIcon :class="bottomBorder ? 'border-b-2 border-gray-200 mt-8 pb-8' : 'mt-4 pb-4'" size="large" />
     <div class="mt-4">

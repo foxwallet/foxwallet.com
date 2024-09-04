@@ -138,18 +138,18 @@
                 About
               </li>
               <li>
-                <a class="cursor-pointer hover:opacity-75" target="_blank" href="https://foxwallet.com/download">
-                  {{ $t('nav.about.download') }}
-                </a>
-              </li>
-              <li>
                 <a class="cursor-pointer hover:opacity-75" target="_blank" href="https://hc.foxwallet.com/docs/faq">
                   {{ $t('nav.about.faq') }}
                 </a>
               </li>
               <li>
                 <a class="cursor-pointer hover:opacity-75" target="_blank" href="https://hc.foxwallet.com">
-                  {{ $t('nav.about.tutorial') }}
+                  {{ $t('nav.docs') }}
+                </a>
+              </li>
+              <li>
+                <a class="cursor-pointer hover:opacity-75" target="_blank" href="https://foxwallet.com/download">
+                  {{ $t('nav.about.download') }}
                 </a>
               </li>
             </ul>

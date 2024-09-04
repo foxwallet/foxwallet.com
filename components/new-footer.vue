@@ -21,7 +21,7 @@
                 {{ $t('nav.auditReport') }}
               </a>
               <a class="cursor-pointer opacity-60 hover:opacity-75 text-white mb-3" target="_blank" href="https://hc.foxwallet.com/docs/resource">
-                {{ $t('nav.material') }}
+                {{ $t('nav.brandResource') }}
               </a>
             </div>
           </div>
@@ -30,14 +30,14 @@
               {{ $t('nav.about.title') }}
             </div>
             <div class="flex flex-col">
-              <a class="cursor-pointer opacity-60 hover:opacity-75 text-white mb-3" target="_blank" href="https://foxwallet.com/download">
-                {{ $t('nav.about.download') }}
+              <a class="cursor-pointer opacity-60 hover:opacity-75 text-white mb-3" target="_blank" href="https://hc.foxwallet.com">
+                {{ $t('nav.docs') }}
               </a>
               <a class="cursor-pointer opacity-60 hover:opacity-75 text-white mb-3" target="_blank" href="https://hc.foxwallet.com/docs/faq">
                 {{ $t('nav.about.faq') }}
               </a>
-              <a class="cursor-pointer opacity-60 hover:opacity-75 text-white mb-3" target="_blank" href="https://hc.foxwallet.com">
-                {{ $t('nav.about.tutorial') }}
+              <a class="cursor-pointer opacity-60 hover:opacity-75 text-white mb-3" target="_blank" href="https://hc.foxwallet.com/docs/developer/">
+                {{ $t('nav.developer') }}
               </a>
             </div>
           </div>
@@ -53,7 +53,7 @@
         </div>
         <div class="mt-12 h-px bg-brand"></div>
         <div class="text-center opacity-60 pt-4 pb-8 text-white">
-          @{{ new Date().getFullYear() }} FoxWallet—A consensys formation
+          ©2021 - {{ new Date().getFullYear() }} FOXWALLET FOUNDATION LTD. All Rights Reserved
         </div>
       </div>
     </div>
@@ -76,7 +76,7 @@
             {{ $t('nav.auditReport') }}
           </a>
           <a class="cursor-pointer opacity-60 hover:opacity-75 text-white mb-3" target="_blank" href="https://hc.foxwallet.com/docs/resource">
-            {{ $t('nav.material') }}
+            {{ $t('nav.brandResource') }}
           </a>
         </div>
       </div>
@@ -85,14 +85,14 @@
           {{ $t('nav.about.title') }}
         </div>
         <div class="flex flex-col">
-          <a class="cursor-pointer opacity-60 hover:opacity-75 text-white mb-3" target="_blank" href="https://foxwallet.com/download">
-            {{ $t('nav.about.download') }}
+          <a class="cursor-pointer opacity-60 hover:opacity-75 text-white mb-3" target="_blank" href="https://hc.foxwallet.com">
+            {{ $t('nav.docs') }}
           </a>
           <a class="cursor-pointer opacity-60 hover:opacity-75 text-white mb-3" target="_blank" href="https://hc.foxwallet.com/docs/faq">
             {{ $t('nav.about.faq') }}
           </a>
-          <a class="cursor-pointer opacity-60 hover:opacity-75 text-white mb-3" target="_blank" href="https://hc.foxwallet.com">
-            {{ $t('nav.about.tutorial') }}
+          <a class="cursor-pointer opacity-60 hover:opacity-75 text-white mb-3" target="_blank" href="https://hc.foxwallet.com/docs/developer/">
+            {{ $t('nav.developer') }}
           </a>
         </div>
       </div>
@@ -107,7 +107,7 @@
       </div>
       <div class="mt-12 h-px bg-brand"></div>
       <div class="text-center opacity-60 pt-4 pb-8 text-white">
-        @{{ new Date().getFullYear() }} FoxWallet—A consensys formation
+        ©2021 - {{ new Date().getFullYear() }} FOXWALLET FOUNDATION LTD. All Rights Reserved
       </div>
     </div>
   </div>

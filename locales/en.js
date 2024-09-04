@@ -11,6 +11,7 @@ export default {
     campaign: {
       title: 'Campaign'
     },
+    docs: "Docs",
     support: {
       title: 'Support'
     },
@@ -28,17 +29,17 @@ export default {
       download: 'Download',
       cloudComputing: 'Cloud Computing',
       faq: 'FAQ',
-      tutorial: 'Tutorial',
       helpCenter: 'Help Center'
     },
     slogan: 'Leading you to the Web3 world',
     contactUs: 'Contact US: contact@foxwallet.com',
-    copyRight: '@2023 FoxWallet — A consensys formation',
+    copyRight: '©2021 - 2024 FOXWALLET FOUNDATION LTD. All Rights Reserved',
     learnMore: 'Learn More',
     connect: 'Connect',
     staking: 'Staking',
     auditReport: 'Audit Report',
-    material: 'Material'
+    brandResource: 'Brand Resource',
+    developer: 'Developer'
   },
   download: {
     banner: {
