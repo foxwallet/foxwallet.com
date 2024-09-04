@@ -7,16 +7,36 @@
         <div class="flex items-center main-title">
           <div>{{ $t('main.title') }} </div>
           <span class="letter">&nbsp;</span>
-          <div
-            class="print-wrapper flex text-brand"
-          >
-            <span v-for="(l,i) in printLetters" :key="i" class="letter" v-html="l"></span>
+          <div class="print-wrapper flex text-brand">
+            <span v-for="(l, i) in printLetters" :key="i" class="letter" v-html="l"></span>
           </div>
         </div>
         <div class="mt-3 text-center sub-title animate__animated animate__fadeInDown animate__delay-1s">
           <p>Leading Multi-Chain Wallet Solution</p>
-          <p>Private & Secure </p>
-          <p>Decentralized & Versatile </p>
+          <div class="flex items-center justify-center">
+            <div class="feat-item flex items-center">
+              <img class="h-[30px] w-[30px] rounded-full mr-1" src="@/assets/new-img/private.svg" alt="">
+              Private
+            </div>
+            <div class="w-2 h-2 rounded bg-white mx-8"></div>
+
+            <div class="feat-item flex items-center">
+              <img class="h-[30px] w-[30px] rounded-full mr-1" src="@/assets/new-img/secure.svg" alt="">
+              Secure
+            </div>
+            <div class="w-2 h-2 rounded bg-white mx-8"></div>
+
+            <div class="feat-item flex items-center">
+              <img class="h-[30px] w-[30px] rounded-full mr-1" src="@/assets/new-img/decentralized.svg" alt="">
+              Decentralized
+            </div>
+            <div class="w-2 h-2 rounded bg-white mx-8"></div>
+
+            <div class="feat-item flex items-center">
+              <img class="h-[30px] w-[30px] rounded-full mr-1" src="@/assets/new-img/versatile.svg" alt="">
+              Versatile
+            </div>
+          </div>
         </div>
         <div class="text-center mt-20">
           <NewDownload />
@@ -29,13 +49,37 @@
       <div class="flex flex-col main-title-m">
         <div>{{ $t('main.title') }} </div>
         <div class="print-wrapper print-wrapper-m flex text-brand">
-          <span v-for="(l,i) in printLetters" :key="i" class="letter" v-html="l"></span>
+          <span v-for="(l, i) in printLetters" :key="i" class="letter" v-html="l"></span>
         </div>
       </div>
       <div class="mt-3 text-center sub-title animate__animated animate__fadeInDown animate__delay-1s">
         <p>Leading Multi-Chain Wallet Solution</p>
-        <p>Private & Secure </p>
-        <p>Decentralized & Versatile </p>
+        <div class="flex items-center justify-center">
+          <div class="feat-mobile-item flex items-center">
+            <img class="h-[24px] w-[24px] rounded-full mr-1" src="@/assets/new-img/private.svg" alt="">
+            Private
+          </div>
+
+          <div class="w-2 h-2 rounded bg-white mx-3"></div>
+
+          <div class="feat-mobile-item flex items-center">
+            <img class="h-[24px] w-[24px] rounded-full mr-1" src="@/assets/new-img/secure.svg" alt="">
+            Secure
+          </div>
+        </div>
+        <div class="flex items-center justify-center">
+          <div class="feat-mobile-item flex items-center">
+            <img class="h-[24px] w-[24px] rounded-full mr-1" src="@/assets/new-img/decentralized.svg" alt="">
+            Decentralized
+          </div>
+
+          <div class="w-2 h-2 rounded bg-white mx-3"></div>
+
+          <div class="feat-mobile-item flex items-center">
+            <img class="h-[24px] w-[24px] rounded-full mr-1" src="@/assets/new-img/versatile.svg" alt="">
+            Versatile
+          </div>
+        </div>
       </div>
       <div class="text-center mt-20">
         <NewDownload />
@@ -84,19 +128,31 @@ export default {
   margin: 0 auto;
   height: 75px;
 }
+
 .print-wrapper {
   animation: blink-caret 0.75s step-end infinite;
 }
+
 @keyframes blink-caret {
-  from, to { box-shadow: 1px 0 0 0 transparent; }
-  50% { box-shadow: 1px 0px 0 0; }
+
+  from,
+  to {
+    box-shadow: 1px 0 0 0 transparent;
+  }
+
+  50% {
+    box-shadow: 1px 0px 0 0;
+  }
 }
+
 .subject-wrapper {
   position: relative;
 }
+
 .subject-content {
   z-index: 1;
 }
+
 .main-title {
   font-family: 'Poppins-Bold';
   font-size: 100px;
@@ -110,11 +166,13 @@ export default {
   line-height: 75px;
   font-weight: 700;
 }
+
 .sub-title {
   font-size: 26px;
   line-height: 39px;
-  font-weight:400;
+  font-weight: 400;
 }
+
 .download-wrapper {
   width: 100%;
   display: flex;
@@ -165,4 +223,21 @@ export default {
   bottom: 0px;
 }
 
+.feat-item {
+  font-size: 24px;
+
+  img {
+    height: 30px;
+    width: 30px;
+  }
+}
+
+.feat-mobile-item {
+  font-size: 16px;
+
+  img {
+    height: 24px;
+    width: 24px;
+  }
+}
 </style>
