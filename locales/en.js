@@ -1,6 +1,6 @@
 export default {
   title: 'FoxWallet Official Website',
-  keywords: 'FoxWallet, Fox Wallet, Filfox, Filfox Wallet, Filecoin Wallet, ethereum, ipfs, 6Block, Bitcoin Wallet, Ordinals Wallet, NFT, Solana Wallet, Aptos Wallet, Sui Wallet, IronFish Wallet, Aleo Wallet',
+  keywords: 'FoxWallet,Fox Wallet,Aleo Wallet,FIL Wallet,Filecoin Wallet,ETH Wallet,BTC Wallet,Bitcoin Wallet,BRC20 Wallet,Ton Wallet,Tron Wallet,TRC20 Wallet,Solana Wallet,Aptos Wallet,Sui Wallet,IronFish Wallet,BNB Wallet,Qtum Wallet,Spacemesh Wallet,SMH Wallet,web3 wallet,self-custody wallet,multi-chain wallet,crypto wallet',
   description: 'FoxWallet is a multi-chain web3 wallet where users can access a wide range of dApps, manage digital assets and interact with various blockchain networks. Over the past two years, it has given over 1 million users an easy entrance into Web3.',
   nav: {
     earn: {
@@ -130,7 +130,7 @@ export default {
     },
     ad3: {
       title: 'Wide-ranging Blockchain Support',
-      desp: 'FoxWallet seamlessly integrates with over 65 popular blockchain networks such as Bitcoin, Ethereum, Solana, and provides comprehensive support for NFTs and the ERC20 standard. This allows us to meet the diverse asset management needs of our users.'
+      desp: 'FoxWallet seamlessly integrates with over 100 popular blockchain networks such as Bitcoin, Ethereum, Solana, and provides comprehensive support for NFTs and the ERC20 standard. This allows us to meet the diverse asset management needs of our users.'
     },
     ad4: {
       title: 'Proven Trust',
