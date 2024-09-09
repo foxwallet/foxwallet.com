@@ -79,7 +79,7 @@ export default {
         window.location.href = 'https://cdn-pkg.foxnb.net/app_image/package/foxwallet_release.apk'
         this.viewRecord('ANDROID')
       } else if (platform === 'googlePlay') {
-        window.open('https://play.google.com/store/apps/details?id=com.foxwallet.play&referrer=utm_content%3Dfrom_foxwallet_content%26utm_medium%3Dfoxwallet')
+        window.open('https://play.google.com/store/apps/details?id=com.foxwallet.play')
         this.viewRecord('GOOGLEPLAY')
       } else if (platform === 'chrome') {
         window.open('https://chromewebstore.google.com/detail/foxwallet/pmmnimefaichbcnbndcfpaagbepnjaig')
