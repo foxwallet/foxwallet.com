@@ -166,6 +166,19 @@ export default {
   beforeUnmount() {
     clearInterval(this.interval)
   },
+  computed: {
+    googlePlayUrl() {
+      const url = 'https://play.google.com/store/apps/details?id=com.foxwallet.play'
+      if (this.code) {
+        const referrerParams = {
+          utm_content: this.code
+        }
+        const queryString = encodeURIComponent(new URLSearchParams(referrerParams).toString())
+        return url + `&referrer=${queryString}`
+      }
+      return url
+    }
+  },
   methods: {
     print() {
       this.printLetters = []
@@ -195,7 +208,7 @@ export default {
         window.location.href = 'https://cdn-pkg.foxnb.net/app_image/package/foxwallet_release.apk'
         this.viewRecord('ANDROID')
       } else if (platform === 'googlePlay') {
-        window.open('https://play.google.com/store/apps/details?id=com.foxwallet.play&referrer=utm_content%3Dfrom_foxwallet_content%26utm_medium%3Dfoxwallet')
+        window.open(this.googlePlayUrl)
         this.viewRecord('GOOGLEPLAY')
       } else if (platform === 'chrome') {
         window.open('https://chromewebstore.google.com/detail/foxwallet/pmmnimefaichbcnbndcfpaagbepnjaig')
