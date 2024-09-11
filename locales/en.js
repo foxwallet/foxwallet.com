@@ -134,7 +134,7 @@ export default {
     },
     ad4: {
       title: 'Proven Trust',
-      desp: 'FoxWallet has earned the trust of over a million users, including communities like Filecoin, Iron Fish, and Spacemesh. Project teams within these communities appreciate our reliability and professionalism.'
+      desp: 'FoxWallet has earned the trust of over a million users, including communities like Filecoin, Aleo, Spacemesh and IronFish. Project teams within these communities appreciate our reliability and professionalism.'
     },
     ad5: {
       title: 'Enhanced Security Features',
@@ -145,6 +145,7 @@ export default {
     title: 'Your Go-To'
   },
   footer: {
-    title: 'Your Go-To Web3 Wallet'
+    title: 'Your Go-To Web3 Wallet',
+    supportedNetworks: 'Supported Networks'
   }
 }
