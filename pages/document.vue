@@ -7,7 +7,7 @@
 export default {
   computed: {
     documentImgUrl() {
-      return `https://cdn-pkg.foxnb.net/app_image/${this.$i18n.locale}/${this.$route.query.filename}`
+      return `https://cdn.foxnb.net/app_image/${this.$i18n.locale}/${this.$route.query.filename}`
     }
   }
 }

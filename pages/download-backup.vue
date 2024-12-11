@@ -165,7 +165,7 @@ export default {
         window.open('https://apps.apple.com/app/foxwallet-crypto-web3/id1590983231')
         this.viewRecord('IOS')
       } else if (platform === 'android') {
-        window.location.href = 'https://cdn-pkg.foxnb.net/app_image/package/foxwallet_release.apk'
+        window.location.href = 'https://cdn.foxnb.net/app_image/package/foxwallet_release.apk'
         this.viewRecord('ANDROID')
       } else if (platform === 'googlePlay') {
         window.open('https://play.google.com/store/apps/details?id=com.foxwallet.play')
