@@ -7,7 +7,7 @@ export default {
       title: '赚取',
       coming: '即将推出'
     },
-    openSource: '开源',
+    openSource: '开源代码',
     campaign: {
       title: '活动'
     },
@@ -31,15 +31,16 @@ export default {
       faq: '常见问题',
       helpCenter: '帮助中心'
     },
-    slogan: '引领您进入 Web3 世界',
-    contactUs: '联系我们：contact@foxwallet.com',
-    copyRight: '©2021 - 2024 FOXWALLET FOUNDATION LTD. 保留所有权利',
-    learnMore: '了解更多',
+    learnMore: '获取更多',
     connect: '连接',
     staking: '质押',
     auditReport: '审计报告',
     brandResource: '品牌资源',
-    developer: '开发者'
+    offcialLinks: '官方链接',
+    developer: '开发者文档',
+    faqs: '问题合辑',
+    privacy: '隐私政策',
+    terms: '服务协议'
   },
   download: {
     banner: {
@@ -121,42 +122,43 @@ export default {
   },
   advantages: {
     ad1: {
-      title: '安全第一',
-      desp: 'FoxWallet 强调安全性。我们通过在本地加密存储的私钥来确保用户资产和数据的安全，防止未经授权的访问和潜在的数据泄露。'
+      title: '安全第一原则',
+      desp: 'FoxWallet非常重视安全性。我们通过在本地对存储的私钥进行加密，以确保用户资产和数据的安全，并防止未经授权的访问以及潜在的数据泄露情况发生。'
     },
     ad2: {
-      title: '透明和审计',
-      desp: 'FoxWallet 对其操作保持透明。我们部分分享我们的原始代码，并接受第三方专家的全面安全审计，展示我们对安全和透明度的承诺。'
+      title: '高度透明',
+      desp: 'FoxWallet在运营方面秉持透明原则。我们会部分公开原始代码，并接受第三方专家进行的全面安全审计，以此彰显我们对安全性和透明度的重视与承诺。'
     },
     ad3: {
-      title: '广泛的区块链支持',
-      desp: 'FoxWallet 无缝集成超过 100 个流行的区块链网络，如比特币、以太坊、Solana，并提供对 NFT 和 ERC20 标准的全面支持。这使我们能够满足用户多样化的资产管理需求。'
+      title: '广泛性',
+      desp: 'FoxWallet可与 100 多个流行的区块链网络实现无缝连接，例如Bitcoin、Ethereum、Solana等，并且为NFTs以及ERC20标准提供全面支持。这使我们能够满足用户多样化的资产管理需求。'
     },
     ad4: {
-      title: '值得信赖',
-      desp: 'FoxWallet 赢得了超过一百万用户的信任，包括 Filecoin、Aleo、Spacemesh 和 IronFish 等社区。这些社区内的项目团队欣赏我们的可靠性和专业性。'
+      title: '信誉极佳',
+      desp: 'FoxWallet已赢得了超百万用户的信任。其中包括 Filecoin、Aleo、Spacemesh 以及 IronFish 等社区的用户。这些社区内的项目团队非常认可我们的可靠性与专业性。'
     },
     ad5: {
-      title: '增强的安全功能',
-      desp: 'FoxWallet 提供先进的安全功能，如自动识别和阻止钓鱼网站、高风险签名验证和代币授权监控。这些功能为用户资产提供了强有力的保护。'
+      title: '强大的安全属性',
+      desp: 'FoxWallet提供了先进的安全功能，例如自动识别并拦截钓鱼网站、对高风险签名进行验证，以及对代币授权情况进行监控。这些功能为用户资产提供了强有力的保护。'
     },
   },
   main: {
-    title: '您的首选',
+    title: '您的第一个',
     subTitle: '领先的多链钱包解决方案',
-    private: '私密',
+    private: '隐私',
     secure: '安全',
     decentralized: '去中心化',
     versatile: '多功能',
     our: '我们的',
     strengths: '优势',
-    trusted: '受信任的',
-    partners: '合作伙伴',
+    trusted: '联合宣发',
+    partners: '合作方',
     more: '更多',
     contact: '联系我们',
+    wallet: '钱包'
   },
   footer: {
-    title: '您的首选 Web3 钱包',
-    supportedNetworks: '支持的网络'
+    title: '您的第一个 Web3 钱包',
+    supportedNetworks: '网络支持'
   }
 }

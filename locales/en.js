@@ -39,7 +39,12 @@ export default {
     staking: 'Staking',
     auditReport: 'Audit Report',
     brandResource: 'Brand Resource',
-    developer: 'Developer'
+    offcialLinks: 'Offical Links',
+    developer: 'Developer',
+    faqs: 'FAQs',
+    foxCredit: 'Fox Credit',
+    privacy: 'Privacy Policy',
+    terms: 'Terms of Service'
   },
   download: {
     banner: {
@@ -154,6 +159,7 @@ export default {
     partners: 'Partners',
     more: 'More',
     contact: 'Contact Us',
+    wallet: 'Wallet'
 
   },
   footer: {

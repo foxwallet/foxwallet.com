@@ -98,6 +98,7 @@ export default {
   data() {
     return {
       letters: ['W', 'e', 'b', '3', '&nbsp;', 'W', 'a', 'l', 'l', 'e', 't'],
+      zhLetters: ['W', 'e', 'b', '3', '&nbsp;', '钱', '包'],
       printLetters: [],
       interval: null,
       count: 0,
@@ -113,14 +114,20 @@ export default {
     print() {
       this.printLetters = []
       this.count = 0
+      let originTitle = []
+      if (this.$i18n.locale === 'en') {
+        originTitle = this.letters
+      } else {
+        originTitle = this.zhLetters
+      }
       this.interval = setInterval(() => {
-        if (this.count > this.letters.length - 1) {
+        if (this.count > originTitle.length - 1) {
           clearInterval(this.interval)
           setTimeout(() => {
             this.print()
           }, 4000)
         }
-        this.printLetters.push(this.letters[this.count++])
+        this.printLetters.push(originTitle[this.count++])
       }, 150)
     },
     download(platform) {

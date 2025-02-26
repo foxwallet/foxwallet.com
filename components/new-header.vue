@@ -27,25 +27,51 @@
           </a>
         </div>
       </div>
-      <div class="">
+      <div class="flex">
         <NewCommunityIcon />
-      </div>
-      <div>
-        <button @click="switchLocalePath('zh')">
-          中文
-        </button>
-        <button @click="switchLocalePath('en')">
-          English
-        </button>
+        <div class="ml-10">
+          <el-dropdown trigger="click" @command="switchLocalePath">
+            <span class="el-dropdown-link">
+              {{ currLocale }}
+            </span>
+            <el-dropdown-menu slot="dropdown">
+              <el-dropdown-item command="en">
+                English
+              </el-dropdown-item>
+              <el-dropdown-item command="zh">
+                简体中文
+              </el-dropdown-item>
+            </el-dropdown-menu>
+          </el-dropdown>
+        </div>
       </div>
     </div>
     <div class="md:hidden flex text-white font-bold text-xl mobile-header items-center px-6 justify-between">
       <div class="logo">
         <img src="@/assets/new-img/logo.svg" alt="logo">
       </div>
-      <div class="more">
+      <div class="more flex items-center">
+        <div class="localeButton" @click="langDrawer = true">
+          {{ currLocale }}
+        </div>
         <img src="@/assets/new-img/menu.svg" alt="menu" :draggable="false" @click="drawer = true">
       </div>
+      <el-drawer :visible.sync="langDrawer" :show-close="false" :size="240" direction="ttb" custom-class="dark-menu">
+        <div class="lang-wrapper">
+          <div
+            class="lang-item active"
+            @click="handleLangItemClick('en')"
+          >
+            English
+          </div>
+          <div
+            class="lang-item"
+            @click="handleLangItemClick('zh')"
+          >
+            简体中文
+          </div>
+        </div>
+      </el-drawer>
       <el-drawer :visible.sync="drawer" :show-close="false" :size="240" direction="ttb" custom-class="dark-menu">
         <NewMenuMobile />
       </el-drawer>
@@ -54,22 +80,97 @@
 </template>
 
 <script>
+
+const localeMap = {
+  en: 'English',
+  zh: '简体中文'
+}
+
 export default {
   name: 'NewHeader',
   data() {
     return {
       drawer: false,
+      langDrawer: false,
+      currLocale: 'English'
     }
   },
   methods: {
+    handleLangItemClick(locale) {
+      this.switchLocalePath(locale)
+      this.langDrawer = false
+    },
     switchLocalePath(locale) {
       this.$i18n.locale = locale
+      this.currLocale = localeMap[locale]
     }
   }
 }
 </script>
 
+<style>
+
+.el-dropdown {
+  font-size: 16px;
+}
+
+.popper__arrow {
+  display: none;
+}
+
+.el-dropdown-menu {
+  background: #000;
+  color: #fff;
+}
+
+.el-dropdown-menu__item {
+  color: #fff;
+  font-size: 16px;
+}
+
+.el-dropdown-menu__item:focus, .el-dropdown-menu__item:not(.is-disabled):hover {
+  color: #12FE74;
+  background: transparent;
+}
+
+.el-dropdown-link {
+  padding: 10px 20px;
+  color: #fff;
+  border-radius: 2px;
+  border: 1px solid #fff;
+}
+
+</style>
+
 <style scoped>
+.lang-wrapper {
+  padding: 24px 44px;
+}
+.lang-item {
+  text-align: center;
+  padding: 10px 0;
+  border: 1px solid #ddd;
+  border-radius: 2px;
+  margin-bottom: 14px;
+  font-size: 16px;
+  font-weight: 400;
+}
+
+.lang-item.active {
+  background:#12FE74;
+  border: none;
+  color: #000;
+  font-weight: 600;
+}
+.localeButton {
+  padding: 10px 20px;
+  border: 1px solid #fff;
+  font-size: 16px;
+  border-radius: 2px;
+  margin-right: 30px;
+  font-weight: 400;
+}
+
 .mobile-header {
   height: 74px;
 }
