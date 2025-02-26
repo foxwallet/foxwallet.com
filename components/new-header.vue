@@ -1,4 +1,3 @@
-
 <template>
   <div>
     <div class="hidden md:flex items-center justify-between px-16 bg-black text-white h-16">
@@ -16,7 +15,11 @@
           <a href="https://github.com/foxwallet" target="_blank" class="tab-item text-xs lg:text-sm mr-2 lg:mr-6">
             {{ $t("nav.openSource") }}
           </a>
-          <a href="https://github.com/foxwallet/security-audit-certification" target="_blank" class="tab-item text-xs lg:text-sm mr-2 lg:mr-6">
+          <a
+            href="https://github.com/foxwallet/security-audit-certification"
+            target="_blank"
+            class="tab-item text-xs lg:text-sm mr-2 lg:mr-6"
+          >
             {{ $t("nav.auditReport") }}
           </a>
           <a href="/download" target="_blank" class="tab-item text-xs lg:text-sm mr-2 lg:mr-6">
@@ -27,6 +30,14 @@
       <div class="">
         <NewCommunityIcon />
       </div>
+      <div>
+        <button @click="switchLocalePath('zh')">
+          中文
+        </button>
+        <button @click="switchLocalePath('en')">
+          English
+        </button>
+      </div>
     </div>
     <div class="md:hidden flex text-white font-bold text-xl mobile-header items-center px-6 justify-between">
       <div class="logo">
@@ -35,13 +46,7 @@
       <div class="more">
         <img src="@/assets/new-img/menu.svg" alt="menu" :draggable="false" @click="drawer = true">
       </div>
-      <el-drawer
-        :visible.sync="drawer"
-        :show-close="false"
-        :size="240"
-        direction="ttb"
-        custom-class="dark-menu"
-      >
+      <el-drawer :visible.sync="drawer" :show-close="false" :size="240" direction="ttb" custom-class="dark-menu">
         <NewMenuMobile />
       </el-drawer>
     </div>
@@ -55,33 +60,42 @@ export default {
     return {
       drawer: false,
     }
+  },
+  methods: {
+    switchLocalePath(locale) {
+      this.$i18n.locale = locale
+    }
   }
 }
 </script>
 
 <style scoped>
-  .mobile-header  {
-    height: 74px;
-  }
-  .tab-item {
-    position: relative;
-    padding-top: 6px;
-  }
-  .tab-item:hover {
-    color: #12FE74;
-  }
-  .tab-item:before {
-    content: '';
-    height: 1px;
-    position: absolute;
-    top: 0;
-    left:0;
-    width: 100%;
-    background: #12FE74;
-    transform: scaleX(0);
-    transition: .5s;
-  }
-  .tab-item:hover:before {
-    transform: scaleX(1);
-  }
+.mobile-header {
+  height: 74px;
+}
+
+.tab-item {
+  position: relative;
+  padding-top: 6px;
+}
+
+.tab-item:hover {
+  color: #12FE74;
+}
+
+.tab-item:before {
+  content: '';
+  height: 1px;
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  background: #12FE74;
+  transform: scaleX(0);
+  transition: .5s;
+}
+
+.tab-item:hover:before {
+  transform: scaleX(1);
+}
 </style>

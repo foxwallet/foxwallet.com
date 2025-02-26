@@ -91,7 +91,7 @@
           </div>
           <div>
             <div class="text-lg font-semibold mb-7">
-              Contact Us
+              {{ $t('main.contact') }}
             </div>
             <NewCommunityIcon />
             <a href="mailto:contact@foxwallet.com" class="block opacity-60 hover:opacity-75 mt-8 text-sm text-white">
@@ -146,7 +146,7 @@
       </div>
       <div class="footer-item-m">
         <div class="text-lg font-semibold mb-7">
-          Contact Us
+          {{ $t('main.contact') }}
         </div>
         <NewCommunityIcon />
         <a href="mailto:contact@foxwallet.com" class="block opacity-60 hover:opacity-75 mt-8 text-sm text-white">

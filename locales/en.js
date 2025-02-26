@@ -11,7 +11,7 @@ export default {
     campaign: {
       title: 'Campaign'
     },
-    docs: "Docs",
+    docs: 'Docs',
     support: {
       title: 'Support'
     },
@@ -142,7 +142,19 @@ export default {
     },
   },
   main: {
-    title: 'Your Go-To'
+    title: 'Your Go-To',
+    subTitle: 'Leading Multi-Chain Wallet Solution',
+    private: 'Private',
+    secure: 'Secure',
+    decentralized: 'Decentralized',
+    versatile: 'Versatile',
+    our: 'Our',
+    strengths: 'Strengths',
+    trusted: 'Trusted By',
+    partners: 'Partners',
+    more: 'More',
+    contact: 'Contact Us',
+
   },
   footer: {
     title: 'Your Go-To Web3 Wallet',

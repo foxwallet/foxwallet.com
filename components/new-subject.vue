@@ -13,30 +13,32 @@
         </div>
         <div class="mt-3 text-center sub-title animate__animated animate__fadeInDown animate__delay-1s">
           <p class="main-desc mb-6">
-            Leading Multi-Chain Wallet Solution
+            {{ $t('main.subTitle') }}
           </p>
           <div class="flex items-center justify-center">
             <div class="feat-item flex items-center">
               <img class="h-[30px] w-[30px] rounded-full mr-1" src="@/assets/new-img/private.svg" alt="">
-              Private
+              {{ $t('main.private') }}
             </div>
             <div class="w-2 h-2 rounded bg-white mx-8"></div>
 
             <div class="feat-item flex items-center">
               <img class="h-[30px] w-[30px] rounded-full mr-1" src="@/assets/new-img/secure.svg" alt="">
-              Secure
+
+              {{ $t('main.secure') }}
             </div>
             <div class="w-2 h-2 rounded bg-white mx-8"></div>
 
             <div class="feat-item flex items-center">
               <img class="h-[30px] w-[30px] rounded-full mr-1" src="@/assets/new-img/decentralized.svg" alt="">
-              Decentralized
+
+              {{ $t('main.decentralized') }}
             </div>
             <div class="w-2 h-2 rounded bg-white mx-8"></div>
 
             <div class="feat-item flex items-center">
               <img class="h-[30px] w-[30px] rounded-full mr-1" src="@/assets/new-img/versatile.svg" alt="">
-              Versatile
+              {{ $t('main.versatile') }}
             </div>
           </div>
         </div>
@@ -56,32 +58,32 @@
       </div>
       <div class="mt-3 text-center sub-title animate__animated animate__fadeInDown animate__delay-1s">
         <p class="main-desc-m mb-2">
-          Leading Multi-Chain Wallet Solution
+          {{ $t('main.subTitle') }}
         </p>
         <div class="flex items-center justify-center">
           <div class="feat-mobile-item flex items-center">
             <img class="h-[24px] w-[24px] rounded-full mr-1" src="@/assets/new-img/private.svg" alt="">
-            Private
+            {{ $t('main.private') }}
           </div>
 
           <div class="w-2 h-2 rounded bg-white mx-3"></div>
 
           <div class="feat-mobile-item flex items-center">
             <img class="h-[24px] w-[24px] rounded-full mr-1" src="@/assets/new-img/secure.svg" alt="">
-            Secure
+            {{ $t('main.secure') }}
           </div>
         </div>
         <div class="flex items-center justify-center">
           <div class="feat-mobile-item flex items-center">
             <img class="h-[24px] w-[24px] rounded-full mr-1" src="@/assets/new-img/decentralized.svg" alt="">
-            Decentralized
+            {{ $t('main.decentralized') }}
           </div>
 
           <div class="w-2 h-2 rounded bg-white mx-3"></div>
 
           <div class="feat-mobile-item flex items-center">
             <img class="h-[24px] w-[24px] rounded-full mr-1" src="@/assets/new-img/versatile.svg" alt="">
-            Versatile
+            {{ $t('main.versatile') }}
           </div>
         </div>
       </div>

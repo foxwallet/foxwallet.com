@@ -2,7 +2,7 @@
   <div>
     <div class="advantage-wrapper mx-auto hidden md:block pb-36">
       <div class="text-8xl font-bold text-center text-white mb-20">
-        Our <span class="text-brand">Strengths</span>
+        {{ $t('main.our') }} <span class="text-brand">{{ $t('main.strengths') }}</span>
       </div>
       <div>
         <div class="flex justify-between mb-20">
@@ -33,7 +33,7 @@
     </div>
     <div class="px-5 md:hidden block pb-10">
       <div class="title-m font-bold text-center text-white mb-10">
-        Our <span class="text-brand">Strengths</span>
+        {{ $t('main.our') }} <span class="text-brand">{{ $t('main.strengths') }}</span>
       </div>
       <div>
         <div class="mb-10 flex justify-center">

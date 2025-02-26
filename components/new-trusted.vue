@@ -2,7 +2,7 @@
   <div>
     <div class="trust-container hidden mx-auto md:block pb-36">
       <div class="text-8xl font-bold text-center text-white mb-20">
-        Trusted By
+        {{ $t('main.trusted') }}
       </div>
       <swiper ref="mySwiper" class="swiper" :options="swiperOption">
         <swiper-slide>
@@ -210,7 +210,7 @@
     </div>
     <div class="px-5 md:hidden block trust-container-m pb-20">
       <div class="title-m text-center text-white mb-20">
-        Trusted By
+        {{ $t('main.trusted') }}
       </div>
       <swiper class="swiper" :options="swiperOption">
         <!-- zkSync -->
@@ -348,7 +348,7 @@
             <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
           </div>
         </swiper-slide>
-        
+
         <!-- Spacemesh -->
         <swiper-slide>
           <div class="x-item">
