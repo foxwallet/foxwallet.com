@@ -9,13 +9,15 @@
       <el-drawer :visible.sync="langDrawer" :show-close="false" :size="240" direction="ttb" custom-class="dark-menu">
         <div class="lang-wrapper">
           <div
-            class="lang-item active"
+            class="lang-item"
+            :class="currLocale === 'English' ? 'active' : ''"
             @click="handleLangItemClick('en')"
           >
             English
           </div>
           <div
             class="lang-item"
+            :class="currLocale === '简体中文' ? 'active' : ''"
             @click="handleLangItemClick('zh')"
           >
             简体中文
@@ -273,9 +275,15 @@ export default {
 }
 </script>
 <style>
-    html, body {
-        background-color: black;
-    }
+  html, body {
+    background-color: black;
+  }
+  .dark-menu.el-drawer {
+    background-color: black;
+  }
+  .dark-menu .el-drawer__header {
+    display: none;
+  }
 </style>
   <style scoped>
 
