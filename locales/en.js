@@ -52,13 +52,13 @@ export default {
       feature2: 'Private & Secure',
       feature3: 'Decentralized & Flexible'
     },
-    invite: 'Invitation Code',
+    invite: 'Referral code',
     copy: 'Copy',
     copied: 'Copied',
-    guide: 'Invitation Guide',
+    guide: 'Completion Guide',
     guide1: 'Download \n FoxWallet',
-    guide2: 'Create \n and Import',
-    guide3: 'Input \n Invitation Code'
+    guide2: 'Create or \n Import',
+    guide3: 'Fill in \n Referral code'
   },
   home: {
     banner: {

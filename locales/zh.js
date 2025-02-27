@@ -38,7 +38,7 @@ export default {
     brandResource: '品牌资源',
     offcialLinks: '官方链接',
     developer: '开发者文档',
-    faqs: '问题合辑',
+    faqs: '常见问题',
     privacy: '隐私政策',
     terms: '服务协议'
   },
@@ -53,7 +53,7 @@ export default {
     copied: '已复制',
     guide: '邀请指南',
     guide1: '下载 \n FoxWallet',
-    guide2: '创建 \n 和导入',
+    guide2: '创建或 \n 导入',
     guide3: '输入 \n 邀请码'
   },
   home: {

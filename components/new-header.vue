@@ -6,23 +6,23 @@
           <img src="@/assets/new-img/logo.svg" alt="logo">
         </div>
         <div class="text-bold">
-          <a href="https://hc.foxwallet.com/blog" target="_blank" class="tab-item text-xs lg:text-sm mr-2 lg:mr-6">
+          <a href="https://hc.foxwallet.com/blog" target="_blank" class="tab-item text-xs lg:text-base mr-2 lg:mr-6">
             {{ $t("nav.blog.title") }}
           </a>
-          <a href="https://hc.foxwallet.com/docs" target="_blank" class="tab-item text-xs lg:text-sm mr-2 lg:mr-6">
+          <a href="https://hc.foxwallet.com/docs" target="_blank" class="tab-item text-xs lg:text-base mr-2 lg:mr-6">
             {{ $t("nav.docs") }}
           </a>
-          <a href="https://github.com/foxwallet" target="_blank" class="tab-item text-xs lg:text-sm mr-2 lg:mr-6">
+          <a href="https://github.com/foxwallet" target="_blank" class="tab-item text-xs lg:text-base mr-2 lg:mr-6">
             {{ $t("nav.openSource") }}
           </a>
           <a
             href="https://github.com/foxwallet/security-audit-certification"
             target="_blank"
-            class="tab-item text-xs lg:text-sm mr-2 lg:mr-6"
+            class="tab-item text-xs lg:text-base mr-2 lg:mr-6"
           >
             {{ $t("nav.auditReport") }}
           </a>
-          <a href="/download" target="_blank" class="tab-item text-xs lg:text-sm mr-2 lg:mr-6">
+          <a href="/download" target="_blank" class="tab-item text-xs lg:text-base mr-2 lg:mr-6">
             {{ $t("nav.download.title") }}
           </a>
         </div>
@@ -30,15 +30,25 @@
       <div class="flex">
         <NewCommunityIcon />
         <div class="ml-10">
-          <el-dropdown trigger="click" @command="switchLocalePath">
+          <el-dropdown @command="switchLocalePath">
             <span class="el-dropdown-link">
-              {{ currLocale }}
+              {{ currLocale }}<i
+                class="el-icon-caret-bottom el-icon--right"
+              ></i>
             </span>
             <el-dropdown-menu slot="dropdown">
-              <el-dropdown-item command="en">
+              <el-dropdown-item
+                command="en"
+                :class="currLocale ===
+                  'English' ? 'active' : ''"
+              >
                 English
               </el-dropdown-item>
-              <el-dropdown-item command="zh">
+              <el-dropdown-item
+                command="zh"
+                :class="currLocale ===
+                  '简体中文' ? 'active' : ''"
+              >
                 简体中文
               </el-dropdown-item>
             </el-dropdown-menu>
@@ -109,35 +119,52 @@ export default {
 </script>
 
 <style>
-
+.el-dropdown-menu.el-popper .popper__arrow {
+  display: none;
+}
 .el-dropdown {
   font-size: 16px;
 }
 
-.popper__arrow {
-  display: none;
-}
-
 .el-dropdown-menu {
-  background: #000;
   color: #fff;
+  background-color: #1a1a1a;
+  border: none;
 }
 
 .el-dropdown-menu__item {
   color: #fff;
   font-size: 16px;
+  position: relative;
+}
+
+.el-dropdown-menu__item:last-of-type:after {
+  display: none;
+}
+
+.el-dropdown-menu__item:after {
+  content: '';
+  position: absolute;
+  height: 1px;
+  left: 20px;
+  right: 20px;
+  bottom: 0;
+  background: #fff;
 }
 
 .el-dropdown-menu__item:focus, .el-dropdown-menu__item:not(.is-disabled):hover {
-  color: #12FE74;
   background: transparent;
+  color: #fff;
+}
+
+.el-dropdown-link:hover,
+.el-dropdown-menu__item.active {
+  color: #12FE74 !important;
 }
 
 .el-dropdown-link {
   padding: 10px 20px;
   color: #fff;
-  border-radius: 2px;
-  border: 1px solid #fff;
 }
 
 </style>
