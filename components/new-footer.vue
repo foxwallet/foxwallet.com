@@ -134,7 +134,7 @@
         </div>
         <div class="flex flex-col">
           <a class="cursor-pointer opacity-60 hover:opacity-75 text-white mb-3" target="_blank" href="https://hc.foxwallet.com">
-            {{ $t('nav.docs') }}
+            {{ $t('nav.docs.title') }}
           </a>
           <a class="cursor-pointer opacity-60 hover:opacity-75 text-white mb-3" target="_blank" href="https://hc.foxwallet.com/docs/faq">
             {{ $t('nav.about.faq') }}

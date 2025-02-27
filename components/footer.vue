@@ -41,7 +41,7 @@
               {{ $t('nav.about.title') }}
             </h3>
             <a class="cursor-pointer hover:opacity-75 text-gray-700 mb-2" target="_blank" href="https://hc.foxwallet.com">
-              {{ $t('nav.docs') }}
+              {{ $t('nav.docs.title') }}
             </a>
             <a class="cursor-pointer hover:opacity-75 text-gray-700 mb-2" target="_blank" href="https://hc.foxwallet.com/docs/faq">
               {{ $t('nav.about.faq') }}
