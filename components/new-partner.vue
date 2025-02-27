@@ -2,7 +2,7 @@
   <div>
     <div class="partner-wrapper mx-auto md:block hidden pb-36">
       <div class="text-8xl font-bold text-center text-white mb-20">
-        Partners
+        {{ $t('main.partners') }}
       </div>
       <div class="flex flex-wrap justify-center">
         <a
@@ -36,7 +36,7 @@
     </div>
     <div class="px-5 md:hidden block partner-wrapper-m">
       <div class="title-m text-center text-white mb-20">
-        Partners
+        {{ $t('main.partners') }}
       </div>
       <div class="flex flex-wrap justify-center">
         <a
@@ -64,7 +64,7 @@
       </div>
       <div v-if="!moreItemShow" class="flex justify-center">
         <div class="hover:opacity-75 text-brand border border-brand py-2 px-4 flex justify-center items-center cursor-pointer text-center rounded-sm" @click="moreItemShow=true">
-          More
+          {{ $t('main.more') }}
         </div>
       </div>
     </div>

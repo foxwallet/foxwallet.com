@@ -70,11 +70,11 @@ export default {
         iso: 'en-US',
         name: 'English',
       },
-      // {
-      //   code: 'zh',
-      //   iso: 'zh-CN',
-      //   name: '中文',
-      // },
+      {
+        code: 'zh',
+        iso: 'zh-CN',
+        name: '中文',
+      },
     ],
     defaultLocale: 'en',
     strategy: 'no_prefix',
@@ -84,7 +84,7 @@ export default {
     },
     detectBrowserLanguage: {
       useCookie: true,
-      // alwaysRedirect: true,
+      alwaysRedirect: true,
     },
     seo: true,
   },

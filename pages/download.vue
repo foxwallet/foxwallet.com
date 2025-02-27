@@ -1,5 +1,28 @@
 <template>
   <div class="min-h-screen text-white">
+    <div>
+      <div class="flex items-center">
+        <div class="localeButton" @click="langDrawer = true">
+          {{ currLocale }}
+        </div>
+      </div>
+      <el-drawer :visible.sync="langDrawer" :show-close="false" :size="240" direction="ttb" custom-class="dark-menu">
+        <div class="lang-wrapper">
+          <div
+            class="lang-item active"
+            @click="handleLangItemClick('en')"
+          >
+            English
+          </div>
+          <div
+            class="lang-item"
+            @click="handleLangItemClick('zh')"
+          >
+            简体中文
+          </div>
+        </div>
+      </el-drawer>
+    </div>
     <div class="mx-auto main-wrapper">
       <div class="flex flex-col main-title-m text-center pt-7">
         <div>{{ $t('main.title') }} </div>
@@ -30,26 +53,26 @@
         </div>
         <div class="pb-4 mt-8 py-5 px-3">
           <div class="guide-title text-brand mb-5 text-center">
-            Completion Guide
+            {{ $t('download.guide') }}
           </div>
           <div class="flex justify-between">
             <div class="flex flex-col items-center justify-center text-xs text-white text-center w-1/3">
               <div class="flex justify-center items-center h-12">
                 <img src="@/assets/new-img/guide/01.svg" height="30" width="30">
               </div>
-              <span>Download <br> FoxWallet</span>
+              <span class="guide-text">{{ $t('download.guide1') }}</span>
             </div>
             <div class="flex flex-col items-center justify-center text-xs text-white text-center w-1/3">
               <div class="flex justify-center items-center h-12">
                 <img src="@/assets/new-img/guide/02.svg" height="30" width="30">
               </div>
-              <span>Create or<br> Import</span>
+              <span class="guide-text">{{ $t('download.guide2') }}</span>
             </div>
             <div class="flex flex-col items-center justify-center text-xs text-white text-center w-1/3">
               <div class="flex justify-center items-center h-12">
                 <img src="@/assets/new-img/guide/03.svg" height="30" width="30">
               </div>
-              <span>Fill in the <br> invitation Code</span>
+              <span class="guide-text">{{ $t('download.guide3') }}</span>
             </div>
           </div>
         </div>
@@ -133,8 +156,15 @@
     </div>
   </div>
 </template>
+
 <script>
 import copy from 'copy-to-clipboard'
+
+const localeMap = {
+  en: 'English',
+  zh: '简体中文'
+}
+
 export default {
   data() {
     let isAndroid = null
@@ -144,7 +174,10 @@ export default {
       isIos = /(iPhone|iPad|iPod|iOS)/i.test(navigator.userAgent)
     }
     return {
+      langDrawer: false,
+      currLocale: 'English',
       letters: ['W', 'e', 'b', '3', '&nbsp;', 'W', 'a', 'l', 'l', 'e', 't'],
+      zhLetters: ['W', 'e', 'b', '3', '&nbsp;', '钱', '包'],
       printLetters: [],
       interval: null,
       count: 0,
@@ -180,17 +213,31 @@ export default {
     }
   },
   methods: {
+    handleLangItemClick(locale) {
+      this.switchLocalePath(locale)
+      this.langDrawer = false
+    },
+    switchLocalePath(locale) {
+      this.$i18n.locale = locale
+      this.currLocale = localeMap[locale]
+    },
     print() {
       this.printLetters = []
       this.count = 0
+      let originTitle = []
+      if (this.$i18n.locale === 'en') {
+        originTitle = this.letters
+      } else {
+        originTitle = this.zhLetters
+      }
       this.interval = setInterval(() => {
-        if (this.count > this.letters.length - 1) {
+        if (this.count > originTitle.length - 1) {
           clearInterval(this.interval)
           setTimeout(() => {
             this.print()
           }, 4000)
         }
-        this.printLetters.push(this.letters[this.count++])
+        this.printLetters.push(originTitle[this.count++])
       }, 150)
     },
     async viewRecord(action) {
@@ -231,6 +278,39 @@ export default {
     }
 </style>
   <style scoped>
+
+  .guide-text {
+    white-space: pre-line;
+  }
+
+  .lang-wrapper {
+    padding: 24px 44px;
+  }
+  .lang-item {
+    text-align: center;
+    padding: 10px 0;
+    border: 1px solid #ddd;
+    border-radius: 2px;
+    margin-bottom: 14px;
+    font-size: 16px;
+    font-weight: 400;
+  }
+
+  .lang-item.active {
+    background:#12FE74;
+    border: none;
+    color: #000;
+    font-weight: 600;
+  }
+  .localeButton {
+    padding: 10px 20px;
+    border: 1px solid #fff;
+    font-size: 16px;
+    border-radius: 2px;
+    margin-top: 20px;
+    margin-left: 16px;
+    font-weight: 400;
+  }
   .main-wrapper {
     padding-bottom: 200px;
     width: 375px;

@@ -11,7 +11,7 @@ export default {
     campaign: {
       title: 'Campaign'
     },
-    docs: "Docs",
+    docs: 'Docs',
     support: {
       title: 'Support'
     },
@@ -39,7 +39,12 @@ export default {
     staking: 'Staking',
     auditReport: 'Audit Report',
     brandResource: 'Brand Resource',
-    developer: 'Developer'
+    offcialLinks: 'Offical Links',
+    developer: 'Developer',
+    faqs: 'FAQs',
+    foxCredit: 'Fox Credit',
+    privacy: 'Privacy Policy',
+    terms: 'Terms of Service'
   },
   download: {
     banner: {
@@ -47,13 +52,13 @@ export default {
       feature2: 'Private & Secure',
       feature3: 'Decentralized & Flexible'
     },
-    invite: 'Invitation Code',
+    invite: 'Referral code',
     copy: 'Copy',
     copied: 'Copied',
-    guide: 'Invitation Guide',
+    guide: 'Completion Guide',
     guide1: 'Download \n FoxWallet',
-    guide2: 'Create \n and Import',
-    guide3: 'Input \n Invitation Code'
+    guide2: 'Create or \n Import',
+    guide3: 'Fill in \n Referral code'
   },
   home: {
     banner: {
@@ -142,7 +147,20 @@ export default {
     },
   },
   main: {
-    title: 'Your Go-To'
+    title: 'Your Go-To',
+    subTitle: 'Leading Multi-Chain Wallet Solution',
+    private: 'Private',
+    secure: 'Secure',
+    decentralized: 'Decentralized',
+    versatile: 'Versatile',
+    our: 'Our',
+    strengths: 'Strengths',
+    trusted: 'Trusted By',
+    partners: 'Partners',
+    more: 'More',
+    contact: 'Contact Us',
+    wallet: 'Wallet'
+
   },
   footer: {
     title: 'Your Go-To Web3 Wallet',
