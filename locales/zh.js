@@ -11,9 +11,8 @@ export default {
     campaign: {
       title: '活动'
     },
-    docs: '文档',
-    support: {
-      title: '支持'
+    docs: {
+      title: '文档'
     },
     blog: {
       title: '博客'

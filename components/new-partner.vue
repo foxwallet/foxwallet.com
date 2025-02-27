@@ -30,7 +30,7 @@
       </div>
       <div v-if="!moreItemShow" class="flex justify-center">
         <div class="hover:opacity-75 text-brand border border-brand py-2 px-4 flex justify-center items-center cursor-pointer text-center rounded-sm" @click="moreItemShow=true">
-          More
+          {{ $t('main.more') }}
         </div>
       </div>
     </div>
