@@ -1,6 +1,6 @@
 <template>
   <div class="min-h-screen text-white">
-    <div>
+    <div class="mx-auto main-layout">
       <div class="flex items-center">
         <div class="localeButton" @click="langDrawer = true">
           {{ currLocale }}
@@ -284,6 +284,10 @@ export default {
   .dark-menu .el-drawer__header {
     display: none;
   }
+  .el-drawer__wrapper {
+    position: absolute;
+    height: 150px;
+  }
 </style>
   <style scoped>
 
@@ -322,6 +326,10 @@ export default {
   .main-wrapper {
     padding-bottom: 200px;
     width: 375px;
+  }
+  .main-layout {
+    width: 375px;
+    position: relative;
   }
   .print-wrapper-m {
     margin: 0 auto;
