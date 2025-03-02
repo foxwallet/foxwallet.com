@@ -58,7 +58,11 @@ export default {
     guide: 'Completion Guide',
     guide1: 'Download \n FoxWallet',
     guide2: 'Create or \n Import',
-    guide3: 'Fill in \n Referral code'
+    guide3: 'Fill in \n Referral code',
+    step1: '1.Download FoxWallet and create wallet',
+    step2: '2.Enter the inviter’s referral code',
+    step3: '3.Go to Fox Credit center to complete tasks',
+    step4: '4.Invite friends for more rewards',
   },
   home: {
     banner: {
@@ -112,13 +116,6 @@ export default {
         mobileContent1: 'One wallet supports multi-chain assets.',
         mobileContent2: 'Now supports Bitcoin, Ethereum, BNB, ... , more to come.'
       }
-    },
-    download: {
-      steps: 'Get Started in 2 Simple Steps',
-      step1: 'Download FoxWallet',
-      step2: 'Create a new wallet',
-      try: 'Try Now?',
-      download: ' iOS & Android Scan to download'
     },
     partners: {
       title: 'Partners'

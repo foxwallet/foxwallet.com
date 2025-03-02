@@ -8,28 +8,98 @@
       </div>
       <el-drawer :visible.sync="langDrawer" :show-close="false" :size="240" direction="ttb" custom-class="dark-menu">
         <div class="lang-wrapper">
-          <div
-            class="lang-item"
-            :class="currLocale === 'English' ? 'active' : ''"
-            @click="handleLangItemClick('en')"
-          >
+          <div class="lang-item" :class="currLocale === 'English' ? 'active' : ''" @click="handleLangItemClick('en')">
             English
           </div>
-          <div
-            class="lang-item"
-            :class="currLocale === '简体中文' ? 'active' : ''"
-            @click="handleLangItemClick('zh')"
-          >
+          <div class="lang-item" :class="currLocale === '简体中文' ? 'active' : ''" @click="handleLangItemClick('zh')">
             简体中文
           </div>
         </div>
       </el-drawer>
     </div>
     <div class="mx-auto main-wrapper">
-      <div class="flex flex-col main-title-m text-center pt-7">
+      <!-- <div class="flex flex-col main-title-m text-center pt-7">
         <div>{{ $t('main.title') }} </div>
         <div class="print-wrapper print-wrapper-m flex text-brand">
           <span v-for="(l,i) in printLetters" :key="i" class="letter" v-html="l"></span>
+        </div>
+      </div> -->
+
+      <div class="text-center download-hint pt-7 mb-7">
+        Download <span class="text-brand">FoxWallet</span> to get <span class="text-brand">daily gains!</span>
+      </div>
+
+      <div class="text-brand text-xl font-semibold text-center mb-5">
+        Steps
+      </div>
+
+      <div class="border border-opacity-40 border-white rounded-md p-3">
+        <div class="flex items-center mb-3">
+          <div class="step-icon-wrapper rounded-full mr-2 flex items-center justify-center">
+            <img class="step-icon" src="@/assets/new-img/step_download.svg" alt="download">
+          </div>
+          <span class="text-white text-sm">{{ $t('download.step1') }}</span>
+        </div>
+        <div class="flex mb-6">
+          <NewCustomButton
+            mode="tiny"
+            icon="ios"
+            type="dark"
+            content="App Store"
+            class="mr-2"
+            @click.native="download('ios')"
+          />
+          <NewCustomButton
+            mode="tiny"
+            icon="android"
+            type="dark"
+            content="Android"
+            class="mr-2"
+            @click.native="download('android')"
+          />
+          <NewCustomButton
+            mode="tiny"
+            type="dark"
+            icon="googleplay"
+            content="Google Play"
+            @click.native="download('googlePlay')"
+          />
+        </div>
+        <div class="flex items-center mb-3">
+          <div class="step-icon-wrapper rounded-full mr-2 flex items-center justify-center">
+            <img class="step-icon" src="@/assets/new-img/step_edit.svg" alt="edit">
+          </div>
+          <span class="text-white text-sm">{{ $t('download.step2') }}</span>
+        </div>
+        <div class="flex mb-6 bg-white rounded-sm h-12 items-center px-3">
+          <div class="invitation-hint">
+            {{ $t('download.invite') }}
+          </div>
+          <div class="flex justify-between flex-1">
+            <div class="text-black font-semibold flex-1 text-center">
+              {{ code }}
+            </div>
+            <div class="copy-btn cursor-pointer hover:opacity-75" @click="copyCode">
+              <template v-if="copied">
+                {{ $t('download.copied') }}
+              </template>
+              <template v-else>
+                {{ $t('download.copy') }}
+              </template>
+            </div>
+          </div>
+        </div>
+        <div class="flex items-center mb-6">
+          <div class="step-icon-wrapper rounded-full mr-2 flex items-center justify-center">
+            <img class="step-icon" src="@/assets/new-img/step_verified.svg" alt="verified">
+          </div>
+          <span class="text-white text-sm">{{ $t('download.step3') }}</span>
+        </div>
+        <div class="flex items-center">
+          <div class="step-icon-wrapper rounded-full mr-2 flex items-center justify-center">
+            <img class="step-icon" src="@/assets/new-img/step_invite.svg" alt="invite">
+          </div>
+          <span class="text-white text-sm">{{ $t('download.step4') }}</span>
         </div>
       </div>
 
@@ -44,7 +114,10 @@
               <img src="@/assets/new-img/copy.svg" alt="copy" class="ml-2 cursor-pointer hover:opacity-75">
             </div>
           </div>
-          <div class="mt-3 bg-brand cursor-pointer rounded text-black hover:opacity-75 text-xs py-3 text-center" @click="copyCode">
+          <div
+            class="mt-3 bg-brand cursor-pointer rounded text-black hover:opacity-75 text-xs py-3 text-center"
+            @click="copyCode"
+          >
             <template v-if="copied">
               {{ $t('download.copied') }}
             </template>
@@ -275,100 +348,153 @@ export default {
 }
 </script>
 <style>
-  html, body {
-    background-color: black;
-  }
-  .dark-menu.el-drawer {
-    background-color: black;
-  }
-  .dark-menu .el-drawer__header {
-    display: none;
-  }
-  .el-drawer__wrapper {
-    position: absolute;
-    height: 150px;
-  }
+html,
+body {
+  background-color: black;
+}
+
+.dark-menu.el-drawer {
+  background-color: black;
+}
+
+.dark-menu .el-drawer__header {
+  display: none;
+}
+
+.el-drawer__wrapper {
+  position: absolute;
+  height: 150px;
+}
 </style>
-  <style scoped>
+<style scoped>
+.download-hint {
+  font-size: 30px;
+}
 
-  .guide-text {
-    white-space: pre-line;
+.copy-btn {
+  background-color: #12FE74;
+  font-size: 12px;
+  color: #000;
+  border-radius: 2px;
+  height: 26px;
+  line-height: 26px;
+  padding: 0 10px;
+}
+
+.invitation-hint {
+  color: #777E90;
+  font-size: 12px;
+}
+
+.step-icon-wrapper {
+  width: 30px;
+  height: 30px;
+  background-color: #12FE74;
+}
+
+.step-icon {
+  height: 24px;
+  width: 24px;
+}
+
+.guide-text {
+  white-space: pre-line;
+}
+
+.lang-wrapper {
+  padding: 24px 44px;
+}
+
+.lang-item {
+  text-align: center;
+  padding: 10px 0;
+  border: 1px solid #ddd;
+  border-radius: 2px;
+  margin-bottom: 14px;
+  font-size: 16px;
+  font-weight: 400;
+}
+
+.lang-item.active {
+  background: #12FE74;
+  border: none;
+  color: #000;
+  font-weight: 600;
+}
+
+.localeButton {
+  padding: 10px 20px;
+  border: 1px solid #fff;
+  font-size: 16px;
+  border-radius: 2px;
+  margin-top: 20px;
+  margin-left: 16px;
+  font-weight: 400;
+}
+
+.main-wrapper {
+  padding-bottom: 200px;
+  width: 375px;
+}
+
+.main-layout {
+  width: 375px;
+  position: relative;
+}
+
+.print-wrapper-m {
+  margin: 0 auto;
+  height: 75px;
+}
+
+.print-wrapper {
+  animation: blink-caret 0.75s step-end infinite;
+}
+
+@keyframes blink-caret {
+
+  from,
+  to {
+    box-shadow: 1px 0 0 0 transparent;
   }
 
-  .lang-wrapper {
-    padding: 24px 44px;
+  50% {
+    box-shadow: 1px 0px 0 0;
   }
-  .lang-item {
-    text-align: center;
-    padding: 10px 0;
-    border: 1px solid #ddd;
-    border-radius: 2px;
-    margin-bottom: 14px;
-    font-size: 16px;
-    font-weight: 400;
-  }
+}
 
-  .lang-item.active {
-    background:#12FE74;
-    border: none;
-    color: #000;
-    font-weight: 600;
-  }
-  .localeButton {
-    padding: 10px 20px;
-    border: 1px solid #fff;
-    font-size: 16px;
-    border-radius: 2px;
-    margin-top: 20px;
-    margin-left: 16px;
-    font-weight: 400;
-  }
-  .main-wrapper {
-    padding-bottom: 200px;
-    width: 375px;
-  }
-  .main-layout {
-    width: 375px;
-    position: relative;
-  }
-  .print-wrapper-m {
-    margin: 0 auto;
-    height: 75px;
-  }
-  .print-wrapper {
-    animation: blink-caret 0.75s step-end infinite;
-  }
-  @keyframes blink-caret {
-    from, to { box-shadow: 1px 0 0 0 transparent; }
-    50% { box-shadow: 1px 0px 0 0; }
-  }
-  .main-title-m {
-    font-family: 'Poppins-Bold';
-    font-size: 50px;
-    line-height: 75px;
-    font-weight: 700;
-  }
-  .guide-title {
-    font-size: 30px;
-    font-weight: 600;
-    line-height: 45px;
-  }
-  .bottom-download {
-    background-color: #121212;
-    z-index: 1;
-    width: 375px;
-  }
-  .code-title {
-    color: #777E90;
-  }
-  .card-list {
-    margin-right: -10px;
-  }
-  .card-item {
-    flex: 1;
-    min-width: 166px;
-    min-height: 126px;
-    margin-right: 10px;
-    margin-bottom: 10px;
-  }
-  </style>
+.main-title-m {
+  font-family: 'Poppins-Bold';
+  font-size: 30px;
+  line-height: 45px;
+  font-weight: 600;
+}
+
+.guide-title {
+  font-size: 30px;
+  font-weight: 600;
+  line-height: 45px;
+}
+
+.bottom-download {
+  background-color: #121212;
+  z-index: 1;
+  width: 375px;
+}
+
+.code-title {
+  color: #777E90;
+}
+
+.card-list {
+  margin-right: -10px;
+}
+
+.card-item {
+  flex: 1;
+  min-width: 166px;
+  min-height: 126px;
+  margin-right: 10px;
+  margin-bottom: 10px;
+}
+</style>
