@@ -53,7 +53,16 @@ export default {
     guide: '邀请指南',
     guide1: '下载 \n FoxWallet',
     guide2: '创建或 \n 导入',
-    guide3: '输入 \n 邀请码'
+    guide3: '输入 \n 邀请码',
+    step1: '1. 下载 FoxWallet 并创建钱包',
+    step2: '2. 输入邀请人的邀请码',
+    step3: '3. 前往 FoxWallet 积分中心完成任务',
+    step4: '4. 邀请朋友以获得更多奖励',
+    download: '下载',
+    get: '获取',
+    daily_gains: '每日收益',
+    steps: '步骤',
+
   },
   home: {
     banner: {
