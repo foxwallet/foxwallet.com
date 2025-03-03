@@ -8,7 +8,7 @@
             <span class="text-xs lg:text-sm mr-2 lg:mr-6 hover:opacity-60 cursor-pointer">{{ $t("nav.earn.title") }}</span>
           </el-tooltip>
           <a href="https://hc.foxwallet.com/docs" target="_blank" class="text-xs lg:text-sm mr-2 lg:mr-6 hover:opacity-60">
-            {{ $t("nav.docs") }}
+            {{ $t("nav.docs.title") }}
           </a>
           <a href="https://hc.foxwallet.com/blog" target="_blank" class="text-xs lg:text-sm mr-2 lg:mr-6 hover:opacity-60">
             {{ $t("nav.blog.title") }}

@@ -11,9 +11,8 @@ export default {
     campaign: {
       title: 'Campaign'
     },
-    docs: 'Docs',
-    support: {
-      title: 'Support'
+    docs: {
+      title: 'Docs'
     },
     blog: {
       title: 'Blog'

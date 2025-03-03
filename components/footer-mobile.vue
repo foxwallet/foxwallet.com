@@ -4,7 +4,7 @@
       {{ $t("nav.about.title") }}
     </h3>
     <a href="https://hc.foxwallet.com" target="_blank" class="block w-full hover:opacity-80 py-1 text-gray-500">
-      {{ $t("nav.docs") }}
+      {{ $t("nav.docs.title") }}
     </a>
     <a href="https://hc.foxwallet.com/docs/faq" target="_blank" class="block w-full hover:opacity-80 py-1 text-gray-500">
       {{ $t("nav.about.faq") }}

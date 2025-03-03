@@ -6,11 +6,11 @@
           <img src="@/assets/new-img/logo.svg" alt="logo">
         </div>
         <div class="text-bold">
-          <a href="https://hc.foxwallet.com/blog" target="_blank" class="tab-item text-xs lg:text-base mr-2 lg:mr-6">
+          <a :href="blogLink" target="_blank" class="tab-item text-xs lg:text-base mr-2 lg:mr-6">
             {{ $t("nav.blog.title") }}
           </a>
-          <a href="https://hc.foxwallet.com/docs" target="_blank" class="tab-item text-xs lg:text-base mr-2 lg:mr-6">
-            {{ $t("nav.docs") }}
+          <a :href="docsLink" target="_blank" class="tab-item text-xs lg:text-base mr-2 lg:mr-6">
+            {{ $t("nav.docs.title") }}
           </a>
           <a href="https://github.com/foxwallet" target="_blank" class="tab-item text-xs lg:text-base mr-2 lg:mr-6">
             {{ $t("nav.openSource") }}
@@ -66,16 +66,18 @@
         </div>
         <img src="@/assets/new-img/menu.svg" alt="menu" :draggable="false" @click="drawer = true">
       </div>
-      <el-drawer :visible.sync="langDrawer" :show-close="false" :size="240" direction="ttb" custom-class="dark-menu">
+      <el-drawer :visible.sync="langDrawer" :show-close="false" :size="150" direction="ttb" custom-class="dark-menu">
         <div class="lang-wrapper">
           <div
-            class="lang-item active"
+            class="lang-item"
+            :class="currLocale === 'English' ? 'active' : ''"
             @click="handleLangItemClick('en')"
           >
             English
           </div>
           <div
             class="lang-item"
+            :class="currLocale === '简体中文' ? 'active' : ''"
             @click="handleLangItemClick('zh')"
           >
             简体中文
@@ -102,7 +104,7 @@ export default {
     return {
       drawer: false,
       langDrawer: false,
-      currLocale: 'English'
+      currLocale: 'English',
     }
   },
   mounted() {
@@ -111,6 +113,20 @@ export default {
     } else {
       this.currLocale = '简体中文'
     }
+  },
+  computed: {
+    blogLink() {
+      if (this.$i18n.locale === 'zh') {
+        return 'https://hc.foxwallet.com/zh/blog'
+      }
+      return 'https://hc.foxwallet.com/blog'
+    },
+    docsLink() {
+      if (this.$i18n.locale === 'zh') {
+        return 'https://hc.foxwallet.com/zh/docs/'
+      }
+      return 'https://hc.foxwallet.com/docs'
+    },
   },
   methods: {
     handleLangItemClick(locale) {
@@ -131,6 +147,7 @@ export default {
 }
 .el-dropdown {
   font-size: 16px;
+  min-width: 100px;
 }
 
 .el-dropdown-menu {
@@ -170,7 +187,6 @@ export default {
 }
 
 .el-dropdown-link {
-  padding: 10px 20px;
   color: #fff;
 }
 
