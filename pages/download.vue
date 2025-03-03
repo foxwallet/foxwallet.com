@@ -2,7 +2,7 @@
   <div class="min-h-screen text-white">
     <div class="mx-auto main-layout">
       <div class="flex items-center">
-        <div class="localeButton" @click="langDrawer = true">
+        <div class="locale-button" @click="langDrawer = true">
           {{ currLocale }}
         </div>
       </div>
@@ -383,10 +383,10 @@ body {
   font-weight: 600;
 }
 
-.localeButton {
-  padding: 10px 20px;
+.locale-button {
+  padding: 5px 10px;
   border: 1px solid #fff;
-  font-size: 16px;
+  font-size: 14px;
   border-radius: 2px;
   margin-top: 20px;
   margin-left: 16px;

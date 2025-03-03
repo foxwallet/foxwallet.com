@@ -61,7 +61,7 @@
         <img src="@/assets/new-img/logo.svg" alt="logo">
       </div>
       <div class="more flex items-center">
-        <div class="localeButton" @click="langDrawer = true">
+        <div class="locale-button" @click="langDrawer = true">
           {{ currLocale }}
         </div>
         <img src="@/assets/new-img/menu.svg" alt="menu" :draggable="false" @click="drawer = true">
@@ -212,13 +212,14 @@ export default {
   color: #000;
   font-weight: 600;
 }
-.localeButton {
-  padding: 10px 20px;
+.locale-button {
+  padding: 5px 10px;
   border: 1px solid #fff;
-  font-size: 16px;
+  font-size: 14px;
   border-radius: 2px;
   margin-right: 30px;
   font-weight: 400;
+  line-height: 21px;
 }
 
 .mobile-header {
