@@ -105,6 +105,13 @@ export default {
       currLocale: 'English'
     }
   },
+  mounted() {
+    if (this.$i18n.locale === 'en') {
+      this.currLocale = 'English'
+    } else {
+      this.currLocale = '简体中文'
+    }
+  },
   methods: {
     handleLangItemClick(locale) {
       this.switchLocalePath(locale)

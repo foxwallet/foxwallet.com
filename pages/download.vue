@@ -17,144 +17,97 @@
         </div>
       </el-drawer>
     </div>
-    <div class="mx-auto main-wrapper">
-      <!-- <div class="flex flex-col main-title-m text-center pt-7">
+    <div class="mx-auto main-layout" :class="isValidCode ? '' : 'main-wrapper'">
+      <div v-if="!isValidCode" class="flex flex-col main-title-m text-center pt-7">
         <div>{{ $t('main.title') }} </div>
         <div class="print-wrapper print-wrapper-m flex text-brand">
           <span v-for="(l,i) in printLetters" :key="i" class="letter" v-html="l"></span>
         </div>
-      </div> -->
-
-      <div class="text-center download-hint pt-7 mb-7">
-        Download <span class="text-brand">FoxWallet</span> to get <span class="text-brand">daily gains!</span>
       </div>
-
-      <div class="text-brand text-xl font-semibold text-center mb-5">
-        Steps
+      <div v-if="!isValidCode" class="mt-10 flex justify-center">
+        <MainBanner />
       </div>
+      <div v-else>
+        <div
+          class="text-center download-hint pt-7 mb-7 font-semibold"
+        >
+          <p>{{ $t('download.download') }} <span class="text-brand">FoxWallet</span> </p>
+          <p> {{ $t('download.get') }} <span class="text-brand">{{ $t('download.daily_gains') }}</span></p>
+        </div>
 
-      <div class="border border-opacity-40 border-white rounded-md p-3">
-        <div class="flex items-center mb-3">
-          <div class="step-icon-wrapper rounded-full mr-2 flex items-center justify-center">
-            <img class="step-icon" src="@/assets/new-img/step_download.svg" alt="download">
-          </div>
-          <span class="text-white text-sm">{{ $t('download.step1') }}</span>
+        <div class="text-brand text-xl font-semibold text-center mb-5">
+          {{ $t('download.steps') }}
         </div>
-        <div class="flex mb-6">
-          <NewCustomButton
-            mode="tiny"
-            icon="ios"
-            type="dark"
-            content="App Store"
-            class="mr-2"
-            @click.native="download('ios')"
-          />
-          <NewCustomButton
-            mode="tiny"
-            icon="android"
-            type="dark"
-            content="Android"
-            class="mr-2"
-            @click.native="download('android')"
-          />
-          <NewCustomButton
-            mode="tiny"
-            type="dark"
-            icon="googleplay"
-            content="Google Play"
-            @click.native="download('googlePlay')"
-          />
-        </div>
-        <div class="flex items-center mb-3">
-          <div class="step-icon-wrapper rounded-full mr-2 flex items-center justify-center">
-            <img class="step-icon" src="@/assets/new-img/step_edit.svg" alt="edit">
-          </div>
-          <span class="text-white text-sm">{{ $t('download.step2') }}</span>
-        </div>
-        <div class="flex mb-6 bg-white rounded-sm h-12 items-center px-3">
-          <div class="invitation-hint">
-            {{ $t('download.invite') }}
-          </div>
-          <div class="flex justify-between flex-1">
-            <div class="text-black font-semibold flex-1 text-center">
-              {{ code }}
+
+        <div class="border border-opacity-40 border-white rounded-md p-3">
+          <div class="flex items-center mb-3">
+            <div class="step-icon-wrapper rounded-full mr-2 flex items-center justify-center">
+              <img class="step-icon" src="@/assets/new-img/step_download.svg" alt="download">
             </div>
-            <div class="copy-btn cursor-pointer hover:opacity-75" @click="copyCode">
-              <template v-if="copied">
-                {{ $t('download.copied') }}
-              </template>
-              <template v-else>
-                {{ $t('download.copy') }}
-              </template>
+            <span class="text-white text-sm">{{ $t('download.step1') }}</span>
+          </div>
+          <div class="flex mb-6">
+            <NewCustomButton
+              mode="tiny"
+              icon="ios"
+              type="dark"
+              content="App Store"
+              class="mr-2"
+              @click.native="download('ios')"
+            />
+            <NewCustomButton
+              mode="tiny"
+              icon="android"
+              type="dark"
+              content="Android"
+              class="mr-2"
+              @click.native="download('android')"
+            />
+            <NewCustomButton
+              mode="tiny"
+              type="dark"
+              icon="googleplay"
+              content="Google Play"
+              @click.native="download('googlePlay')"
+            />
+          </div>
+          <div class="flex items-center mb-3">
+            <div class="step-icon-wrapper rounded-full mr-2 flex items-center justify-center">
+              <img class="step-icon" src="@/assets/new-img/step_edit.svg" alt="edit">
             </div>
+            <span class="text-white text-sm">{{ $t('download.step2') }}</span>
           </div>
-        </div>
-        <div class="flex items-center mb-6">
-          <div class="step-icon-wrapper rounded-full mr-2 flex items-center justify-center">
-            <img class="step-icon" src="@/assets/new-img/step_verified.svg" alt="verified">
-          </div>
-          <span class="text-white text-sm">{{ $t('download.step3') }}</span>
-        </div>
-        <div class="flex items-center">
-          <div class="step-icon-wrapper rounded-full mr-2 flex items-center justify-center">
-            <img class="step-icon" src="@/assets/new-img/step_invite.svg" alt="invite">
-          </div>
-          <span class="text-white text-sm">{{ $t('download.step4') }}</span>
-        </div>
-      </div>
-
-      <div v-if="code.length === 10">
-        <div class="border border-opacity-40 border-white mt-7 p-3 rounded-md">
-          <div class="text-center">
-            <div class="font-normal text-xs text-white mb-3">
+          <div class="flex mb-6 bg-white rounded-sm h-12 items-center px-3">
+            <div class="invitation-hint">
               {{ $t('download.invite') }}
             </div>
-            <div class="text-brand text-lg font-semibold ml-2 flex items-center justify-center" @click="copyCode">
-              {{ code }}
-              <img src="@/assets/new-img/copy.svg" alt="copy" class="ml-2 cursor-pointer hover:opacity-75">
+            <div class="flex justify-between flex-1">
+              <div class="text-black font-semibold flex-1 text-center">
+                {{ code }}
+              </div>
+              <div class="copy-btn cursor-pointer hover:opacity-75" @click="copyCode">
+                <template v-if="copied">
+                  {{ $t('download.copied') }}
+                </template>
+                <template v-else>
+                  {{ $t('download.copy') }}
+                </template>
+              </div>
             </div>
           </div>
-          <div
-            class="mt-3 bg-brand cursor-pointer rounded text-black hover:opacity-75 text-xs py-3 text-center"
-            @click="copyCode"
-          >
-            <template v-if="copied">
-              {{ $t('download.copied') }}
-            </template>
-            <template v-else>
-              {{ $t('download.copy') }}
-            </template>
+          <div class="flex items-center mb-6">
+            <div class="step-icon-wrapper rounded-full mr-2 flex items-center justify-center">
+              <img class="step-icon" src="@/assets/new-img/step_verified.svg" alt="verified">
+            </div>
+            <span class="text-white text-sm">{{ $t('download.step3') }}</span>
+          </div>
+          <div class="flex items-center">
+            <div class="step-icon-wrapper rounded-full mr-2 flex items-center justify-center">
+              <img class="step-icon" src="@/assets/new-img/step_invite.svg" alt="invite">
+            </div>
+            <span class="text-white text-sm">{{ $t('download.step4') }}</span>
           </div>
         </div>
-        <div class="pb-4 mt-8 py-5 px-3">
-          <div class="guide-title text-brand mb-5 text-center">
-            {{ $t('download.guide') }}
-          </div>
-          <div class="flex justify-between">
-            <div class="flex flex-col items-center justify-center text-xs text-white text-center w-1/3">
-              <div class="flex justify-center items-center h-12">
-                <img src="@/assets/new-img/guide/01.svg" height="30" width="30">
-              </div>
-              <span class="guide-text">{{ $t('download.guide1') }}</span>
-            </div>
-            <div class="flex flex-col items-center justify-center text-xs text-white text-center w-1/3">
-              <div class="flex justify-center items-center h-12">
-                <img src="@/assets/new-img/guide/02.svg" height="30" width="30">
-              </div>
-              <span class="guide-text">{{ $t('download.guide2') }}</span>
-            </div>
-            <div class="flex flex-col items-center justify-center text-xs text-white text-center w-1/3">
-              <div class="flex justify-center items-center h-12">
-                <img src="@/assets/new-img/guide/03.svg" height="30" width="30">
-              </div>
-              <span class="guide-text">{{ $t('download.guide3') }}</span>
-            </div>
-          </div>
-        </div>
-      </div>
-
-      <div v-else class="mt-10 flex justify-center">
-        <MainBanner />
       </div>
 
       <div class="my-10 flex justify-center">
@@ -186,7 +139,7 @@
         </div>
       </div>
     </div>
-    <div class="fixed bottom-0 left-0 right-0 ">
+    <div v-if="!isValidCode" class="fixed bottom-0 left-0 right-0 ">
       <div class="mx-auto bottom-download">
         <div class="mx-auto py-6">
           <div class="flex justify-center items-center">
@@ -270,11 +223,19 @@ export default {
     if (this.$route.query?.code) {
       this.code = this.$route.query?.code.substring(0, 10)
     }
+    if (this.$i18n.locale === 'en') {
+      this.currLocale = 'English'
+    } else {
+      this.currLocale = '简体中文'
+    }
   },
   beforeUnmount() {
     clearInterval(this.interval)
   },
   computed: {
+    isValidCode() {
+      return this.code.length === 10
+    },
     googlePlayUrl() {
       const url = 'https://play.google.com/store/apps/details?id=com.foxwallet.play'
       if (this.code) {
@@ -434,7 +395,6 @@ body {
 
 .main-wrapper {
   padding-bottom: 200px;
-  width: 375px;
 }
 
 .main-layout {

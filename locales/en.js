@@ -59,10 +59,14 @@ export default {
     guide1: 'Download \n FoxWallet',
     guide2: 'Create or \n Import',
     guide3: 'Fill in \n Referral code',
-    step1: '1.Download FoxWallet and create wallet',
-    step2: '2.Enter the inviter’s referral code',
-    step3: '3.Go to Fox Credit center to complete tasks',
-    step4: '4.Invite friends for more rewards',
+    step1: '1. Download FoxWallet and create wallet',
+    step2: '2. Enter the inviter’s referral code',
+    step3: '3. Go to Fox Credit center to complete tasks',
+    step4: '4. Invite friends for more rewards',
+    download: 'Download',
+    get: 'to get',
+    daily_gains: 'daily gains',
+    steps: 'Steps',
   },
   home: {
     banner: {
