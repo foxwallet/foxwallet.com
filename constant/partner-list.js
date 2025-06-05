@@ -106,6 +106,7 @@ import jgl7dzv from '@/assets/img/partners/jgl7d_Zv.jpeg'
 import Nw28veUg from '@/assets/img/partners/Nw28veUg.jpeg'
 import bLhE1aY1 from '@/assets/img/partners/bLhE1aY1.jpeg'
 import wYIRFfIO from '@/assets/img/partners/wYIRFfIO.jpeg'
+import InitVerse from '@/assets/img/partners/InitVerse.svg'
 import ZjTzBAS from '@/assets/img/partners/ZjT_zBAS.png'
 import VpGwiH6 from '@/assets/img/partners/VpGwiH6.jpeg'
 import rIZjmMt from '@/assets/img/partners/rIZjmMt.jpeg'
@@ -397,6 +398,11 @@ export default [
     name: 'Filecoin',
     link: 'https://filecoin.io/',
     avatar: wYIRFfIO
+  },
+  {
+    name: 'InitVerse',
+    link: 'https://www.initverse.org/',
+    avatar: InitVerse,
   },
   {
     name: 'Arbitrum',
