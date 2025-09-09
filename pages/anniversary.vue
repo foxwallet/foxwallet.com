@@ -156,7 +156,7 @@
           </div>
           <div class="flex flex-col md:flex-row justify-between items-center border-t border-opacity-10 py-10">
             <p class="text-sm mb-4 md:mb-0">
-              @2023 FoxWallet Foundation
+              @2023 BlockHill Tech Limited
             </p>
             <CommunityIcon />
           </div>
